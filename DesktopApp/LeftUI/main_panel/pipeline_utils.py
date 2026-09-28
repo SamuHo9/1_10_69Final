@@ -78,8 +78,7 @@ def check_existing_stages(output_dir):
     # 4. Check Result panel results (ResNet prediction & 3D Grad-CAM)
     res_dir = os.path.join(output_dir, "output_Result")
     summary_json = os.path.join(res_dir, "evaluation_summary.json")
-    summary_csv = os.path.join(res_dir, "predictions_summary.csv")
-    has_result = os.path.isfile(summary_json) or os.path.isfile(summary_csv)
+    has_result = os.path.isfile(summary_json)
 
     return has_fastsurfer, has_icp, has_spharm, has_result
 

@@ -1,7 +1,6 @@
 import os
 import sys
 import time
-import csv
 import glob
 import webbrowser
 from PyQt6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QVBoxLayout, QSplitter, 
@@ -222,34 +221,6 @@ class MainWindow(QMainWindow):
             self.console.set_status(f"Snapshot saved: {os.path.basename(filepath)}", "#2ecc71")
         else:
             self.log(f"[ERROR] Failed to save screenshot to {filepath}")
-
-    def export_predictions_csv(self):
-        rp = getattr(self.left_panel, 'result_panel', None)
-        if not rp or not getattr(rp, 'all_evaluation_results', None):
-            QMessageBox.information(
-                self, "Export Results",
-                "No prediction results available to export yet.\nPlease run inference in the Result Panel first."
-            )
-            return
-        default_path = "hippocampus_predictions.csv"
-        filepath, _ = QFileDialog.getSaveFileName(
-            self, "Export Predictions to CSV", default_path, "CSV Files (*.csv);;All Files (*)"
-        )
-        if filepath:
-            try:
-                results = rp.all_evaluation_results
-                fieldnames = list(results[0].keys())
-                with open(filepath, 'w', newline='', encoding='utf-8') as f:
-                    writer = csv.DictWriter(f, fieldnames=fieldnames)
-                    writer.writeheader()
-                    writer.writerows(results)
-                self.log(f"Exported {len(results)} patient predictions to: {filepath}")
-                QMessageBox.information(
-                    self, "Export Successful",
-                    f"Saved {len(results)} patient predictions to:\n{filepath}"
-                )
-            except Exception as e:
-                QMessageBox.warning(self, "Export Failed", f"Could not write CSV file:\n{e}")
 
     def clear_3d_view(self):
         if hasattr(self.right_panel, 'viewer'):

@@ -40,12 +40,6 @@ def setup_menus_and_toolbar(window):
     snap_act.triggered.connect(window.capture_3d_screenshot)
     file_menu.addAction(snap_act)
 
-    export_csv_act = QAction("📊 &Export Prediction Results (CSV)...", window)
-    export_csv_act.setShortcut(QKeySequence("Ctrl+E"))
-    export_csv_act.setStatusTip("Export all classification results and shape metrics to CSV")
-    export_csv_act.triggered.connect(window.export_predictions_csv)
-    file_menu.addAction(export_csv_act)
-
     file_menu.addSeparator()
 
     clear_view_act = QAction("🧹 Clear 3D View", window)
@@ -186,11 +180,6 @@ def setup_menus_and_toolbar(window):
     tb_snap.setToolTip("Capture 3D Viewport Image (Ctrl+P)")
     tb_snap.triggered.connect(window.capture_3d_screenshot)
     toolbar.addAction(tb_snap)
-
-    tb_export = QAction("📊 Export CSV", window)
-    tb_export.setToolTip("Export Prediction Summary to CSV (Ctrl+E)")
-    tb_export.triggered.connect(window.export_predictions_csv)
-    toolbar.addAction(tb_export)
 
     toolbar.addSeparator()
 

@@ -1,7 +1,6 @@
 import os
 import glob
 import json
-import csv
 import shutil
 from PyQt6.QtWidgets import (
     QTableWidgetItem, QHeaderView, QApplication, QMessageBox
@@ -12,7 +11,7 @@ from PyQt6.QtGui import QFont, QColor
 class EvaluationManager:
     """
     Manages batch evaluation execution via HippocampalPredictor,
-    SPHARM subject discovery, CSV/JSON report persistence, and
+    SPHARM subject discovery, JSON report persistence, and
     diagnostic results table synchronization for ResultPanel.
     """
     def __init__(self, panel):
@@ -155,7 +154,6 @@ class EvaluationManager:
         self.p.batch_status_hint.setStyleSheet("color: #2980b9; font-size: 11px; font-weight: bold;")
 
         evaluated_results = []
-        csv_rows = []
 
         for idx, (subj_name, data) in enumerate(sorted(subjects.items())):
             lh_coef = data.get("left_coef")
@@ -260,37 +258,9 @@ class EvaluationManager:
             }
             evaluated_results.append(item_record)
 
-            csv_rows.append({
-                'Subject': subj_name,
-                'Diagnosis': summary['label'],
-                'Epilepsy_Probability_Percent': f"{prob * 100:.2f}",
-                'Left_Risk_Percent': f"{left_res['probability'] * 100:.2f}" if left_res else "N/A",
-                'Right_Risk_Percent': f"{right_res['probability'] * 100:.2f}" if right_res else "N/A",
-                'Suspected_Focus': summary['primary_side'],
-                'Risk_Level': risk_level,
-                'Left_Mesh': os.path.basename(out_lh_vtk) if out_lh_vtk else "None",
-                'Right_Mesh': os.path.basename(out_rh_vtk) if out_rh_vtk else "None"
-            })
-
             prog_pct = int(((idx + 1) / total_subjs) * 100)
             self.p.batch_prog_bar.setValue(prog_pct)
             QApplication.processEvents()
-
-        # Save predictions_summary.csv in output_Result
-        csv_file = os.path.join(out_dir, "predictions_summary.csv")
-        try:
-            fieldnames = [
-                'Subject', 'Diagnosis', 'Epilepsy_Probability_Percent',
-                'Left_Risk_Percent', 'Right_Risk_Percent', 'Suspected_Focus',
-                'Risk_Level', 'Left_Mesh', 'Right_Mesh'
-            ]
-            with open(csv_file, 'w', newline='', encoding='utf-8') as f:
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
-                writer.writeheader()
-                writer.writerows(csv_rows)
-            self.p.signal_log_message.emit(f"Saved CSV summary: {csv_file}")
-        except Exception as e:
-            self.p.signal_log_message.emit(f"[WARNING] Failed to save CSV summary: {e}")
 
         # Save evaluation_summary.json in output_Result
         json_file = os.path.join(out_dir, "evaluation_summary.json")
