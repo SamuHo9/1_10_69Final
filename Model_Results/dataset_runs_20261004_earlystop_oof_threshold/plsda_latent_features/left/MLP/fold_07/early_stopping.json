@@ -1,0 +1,15 @@
+{
+  "backend": "sklearn_partial_fit",
+  "early_stopping": true,
+  "epochs_run": 21,
+  "best_epoch": 11,
+  "best_validation_loss": 0.6399675397302457,
+  "stopped_early": true,
+  "max_epochs": 100,
+  "best_checkpoint_restored": true,
+  "patience": 10,
+  "min_delta": 0.0001,
+  "monitor": "inner_validation_loss",
+  "oof_used_for_epoch_selection": false,
+  "test_used_for_epoch_selection": false
+}

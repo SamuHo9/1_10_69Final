@@ -1,0 +1,19 @@
+{
+  "device": "cuda",
+  "torch_version": "2.10.0+cu128",
+  "early_stopping": true,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "architecture_source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\All_Augment_tain\\right\\PointNet\\train_pointnet.py",
+  "architecture_sha256": "46a4fb05dcdbb99ae437edf1e61df97ba22bd2266d4bbfdb97ac2d71c645a915",
+  "epochs_run": 13,
+  "best_epoch": 3,
+  "best_validation_loss": 0.7240979119583413,
+  "stopped_early": true,
+  "max_epochs": 100,
+  "best_checkpoint_restored": true,
+  "patience": 10,
+  "min_delta": 0.0001,
+  "monitor": "inner_validation_loss",
+  "oof_used_for_epoch_selection": false,
+  "test_used_for_epoch_selection": false
+}

@@ -1,0 +1,10 @@
+{
+  "input_hashes_unchanged": true,
+  "folds": 10,
+  "oof_rows": 300,
+  "oof_complete_once_per_original": true,
+  "prediction_rows": 73,
+  "fit_stop_oof_test_people_disjoint": true,
+  "synthetic_parents_inner_fit_only": true,
+  "best_checkpoints_restored_before_oof": true
+}
