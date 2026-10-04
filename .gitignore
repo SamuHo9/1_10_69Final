@@ -3,3 +3,7 @@ venv/
 *.log
 slicer_batch_log.txt
 scratch/
+/Model_Results_Recovered_*/
+.pytest_cache/
+.venv/
+*.pyo

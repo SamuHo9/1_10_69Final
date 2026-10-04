@@ -1,0 +1,14 @@
+﻿{
+    "completed_jobs":  68,
+    "failed_jobs":  0,
+    "folds_per_job":  10,
+    "neural_epochs_per_fit":  80,
+    "job_logs":  68,
+    "master_logs":  1,
+    "oof_csv_files":  68,
+    "test_prediction_csv_files":  68,
+    "fold_models":  680,
+    "final_models":  68,
+    "source_snapshots_verified":  20,
+    "threshold_optimization_performed":  false
+}

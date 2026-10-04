@@ -1,0 +1,25 @@
+{
+  "dataset": "coef_plsda",
+  "side": "left",
+  "model": "SVM",
+  "kind": "coef",
+  "input_train": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_plsda\\left\\train_prepared.csv",
+  "input_test": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_plsda\\left\\test_prepared.csv",
+  "input_sha256": {
+    "train": "5ed27b7cf964ffedb9678723b222da64e4cdc3fdd25f62bb0b5ea3823c3baa7e",
+    "test": "188a660fcfa321e1c05a3815f8ef18811f7071652ef5ce4e05c904e54bef3ac8"
+  },
+  "seed": 42,
+  "epochs": null,
+  "batch_size": 32,
+  "pls_components": 8,
+  "preprocessing_fit_scope": "supplied_training_csv_only",
+  "cross_validation_performed": false,
+  "test_used_for_selection": false,
+  "augmentation_during_training": false,
+  "known_input_limitations": "Hemisphere labels; existing ICP reference included test. Prepared augmentation is used as supplied.",
+  "sklearn_version": "1.8.0",
+  "numpy_version": "2.3.5",
+  "runtime": {},
+  "test_prediction_rule": "estimator.predict"
+}

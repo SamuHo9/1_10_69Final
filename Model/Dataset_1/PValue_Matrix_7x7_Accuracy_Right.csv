@@ -1,8 +1,0 @@
-,MLP,MobileNet,PointNet,ResNet+AE,ResNet,SqueezeNet,SVM
-MLP,—,ns,ns,*,**,ns,***
-MobileNet,ns,—,ns,ns,ns,*,ns
-PointNet,ns,ns,—,ns,ns,ns,ns
-ResNet+AE,*,ns,ns,—,ns,ns,ns
-ResNet,**,ns,ns,ns,—,***,ns
-SqueezeNet,ns,*,ns,ns,***,—,*
-SVM,***,ns,ns,ns,ns,*,—

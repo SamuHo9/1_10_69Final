@@ -1,0 +1,1572 @@
+{
+  "schema": "timestamped_icp_reference_bundle_v1",
+  "created_at": "2026-10-01T17:25:43.268385",
+  "updated_at": "2026-10-01T17:25:43.268385",
+  "run_id": "ICP_reference_20261001_171835",
+  "archive_root": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\ICP\\Referen_ICP\\ICP_reference_20261001_171835",
+  "references": [
+    {
+      "side": "right",
+      "source_output_dir": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\ICP\\output_right_hippocampus",
+      "source_reference": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\ICP\\output_right_hippocampus\\mean_shape.ply",
+      "archived_reference": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\ICP\\Referen_ICP\\ICP_reference_20261001_171835\\right\\mean_shape.ply",
+      "template_sha256": "3f8c7896bca197a48955824eb37e90c91a3c48a6fc26b2ba893af7f216deb461",
+      "contract_sha256": "557db3c9344ac85f376d41a223fbf64b14b3b82542309b79952785ff9d2cb058",
+      "contract": {
+        "version": "fixed-training-reference-v1",
+        "template_sha256": "3f8c7896bca197a48955824eb37e90c91a3c48a6fc26b2ba893af7f216deb461",
+        "physical_to_normalized_scale": 0.03180055829770018,
+        "output_spacing": 0.015625,
+        "output_voxels": 128,
+        "training_inputs": [
+          {
+            "name": "right_Healthy_sub-00373_hippocampus_rh.nii.gz",
+            "sha256": "49703001eba8de9286683205a5914ed0ee1140ee5a26dc0e1107fa37f305bb2d"
+          },
+          {
+            "name": "right_Healthy_sub-04001_hippocampus_rh.nii.gz",
+            "sha256": "1ea298a86212f2558e6ffe416c5c869861adcacecf52dc1742718d41f1593424"
+          },
+          {
+            "name": "right_Healthy_sub-04004_hippocampus_rh.nii.gz",
+            "sha256": "950e198c5cb70f6b80fee9ab3e80d3768f2c59c9fe3515d54de84f544d032308"
+          },
+          {
+            "name": "right_Healthy_sub-04005_hippocampus_rh.nii.gz",
+            "sha256": "b4150d96bc9d10762c09d3939f357099a380253f1af962be03bcae82e668d94d"
+          },
+          {
+            "name": "right_Healthy_sub-04009_hippocampus_rh.nii.gz",
+            "sha256": "cda76cdd647c3afafecd3c0e5a30637f7dcd8e863bf60c39fa21240971283797"
+          },
+          {
+            "name": "right_Healthy_sub-04013_hippocampus_rh.nii.gz",
+            "sha256": "ca99ddc3c0adc12f9f9e90f72d9bd4aae37611a10679746e1e93f6d9e388d52c"
+          },
+          {
+            "name": "right_Healthy_sub-04015_hippocampus_rh.nii.gz",
+            "sha256": "e46e8982534c36c28a82e28823cf9930a480d5238babac9d7aa726da347f357c"
+          },
+          {
+            "name": "right_Healthy_sub-04018_hippocampus_rh.nii.gz",
+            "sha256": "135f1861887d5f5974e8ebd6320dff76360621ef7391c1326504b44219106c18"
+          },
+          {
+            "name": "right_Healthy_sub-04027_hippocampus_rh.nii.gz",
+            "sha256": "28f0003ff2f0e180247a34ec7297e9a147b746a33636efc208f824d46f937795"
+          },
+          {
+            "name": "right_Healthy_sub-04028_hippocampus_rh.nii.gz",
+            "sha256": "aa2f50e074f9187a7ba3b0f55fd2f1cb7934fbb2031f28dbf3d8acc6012043c7"
+          },
+          {
+            "name": "right_Healthy_sub-04164_hippocampus_rh.nii.gz",
+            "sha256": "463e03be28cff92fa01f6689ce562cb219ef501a28d032f36a43176171886c45"
+          },
+          {
+            "name": "right_Healthy_sub-04165_hippocampus_rh.nii.gz",
+            "sha256": "3c3322c3a5b761136c2a8e30dbae14d3565967c2b5a0d9967143f9262b1f54d1"
+          },
+          {
+            "name": "right_Healthy_sub-04166_hippocampus_rh.nii.gz",
+            "sha256": "729889f8f185afb82925910ae0714cf5ab2b2c8e3abc5310724a11c6062f948a"
+          },
+          {
+            "name": "right_Healthy_sub-04169_hippocampus_rh.nii.gz",
+            "sha256": "bd595f167a392a3b6b8250290ec6af379af1686570ace63e4fbabb6f2409b1e6"
+          },
+          {
+            "name": "right_Healthy_sub-04170_hippocampus_rh.nii.gz",
+            "sha256": "1f503bcc9cedcb110b373d80c0dc7fc351e8cf7702af47cbcae194fdf69d6a1f"
+          },
+          {
+            "name": "right_Healthy_sub-04171_hippocampus_rh.nii.gz",
+            "sha256": "34be395bbd664f5d59f316f1bd7f2c06b60c01eb5b90124081d6e11b4dfa7369"
+          },
+          {
+            "name": "right_Healthy_sub-04173_hippocampus_rh.nii.gz",
+            "sha256": "5be29543cb9e03ff9cffcd0489aa344655fd6c87a65c150720ac5694898194d7"
+          },
+          {
+            "name": "right_Healthy_sub-04178_hippocampus_rh.nii.gz",
+            "sha256": "51f2baa0d79378d901cd7d614dbe05cf3a6257f203d87abe6e848dfa09ebf252"
+          },
+          {
+            "name": "right_Healthy_sub-04181_hippocampus_rh.nii.gz",
+            "sha256": "19dea23180895c5d49ff1bf049ebea93651b8aa5aa0574b32f8c7d0a58d6ffa0"
+          },
+          {
+            "name": "right_Healthy_sub-04201_hippocampus_rh.nii.gz",
+            "sha256": "f53bbfb5642a61dddfb2e19bb134344cb7a4900004cbff58a1bd1e75d70d02cc"
+          },
+          {
+            "name": "right_Healthy_sub-04202_hippocampus_rh.nii.gz",
+            "sha256": "b661f2b749d5bba298106b2ff20b163c375662aecb5aed45a4557833eb7f06a8"
+          },
+          {
+            "name": "right_Healthy_sub-04204_hippocampus_rh.nii.gz",
+            "sha256": "70f7166aba3262709ad0779fa6b21c3095c520a62335ac3b82279e4e70d7b043"
+          },
+          {
+            "name": "right_Healthy_sub-04209_hippocampus_rh.nii.gz",
+            "sha256": "5af24cc6df10f271cb82f5217210555787e02ebba5bdd57e56a5dafd139f8ae9"
+          },
+          {
+            "name": "right_Healthy_sub-04210_hippocampus_rh.nii.gz",
+            "sha256": "7118df6967324e525a1b2b1784b3aeaba11de14675eb41f245389b3e9f7049ab"
+          },
+          {
+            "name": "right_Healthy_sub-04211_hippocampus_rh.nii.gz",
+            "sha256": "8012404d153b6cd4d7a380f0b99658aa58811a06a5851fa2bda49d17a3daaabe"
+          },
+          {
+            "name": "right_Healthy_sub-04215_hippocampus_rh.nii.gz",
+            "sha256": "22f9c2c6a2e79b1e90abb133b36faddaa5e9f631fa27d97eed09690eb8886ac1"
+          },
+          {
+            "name": "right_Healthy_sub-04216_hippocampus_rh.nii.gz",
+            "sha256": "7475d442eb5e66e6b30dbf416cb0ed3fdf4f562f2aad7d2d400a6e1ef30c9888"
+          },
+          {
+            "name": "right_Healthy_sub-04217_hippocampus_rh.nii.gz",
+            "sha256": "a5b0f7e5cd2142303a2f06cdbe2b250664fc892bc8b4dbeb4e2696dd36e7f0e5"
+          },
+          {
+            "name": "right_Healthy_sub-04221_hippocampus_rh.nii.gz",
+            "sha256": "62c01813048d8771da15c641a6ddc7b086ef753abd92014b57cb6ed9bc079208"
+          },
+          {
+            "name": "right_Healthy_sub-04245_hippocampus_rh.nii.gz",
+            "sha256": "a5a9de6d4139395f1c59521f6b266494dfc2ac0bb1263abd540108a2d5132516"
+          },
+          {
+            "name": "right_Healthy_sub-106_hippocampus_rh.nii.gz",
+            "sha256": "667b5a01dc32d21684be9eccd4499da46cc7e581c893f0b404a2905050be4019"
+          },
+          {
+            "name": "right_Healthy_sub-109_hippocampus_rh.nii.gz",
+            "sha256": "cd2eb7f73a0ab3409993a421b79eaa136210f675378a57858156b923fb7f766f"
+          },
+          {
+            "name": "right_Healthy_sub-118_hippocampus_rh.nii.gz",
+            "sha256": "d266164baaeef4d9a1cf26f415fc6988fbab6838591e6a9fa836955cf2d75c11"
+          },
+          {
+            "name": "right_Healthy_sub-120_hippocampus_rh.nii.gz",
+            "sha256": "12f8f326bc0e1f51106fa6ff5c940e9899e32ce3832b6f53d3269fe6a748c7e9"
+          },
+          {
+            "name": "right_Healthy_sub-125_hippocampus_rh.nii.gz",
+            "sha256": "497eb40c48485b2c01142446b80da14da111e43d7992e1d023fcb3c4c32b74ae"
+          },
+          {
+            "name": "right_Healthy_sub-127_hippocampus_rh.nii.gz",
+            "sha256": "b49516e9603facef4aa6133e0a6377fa198a1214cc13c38908bb3ca89cc99e4f"
+          },
+          {
+            "name": "right_Healthy_sub-143_hippocampus_rh.nii.gz",
+            "sha256": "276423dfd8c619389afc8f1a4b38895b7376b59744c264349d1cd08e93d6fc8f"
+          },
+          {
+            "name": "right_Healthy_sub-149_hippocampus_rh.nii.gz",
+            "sha256": "74b8a3e602daaa756c0e2c090e5df90fd43aa732ee9b4210027ee1c406c34b06"
+          },
+          {
+            "name": "right_Healthy_sub-154_hippocampus_rh.nii.gz",
+            "sha256": "2bc32d8e3edec20cdce9d845c6645992926a5fe52252edbeac9fe4e7f19f5132"
+          },
+          {
+            "name": "right_Healthy_sub-156_hippocampus_rh.nii.gz",
+            "sha256": "87b7f2e72fa9b59d99ac59571079017e18f2a1a55f2d2233f37a988e2e28d41b"
+          },
+          {
+            "name": "right_Healthy_sub-162_hippocampus_rh.nii.gz",
+            "sha256": "d6d637fdd0a3fd71ad13c689d300835d4a0253fca3ed4c0da2e0ba8436690309"
+          },
+          {
+            "name": "right_Healthy_sub-164_hippocampus_rh.nii.gz",
+            "sha256": "d107d6582b58129bdeab100dee5a79ccaad3651a9ebb0b3edb6b5eddde17ece0"
+          },
+          {
+            "name": "right_Healthy_sub-165_hippocampus_rh.nii.gz",
+            "sha256": "71fc828c270f086a555cacbebb7241e0671b753b1e7a310e6f04b4b624ccffb7"
+          },
+          {
+            "name": "right_Healthy_sub-167_hippocampus_rh.nii.gz",
+            "sha256": "a524753c04e7e13230e04e92321d0a05096e0bb34a8509fa3466166b65e8105c"
+          },
+          {
+            "name": "right_Healthy_sub-168_hippocampus_rh.nii.gz",
+            "sha256": "162b05be20459baf1146e520df40141991bd8c7e80c495d04bf1da0b17582dae"
+          },
+          {
+            "name": "right_Healthy_sub-174_hippocampus_rh.nii.gz",
+            "sha256": "1a998228190facad7fbb3994356f7b3458980c08a5a2c1f25271ebce020a39dc"
+          },
+          {
+            "name": "right_Healthy_sub-176_hippocampus_rh.nii.gz",
+            "sha256": "d7bfdae235e4a87141567cac3f9c6a376ae63d49ff043f41fd5a8a9e9d54aabd"
+          },
+          {
+            "name": "right_Healthy_sub-183_hippocampus_rh.nii.gz",
+            "sha256": "34cb3b71cdc0fa6f27bc09c56e68837570304a07e9f3bba82b25bd5549b523aa"
+          },
+          {
+            "name": "right_Healthy_sub-186_hippocampus_rh.nii.gz",
+            "sha256": "3588ba4b59523016f8d11ec85695a65d2ae104f4d916fc0f566b2b7e74ea0b80"
+          },
+          {
+            "name": "right_Healthy_sub-188_hippocampus_rh.nii.gz",
+            "sha256": "139de077aedd54ceb11febc0f31789269e3457a0a4f9574156faad9ca47d1611"
+          },
+          {
+            "name": "right_Healthy_sub-191_hippocampus_rh.nii.gz",
+            "sha256": "10ea0c0a695f4c63d053e859a5d4b83e3da8aa67cf86c4abe89731d60dcfc7fe"
+          },
+          {
+            "name": "right_Healthy_sub-196_hippocampus_rh.nii.gz",
+            "sha256": "60702ae3124a3eaa80a0e48aaddb1f39347166bbc4936666dc0eac92b20a8478"
+          },
+          {
+            "name": "right_Healthy_sub-199_hippocampus_rh.nii.gz",
+            "sha256": "40f70b30d1583705106a2bd1fc82d5d85f4abc269867ba24d42edebc661eb322"
+          },
+          {
+            "name": "right_Healthy_sub-202_hippocampus_rh.nii.gz",
+            "sha256": "d64f997dc831ff4c9da71c68b4826f030f8d4e4d3ff9d36d9fb5182c85d4ed74"
+          },
+          {
+            "name": "right_Healthy_sub-205_hippocampus_rh.nii.gz",
+            "sha256": "5866898851f8346c15a4e591e3c98cd52edaef51721f1dd3ab5f8ef8f7482e3f"
+          },
+          {
+            "name": "right_Healthy_sub-208_hippocampus_rh.nii.gz",
+            "sha256": "8721a2dd26ccf5ad01434c81c37e2986863e32242d4d6fdfd133e84e7fbdf45c"
+          },
+          {
+            "name": "right_Healthy_sub-215_hippocampus_rh.nii.gz",
+            "sha256": "80751da2d98e61a67145ac8eca4e0168cade0a94f39d3785802f97265a62c660"
+          },
+          {
+            "name": "right_Healthy_sub-217_hippocampus_rh.nii.gz",
+            "sha256": "8db21f95a0c866ee2a9a0a0903c2d0e7d9ab71b666b6e9ec5e38f0427e78c069"
+          },
+          {
+            "name": "right_Healthy_sub-218_hippocampus_rh.nii.gz",
+            "sha256": "bce42da5825a6ea3d6b416314e85bb77ae194ea6e9e8c5171c62a342b33e2208"
+          },
+          {
+            "name": "right_Healthy_sub-220_hippocampus_rh.nii.gz",
+            "sha256": "f9e81bcbb2c140688c784d48dd8d937ae874b776c1acfb0d1cc1bba5fc7d77ea"
+          },
+          {
+            "name": "right_Healthy_sub-227_hippocampus_rh.nii.gz",
+            "sha256": "6ea976fd664739cfc703e6f64279f0fa7d7892ab4446e3226e88b2fb85338910"
+          },
+          {
+            "name": "right_Healthy_sub-229_hippocampus_rh.nii.gz",
+            "sha256": "0a93a3912746e88e2f1afc2f6e67f92bae12854c12b9e854c93b448297e2d9ad"
+          },
+          {
+            "name": "right_Healthy_sub-235_hippocampus_rh.nii.gz",
+            "sha256": "53e0cef057a08c66e6502afdd73df596876cb9d253d2d4b8c4efefe4a9ac7a6b"
+          },
+          {
+            "name": "right_Healthy_sub-236_hippocampus_rh.nii.gz",
+            "sha256": "bba18809f523abcc777739d2df7355f067eef74d3e04052a5eff9f4fa7759ee4"
+          },
+          {
+            "name": "right_Healthy_sub-23_hippocampus_rh.nii.gz",
+            "sha256": "fd0d1a9e4f22f9eab682afb57d87f843dc908349668e55f50d1fa7f39796fe8d"
+          },
+          {
+            "name": "right_Healthy_sub-240_hippocampus_rh.nii.gz",
+            "sha256": "e4df6ee1bb0b60197d418660eec92e80de3c1ffe4608f1bf77612233482af882"
+          },
+          {
+            "name": "right_Healthy_sub-251_hippocampus_rh.nii.gz",
+            "sha256": "b9420265e415a554bc3629e7dfe2d4ca2f081190e5e8bba110d99019f9594463"
+          },
+          {
+            "name": "right_Healthy_sub-259_hippocampus_rh.nii.gz",
+            "sha256": "b400670dee155e9ee40b2c3d147936450a703c923abd1496cd6f8423ed26f943"
+          },
+          {
+            "name": "right_Healthy_sub-25_hippocampus_rh.nii.gz",
+            "sha256": "8f5298085327ea4f172cd136994dd1954d1096bbe7c05e19dadce54fb247789c"
+          },
+          {
+            "name": "right_Healthy_sub-263_hippocampus_rh.nii.gz",
+            "sha256": "2fc03c9cd732368c608d62489cf8f15dc54db1c0cc05aaffd0eae8c741ba77c0"
+          },
+          {
+            "name": "right_Healthy_sub-264_hippocampus_rh.nii.gz",
+            "sha256": "3c5a22c6bd108d3929d811380763a495f13039fcbbc95626a996375ec8d641bb"
+          },
+          {
+            "name": "right_Healthy_sub-265_hippocampus_rh.nii.gz",
+            "sha256": "f9e2943a521b7bb10f91aaeb4d5f6de8cdc9ceed8c3d60c4b26e880be2054375"
+          },
+          {
+            "name": "right_Healthy_sub-266_hippocampus_rh.nii.gz",
+            "sha256": "be96366b51a125deaa5c57c2ad090b58d00f476de2016d4f0dfa487ca9fe286e"
+          },
+          {
+            "name": "right_Healthy_sub-267_hippocampus_rh.nii.gz",
+            "sha256": "f654ef9ceb57ab5e7b79869f2c7f5a57ef36a959dc3abea9cecf708af0dabcb5"
+          },
+          {
+            "name": "right_Healthy_sub-26896_hippocampus_rh.nii.gz",
+            "sha256": "9c79c29e728d96a96c3faa70734232be0040e152e96025f0463704a5a364fd13"
+          },
+          {
+            "name": "right_Healthy_sub-270_hippocampus_rh.nii.gz",
+            "sha256": "28dcac96aa8e4fd992eca960f680eff39a526ea7b78baa6289cd579c7889d3b1"
+          },
+          {
+            "name": "right_Healthy_sub-273_hippocampus_rh.nii.gz",
+            "sha256": "6886d9f51cb12cb6b547b59141bade573f661be75354530aa8571552e35fbae7"
+          },
+          {
+            "name": "right_Healthy_sub-275_hippocampus_rh.nii.gz",
+            "sha256": "d6942303124927a5726fbcce9d141ccf52cd11548fc311cf13d96ca83cdff7ef"
+          },
+          {
+            "name": "right_Healthy_sub-27872_hippocampus_rh.nii.gz",
+            "sha256": "5f08a926a242ef69da11887426577ecf161146aebf0c6b54f495e6a0c0c13b62"
+          },
+          {
+            "name": "right_Healthy_sub-27934_hippocampus_rh.nii.gz",
+            "sha256": "e1151adae0338afd4c12db678d4b2ad2ce741d802dc570b914778b10ca9b6957"
+          },
+          {
+            "name": "right_Healthy_sub-27960_hippocampus_rh.nii.gz",
+            "sha256": "34fe4eb24da1b7a51bdf07b3404080de15934c689d18a846cadb439ab54cab32"
+          },
+          {
+            "name": "right_Healthy_sub-27974_hippocampus_rh.nii.gz",
+            "sha256": "c25de82d568c65fc020ec21aad754c3092d7b10b32ca7fac355cdbd19829780f"
+          },
+          {
+            "name": "right_Healthy_sub-279_hippocampus_rh.nii.gz",
+            "sha256": "027878c8c27c993f3978e64d2a6943b27fe6b09e2edf9c72e99aab4a0d2634eb"
+          },
+          {
+            "name": "right_Healthy_sub-27_hippocampus_rh.nii.gz",
+            "sha256": "b8d91feb8177cd96d79d9501aa0367d52a2a618b8eb602f4714480db093a8995"
+          },
+          {
+            "name": "right_Healthy_sub-282_hippocampus_rh.nii.gz",
+            "sha256": "d3c88ceee9045fa5a12cdb8000bc7dfbdcb093e2894432245b112139ddb7931e"
+          },
+          {
+            "name": "right_Healthy_sub-29073_hippocampus_rh.nii.gz",
+            "sha256": "6d5b751a2bd6b9a7c20270d7d5469db1fe0617bab7016d691ab33c185fd63e2d"
+          },
+          {
+            "name": "right_Healthy_sub-29096_hippocampus_rh.nii.gz",
+            "sha256": "14cce2ab1a39a954a0b0da7856f1dec3db35c7debd57d51f0630bf8d50523138"
+          },
+          {
+            "name": "right_Healthy_sub-290_hippocampus_rh.nii.gz",
+            "sha256": "0d36b0eafa78be740008d8fcca32bbccc39e01ede56d77b984d4d72d3b093b41"
+          },
+          {
+            "name": "right_Healthy_sub-293_hippocampus_rh.nii.gz",
+            "sha256": "cf905b0cd505a7ca6b54be1fd41e7703aeddec57c334efa2579c8f0283fc972c"
+          },
+          {
+            "name": "right_Healthy_sub-294_hippocampus_rh.nii.gz",
+            "sha256": "cd707ab913cc9a902b23007dfcf8aab13feb4927e9817b7536a0eb75b1d680ff"
+          },
+          {
+            "name": "right_Healthy_sub-297_hippocampus_rh.nii.gz",
+            "sha256": "6dcff7d8c5726eb1d4df302bdd1b2594caeac7171f5786515f93c678e562fa4e"
+          },
+          {
+            "name": "right_Healthy_sub-29_hippocampus_rh.nii.gz",
+            "sha256": "fbba913899f904a3623752edb5d75055e90760eaed41ff96b1af0dc88b178575"
+          },
+          {
+            "name": "right_Healthy_sub-302_hippocampus_rh.nii.gz",
+            "sha256": "8cebcd1f2cc974b98f37a86a9736d9baa0f9f6c3031c5e528835880907b64141"
+          },
+          {
+            "name": "right_Healthy_sub-310_hippocampus_rh.nii.gz",
+            "sha256": "e97d43df897ecba8a84784c62a589e8f23420655671ad8434f5e49fa83fd6f21"
+          },
+          {
+            "name": "right_Healthy_sub-314_hippocampus_rh.nii.gz",
+            "sha256": "84a4525619505f7d0a6a2419e0f394a7eb09f3d8768bdc2eaa06f91302222cd0"
+          },
+          {
+            "name": "right_Healthy_sub-316_hippocampus_rh.nii.gz",
+            "sha256": "44375cdc6f88638af94c37fdfbd1b88ccf72921b2c8f940d12478b8709f64be3"
+          },
+          {
+            "name": "right_Healthy_sub-320_hippocampus_rh.nii.gz",
+            "sha256": "482ebbd323a10a075ebaa7a30921fe5d26b64ed11c7ccba593bad3ae06d484e6"
+          },
+          {
+            "name": "right_Healthy_sub-32159_hippocampus_rh.nii.gz",
+            "sha256": "1a4861c16423574cb527778c49881716d294876d6869f0406239ca57686078ed"
+          },
+          {
+            "name": "right_Healthy_sub-32907_hippocampus_rh.nii.gz",
+            "sha256": "ffa2f746c23f0342dee23e641353d420f15776103f8906f31b487e385bbce653"
+          },
+          {
+            "name": "right_Healthy_sub-329_hippocampus_rh.nii.gz",
+            "sha256": "3204c12dd6278ba81b8296dbc3359558b3b3103c100956b8d8e2578aec584ba5"
+          },
+          {
+            "name": "right_Healthy_sub-336_hippocampus_rh.nii.gz",
+            "sha256": "f7301ffff87169f965193165872a6a4106409e39a9454b0d03b4981923c4d1ad"
+          },
+          {
+            "name": "right_Healthy_sub-337_hippocampus_rh.nii.gz",
+            "sha256": "396f567ebe2eca213395a2d646d5e35c41a7ec1b085565f1fdca2829dea31fea"
+          },
+          {
+            "name": "right_Healthy_sub-33_hippocampus_rh.nii.gz",
+            "sha256": "3970abe493a6596cc9d6ff0dfe0c9402d85df5805c2fee7a7718b464055338b8"
+          },
+          {
+            "name": "right_Healthy_sub-34273_hippocampus_rh.nii.gz",
+            "sha256": "9f8dc6c7d37aaac0b7e45d98b555decd9633bb2a332ade94339f06a258977b5e"
+          },
+          {
+            "name": "right_Healthy_sub-34359_hippocampus_rh.nii.gz",
+            "sha256": "69e25245cffd7f2475fa1f3025916cd3ef16afe5cd148ddbddc680dde6a4d360"
+          },
+          {
+            "name": "right_Healthy_sub-34736_hippocampus_rh.nii.gz",
+            "sha256": "e0a6e821873b9e7703bd5e28ba6f5e40c22d4a668a7ce17c4e0e38a9c30e2ea0"
+          },
+          {
+            "name": "right_Healthy_sub-347_hippocampus_rh.nii.gz",
+            "sha256": "178b0dba0f82bb2b2d336f94ffe8c61a66822acdad8af027cb896e8b711550d7"
+          },
+          {
+            "name": "right_Healthy_sub-34826_hippocampus_rh.nii.gz",
+            "sha256": "cc0dac0b8d3986264ec914fa18200fad82fcdd0884ec0f6573d165f85baf9e87"
+          },
+          {
+            "name": "right_Healthy_sub-348_hippocampus_rh.nii.gz",
+            "sha256": "5734380e05a5b3d91075713f4580f4b33f600a15aeb6605538e1b92cdd81f57d"
+          },
+          {
+            "name": "right_Healthy_sub-349_hippocampus_rh.nii.gz",
+            "sha256": "97db9f4f4e1725024b635c92dc3bb506fe91ccdc6de3fc4430c2ea79fd2a154c"
+          },
+          {
+            "name": "right_Healthy_sub-351_hippocampus_rh.nii.gz",
+            "sha256": "b7d2e9dd9fb6e124561ddb8f3bd7283eb0c48b1967d27abf1cd754f242e9c41e"
+          },
+          {
+            "name": "right_Healthy_sub-35272_hippocampus_rh.nii.gz",
+            "sha256": "e0e8b8434406af5f04d86f59246dd724d086f0562b744aef0aafbb8418a67b53"
+          },
+          {
+            "name": "right_Healthy_sub-35353_hippocampus_rh.nii.gz",
+            "sha256": "8dd1e11316f39fb57c3201c2bbc0f221d316ecccf3ba10b711f0d25dff520b77"
+          },
+          {
+            "name": "right_Healthy_sub-353_hippocampus_rh.nii.gz",
+            "sha256": "f8b3441cfc178814b0b3ea387df02daba5c5d101e8931c8ac68593e670c38835"
+          },
+          {
+            "name": "right_Healthy_sub-354_hippocampus_rh.nii.gz",
+            "sha256": "0e44172cd176b333f9c9f18c406959d532da1066c0bb408a53e9b6fd7b2c3bac"
+          },
+          {
+            "name": "right_Healthy_sub-35557_hippocampus_rh.nii.gz",
+            "sha256": "f06233fa97a100614eab9c263af38d4f7c723c01e0aa246ed963ae6d8212f3a0"
+          },
+          {
+            "name": "right_Healthy_sub-358_hippocampus_rh.nii.gz",
+            "sha256": "8503089382476c3967130141300997a05fafc13d4379484254b9c6a09a6c6998"
+          },
+          {
+            "name": "right_Healthy_sub-361_hippocampus_rh.nii.gz",
+            "sha256": "0cabc3566cc152c4cc0062c7d881efb2aedb91a41125c4b70cf2b48c2d9a27f7"
+          },
+          {
+            "name": "right_Healthy_sub-36487_hippocampus_rh.nii.gz",
+            "sha256": "b170c33b2154656ced8b47767df8b78a6bf21caeda248486f28f1d47802e83f9"
+          },
+          {
+            "name": "right_Healthy_sub-364_hippocampus_rh.nii.gz",
+            "sha256": "b44d91daaf3d10ed44c1ace44610f5926f6d700396996dc098afc5827200d928"
+          },
+          {
+            "name": "right_Healthy_sub-366_hippocampus_rh.nii.gz",
+            "sha256": "4f93e09c559cd0b6bf5567bfed95f335f1bef379184e346668344fc05e0ba9f1"
+          },
+          {
+            "name": "right_Healthy_sub-36737_hippocampus_rh.nii.gz",
+            "sha256": "d2ee74fd0c30b17d21628a413edb217b94b2a54698c8cc3efcc303cb6151ddc6"
+          },
+          {
+            "name": "right_Healthy_sub-36866_hippocampus_rh.nii.gz",
+            "sha256": "1e7db7ea62e5d4f7f993d6eb436ebc002cbbec51ca087b18cd98eff0a4a9e6f3"
+          },
+          {
+            "name": "right_Healthy_sub-368_hippocampus_rh.nii.gz",
+            "sha256": "ea31f6ffe9047fbe8df5bc28184566a1a1c9d22a5ca49a29ef0f785e2073d518"
+          },
+          {
+            "name": "right_Healthy_sub-36966_hippocampus_rh.nii.gz",
+            "sha256": "d8d24f03339306ef8abf856200c068e9c55e89885ea455710329d70ebfe202ef"
+          },
+          {
+            "name": "right_Healthy_sub-37117_hippocampus_rh.nii.gz",
+            "sha256": "6bf4b0c24be8a00d1195969cdb8b83525fc04e44f7017af5f0ac041f2a33b67e"
+          },
+          {
+            "name": "right_Healthy_sub-37149_hippocampus_rh.nii.gz",
+            "sha256": "5715b905b736a3a45abb259e8611e13ab845d2731353990170d1bb2edeb8b730"
+          },
+          {
+            "name": "right_Healthy_sub-37289_hippocampus_rh.nii.gz",
+            "sha256": "0990fb1b848efe73d3ab76c7f24cabb543725fbf1afa42ab06bf525da0aabf2d"
+          },
+          {
+            "name": "right_Healthy_sub-372_hippocampus_rh.nii.gz",
+            "sha256": "d3068d0c146e3b1776f5f7c2b9c8244f8b3d4029f5d4156bb0f4d071b684d332"
+          },
+          {
+            "name": "right_Healthy_sub-37348_hippocampus_rh.nii.gz",
+            "sha256": "e69d9541f924174cbec39229f9af3efec95227671a51cb9eae5323fa3ad79798"
+          },
+          {
+            "name": "right_Healthy_sub-375_hippocampus_rh.nii.gz",
+            "sha256": "82dcc419cba2a8d75ccda683d2aaa6b69103cf2aec77536ca5444e96c3382544"
+          },
+          {
+            "name": "right_Healthy_sub-379_hippocampus_rh.nii.gz",
+            "sha256": "de8a17d37e7ac3206a0a13d71d3e9ed87b5cccf370e21355bebefae1689a77a3"
+          },
+          {
+            "name": "right_Healthy_sub-37_hippocampus_rh.nii.gz",
+            "sha256": "27ee8ccd31571c0776e53a8cd99c5f1b039a7554022c0efa9389d44733a4d35d"
+          },
+          {
+            "name": "right_Healthy_sub-387_hippocampus_rh.nii.gz",
+            "sha256": "f47ec266b1408a40eea630fdc03b8dc020bf5ce92e676b0b2080aa5db5b0c7ff"
+          },
+          {
+            "name": "right_Healthy_sub-388_hippocampus_rh.nii.gz",
+            "sha256": "feb7f36eece4c2ffbe23f9b426d5d46e50912fc629df81d5905dded72773582f"
+          },
+          {
+            "name": "right_Healthy_sub-389_hippocampus_rh.nii.gz",
+            "sha256": "d7460eaca1baf77ff22eb510f5e9a8514d1410df186f62d1f394f594722ac4c9"
+          },
+          {
+            "name": "right_Healthy_sub-390_hippocampus_rh.nii.gz",
+            "sha256": "a202ab9d58a15bd5dca6ab02557a7245de571b3aac222bd1f3c489b74674ec2e"
+          },
+          {
+            "name": "right_Healthy_sub-397_hippocampus_rh.nii.gz",
+            "sha256": "d4434fe0192023663f556e895780ce43f1a589265b9f90b24524cb4151a3d998"
+          },
+          {
+            "name": "right_Healthy_sub-39_hippocampus_rh.nii.gz",
+            "sha256": "32786185846f32bcefd33c4e0924525712075511f7a63731e8e150e82af4415f"
+          },
+          {
+            "name": "right_Healthy_sub-4001_hippocampus_rh.nii.gz",
+            "sha256": "0ae07ec90776d3322a938066cb15411883d70b7977e76b336942abea4055cf85"
+          },
+          {
+            "name": "right_Healthy_sub-4002_hippocampus_rh.nii.gz",
+            "sha256": "6527e5a707c5704d99788a1158d94c4ca92924c18a848186701e125734ffbae5"
+          },
+          {
+            "name": "right_Healthy_sub-4003_hippocampus_rh.nii.gz",
+            "sha256": "4b9a14408037715dbadfede0393671bd7db63b35d81d5b94b709951509cde4fa"
+          },
+          {
+            "name": "right_Healthy_sub-4004_hippocampus_rh.nii.gz",
+            "sha256": "fc9695998a035e71dd4057205331a4747a8c9dd2ee9ddb5d60eadc914c884a45"
+          },
+          {
+            "name": "right_Healthy_sub-4005_hippocampus_rh.nii.gz",
+            "sha256": "796b93856546aa3bbb38a5d9bd241fbe0bc0b7df6cff378e88689e2c13407bde"
+          },
+          {
+            "name": "right_Healthy_sub-4006_hippocampus_rh.nii.gz",
+            "sha256": "a528fbf8b22e75b5ea26af82f8b915a5bdb95c714ec88ec6c7798d60d78b5d81"
+          },
+          {
+            "name": "right_Healthy_sub-4007_hippocampus_rh.nii.gz",
+            "sha256": "dfcdd752188f1f7d4b64655a107b1d13739556be6a69db066b701cf803b2df43"
+          },
+          {
+            "name": "right_Healthy_sub-4008_hippocampus_rh.nii.gz",
+            "sha256": "b6190bb2fcd92b5e17752072df5cd68304168bd11df8a4db7ca89e163b6bb352"
+          },
+          {
+            "name": "right_Healthy_sub-4009_hippocampus_rh.nii.gz",
+            "sha256": "7c97d212b90219c4cdb3275fffdad66d10c154357ba554aa0e2461bf40c31dca"
+          },
+          {
+            "name": "right_Healthy_sub-4010_hippocampus_rh.nii.gz",
+            "sha256": "4fe269b72f71baadc913e147472692e75a639603f1f53371f8eb5358da443ad3"
+          },
+          {
+            "name": "right_Healthy_sub-4011_hippocampus_rh.nii.gz",
+            "sha256": "03a95eba55df9a76291156c09da46f77431c579931aa8cb5d2568be9ed7e36ba"
+          },
+          {
+            "name": "right_Healthy_sub-4012_hippocampus_rh.nii.gz",
+            "sha256": "d55d64ee3865f57c06921f1b96d9ae810da36f507bd00aa5347572c565ddfabb"
+          },
+          {
+            "name": "right_Healthy_sub-4013_hippocampus_rh.nii.gz",
+            "sha256": "3166a94c3dbb4596d900ab7fbf2171ae3851b4a9fbf33ffc647a5fbdc5da2ec0"
+          },
+          {
+            "name": "right_Healthy_sub-4014_hippocampus_rh.nii.gz",
+            "sha256": "ad2871def60d3838527880e11775695a12e600e29a1cb8cee60f3db36635880b"
+          },
+          {
+            "name": "right_Healthy_sub-4015_hippocampus_rh.nii.gz",
+            "sha256": "5798a88353f28e00aadb6bf27714a30b2f3d84dc3e8758a70d8402131be4274d"
+          },
+          {
+            "name": "right_Healthy_sub-4016_hippocampus_rh.nii.gz",
+            "sha256": "577e9cbef4629452d87f3f1aec8a0ed2376b0803d4813472712a496e7565b866"
+          },
+          {
+            "name": "right_Healthy_sub-4017_hippocampus_rh.nii.gz",
+            "sha256": "98a09fa459118595ff6ecf3303840e3cbd2079e21715e946b6ca4e8777253440"
+          },
+          {
+            "name": "right_Healthy_sub-4018_hippocampus_rh.nii.gz",
+            "sha256": "9b94f2bc27c67cbd68868301ea974c3a3a01b3772a33ab8971b4181213546568"
+          },
+          {
+            "name": "right_Healthy_sub-4019_hippocampus_rh.nii.gz",
+            "sha256": "47ea92b9887f0630a0410f70e119b2ebdaa73dcb8ef86db24f03bbc6d6e6e504"
+          },
+          {
+            "name": "right_Healthy_sub-401_hippocampus_rh.nii.gz",
+            "sha256": "2e2d148a5b814938d28cad23bf56803282af3a468e8954013c91951f06b8b181"
+          },
+          {
+            "name": "right_Healthy_sub-4020_hippocampus_rh.nii.gz",
+            "sha256": "4deeb8d79803af259e7c576eb415179f3674a017b199bc915fab5e687ccb51a3"
+          },
+          {
+            "name": "right_Healthy_sub-4021_hippocampus_rh.nii.gz",
+            "sha256": "f9a53782d3a8c9467d6d31f9a8ed7fe325970375d4eae1f9f9d04c434720ea35"
+          },
+          {
+            "name": "right_Healthy_sub-4022_hippocampus_rh.nii.gz",
+            "sha256": "ec6406aa2e251a94f27e184de829cc6901aeb66864f52cc3c94d05e0a39d8bce"
+          },
+          {
+            "name": "right_Healthy_sub-4023_hippocampus_rh.nii.gz",
+            "sha256": "887cccd282c630d7606b655bb880b689e2fceb607c13a52941bec641b017ee4c"
+          },
+          {
+            "name": "right_Healthy_sub-4024_hippocampus_rh.nii.gz",
+            "sha256": "00151bcd8caf9048b346eae01c6c3ed3cab78c5425db7e04febb56dde14443cf"
+          },
+          {
+            "name": "right_Healthy_sub-4025_hippocampus_rh.nii.gz",
+            "sha256": "897e8de13a37cf172568db962a9f1fd97d2861b8c218a65ae179b3a6de89c146"
+          },
+          {
+            "name": "right_Healthy_sub-4026_hippocampus_rh.nii.gz",
+            "sha256": "fdde45e6da358115630e10c3e076702fbe71dedc92bc8f1435a28ba49739e8bb"
+          },
+          {
+            "name": "right_Healthy_sub-4027_hippocampus_rh.nii.gz",
+            "sha256": "061d9ff0f10e51befecfa67445ad5a4bc8c8dcf696d68900b42a428ed7232e9d"
+          },
+          {
+            "name": "right_Healthy_sub-4028_hippocampus_rh.nii.gz",
+            "sha256": "4397fe6387dcbfc2406064bc546563378357becb361c22f884586a0c744fc43e"
+          },
+          {
+            "name": "right_Healthy_sub-4029_hippocampus_rh.nii.gz",
+            "sha256": "f0b42a70f7299fc203d6e6f3b7e1bac9c0831e268c9926617f435a7f0cc5d2f0"
+          },
+          {
+            "name": "right_Healthy_sub-4030_hippocampus_rh.nii.gz",
+            "sha256": "76a88bcf65b88ccc44a2deb3c0133e86385bc0d022eaa520a412674a22f68fe7"
+          },
+          {
+            "name": "right_Healthy_sub-4031_hippocampus_rh.nii.gz",
+            "sha256": "51e126888720166677f3fb7c903969f600857bfc0df1e0635a467deea4d04370"
+          },
+          {
+            "name": "right_Healthy_sub-4032_hippocampus_rh.nii.gz",
+            "sha256": "4fecd889d352dc4c9905fcd350d5710c893307c46c3d527ca6c9210b65c0cfd8"
+          },
+          {
+            "name": "right_Healthy_sub-4033_hippocampus_rh.nii.gz",
+            "sha256": "fc9f26e4712c065cee0363213023b9f0cacfe41d2236e64547e0a57e5659f25f"
+          },
+          {
+            "name": "right_Healthy_sub-4034_hippocampus_rh.nii.gz",
+            "sha256": "4d15cbb1f7031b29ef330a82a37eab765359835ce12ac8c7e7189282c64e393c"
+          },
+          {
+            "name": "right_Healthy_sub-4035_hippocampus_rh.nii.gz",
+            "sha256": "c8004c7138510108ce4293ce4efb62790a8597040c4f9bbbff040bdaeabd7b07"
+          },
+          {
+            "name": "right_Healthy_sub-4036_hippocampus_rh.nii.gz",
+            "sha256": "58f53427d3acd5860e46a3d5bb23514b4fed459d731bc46acecc8659fd75e5e7"
+          },
+          {
+            "name": "right_Healthy_sub-4037_hippocampus_rh.nii.gz",
+            "sha256": "e81019924ce9e9c82556c75e167a98a5b73edb6b031e08fee48a87a45c021cfc"
+          },
+          {
+            "name": "right_Healthy_sub-4038_hippocampus_rh.nii.gz",
+            "sha256": "85501a6597cf386491d83a700bf23b3f2460e7a61dd36759e5143fa27ff91176"
+          },
+          {
+            "name": "right_Healthy_sub-4039_hippocampus_rh.nii.gz",
+            "sha256": "da5f77dac3190e5851d9dca88c94c0f21fc3a0b0ec2b85989a0510c10b7954f3"
+          },
+          {
+            "name": "right_Healthy_sub-4040_hippocampus_rh.nii.gz",
+            "sha256": "3c8705b85701d08227017e257d8acdcee6fc55e85bb7adb34a4749a832586b89"
+          },
+          {
+            "name": "right_Healthy_sub-4041_hippocampus_rh.nii.gz",
+            "sha256": "76776a65396260f1a9bb94cf37e55c9ec0d64699f5ca638babc5b9d7d1942f3e"
+          },
+          {
+            "name": "right_Healthy_sub-4042_hippocampus_rh.nii.gz",
+            "sha256": "799cdc9abae8a98ba213ddbd116bf32b917cf7c6410f3c56d6fd682545bdc609"
+          },
+          {
+            "name": "right_Healthy_sub-4043_hippocampus_rh.nii.gz",
+            "sha256": "13a5aeaf08f55deddab000b07fd15198e0f041dbd296781b554d64c10533e938"
+          },
+          {
+            "name": "right_Healthy_sub-4044_hippocampus_rh.nii.gz",
+            "sha256": "0985ca01a43e570ce499dc94c998b7a2a5cb7699cf14068e1bc0d0ed0cfd3150"
+          },
+          {
+            "name": "right_Healthy_sub-4045_hippocampus_rh.nii.gz",
+            "sha256": "a9ebb53046d4eafcb8f3b3e35fcc0b3bdeefc3acf8fa02b7055545750cf82299"
+          },
+          {
+            "name": "right_Healthy_sub-4046_hippocampus_rh.nii.gz",
+            "sha256": "dfc380991a1b10c028ec7d8d91ae1cbc19376dd1d0cbd944b2ca29e17693e572"
+          },
+          {
+            "name": "right_Healthy_sub-4047_hippocampus_rh.nii.gz",
+            "sha256": "678d41b46d687d8ede58f71e5a0f2e006293e03aafd8330ea48aed3ee320d997"
+          },
+          {
+            "name": "right_Healthy_sub-4048_hippocampus_rh.nii.gz",
+            "sha256": "1f53a122eb20ccbb65515b4007fb198fd83282d98cf30cbbe9adc898dfbc6e61"
+          },
+          {
+            "name": "right_Healthy_sub-4049_hippocampus_rh.nii.gz",
+            "sha256": "37a1fe9844d9b4963bcae41da2c034874d1b22910e484c3031883479f6661417"
+          },
+          {
+            "name": "right_Healthy_sub-4050_hippocampus_rh.nii.gz",
+            "sha256": "ee098c5fc399b0e9d5f86944aaf66f99824c24f9e46ecf59720cd8b267259644"
+          },
+          {
+            "name": "right_Healthy_sub-4051_hippocampus_rh.nii.gz",
+            "sha256": "b5a80d6e209f9573459f0b0544b6751fea2914fca91dacf17682ddd96dc1c383"
+          },
+          {
+            "name": "right_Healthy_sub-4052_hippocampus_rh.nii.gz",
+            "sha256": "31c7c8d821f2c85b157bbf6db2139071bd412ccb20a8ef9670c191db2d847cd8"
+          },
+          {
+            "name": "right_Healthy_sub-4053_hippocampus_rh.nii.gz",
+            "sha256": "a1c6793124996d004affdbce60412bceea8a0533579f63f5b353679b7a0fb0c5"
+          },
+          {
+            "name": "right_Healthy_sub-4054_hippocampus_rh.nii.gz",
+            "sha256": "e745018097d1c6bce998f10b5264449971ee433c8e3ae801667c53545433c681"
+          },
+          {
+            "name": "right_Healthy_sub-4055_hippocampus_rh.nii.gz",
+            "sha256": "555fb068c56a0673441c7fa921e934c3ca6c3e4f251803d902013bc36ccadb01"
+          },
+          {
+            "name": "right_Healthy_sub-4056_hippocampus_rh.nii.gz",
+            "sha256": "d9a922ac9d64647ea3fa3993196324ed47c4efe9e966845b5f02bd12b5372e91"
+          },
+          {
+            "name": "right_Healthy_sub-4057_hippocampus_rh.nii.gz",
+            "sha256": "c51f29091f5163f83f6e19d737cff1859b5e5c204b27a8dc22717a782bc9d046"
+          },
+          {
+            "name": "right_Healthy_sub-4058_hippocampus_rh.nii.gz",
+            "sha256": "94698cad07b7045fa8bcb2924882ae8b434b69b34500ed011314de65f7d5fd6f"
+          },
+          {
+            "name": "right_Healthy_sub-4059_hippocampus_rh.nii.gz",
+            "sha256": "3020d3e97b118884d4251bfc911ed558a070be851b426b53a5ac52bfc00e5744"
+          },
+          {
+            "name": "right_Healthy_sub-4060_hippocampus_rh.nii.gz",
+            "sha256": "2aeddd3da86a4426550a0b41734a2f377ffee7b1d31c118824893a9c3edc49a4"
+          },
+          {
+            "name": "right_Healthy_sub-4061_hippocampus_rh.nii.gz",
+            "sha256": "b96b766a2a25de830ed90f3ccb0926909bf524d175dfd4d622bd22b6ed60b53e"
+          },
+          {
+            "name": "right_Healthy_sub-4062_hippocampus_rh.nii.gz",
+            "sha256": "6474f99c215645b913441b86b7f033783766f6473aeb8d76cf164601bb768623"
+          },
+          {
+            "name": "right_Healthy_sub-4063_hippocampus_rh.nii.gz",
+            "sha256": "51e53f9d63ba64c4696710284256defb49c3e13579c22c2cc3a12ed0e5199144"
+          },
+          {
+            "name": "right_Healthy_sub-4064_hippocampus_rh.nii.gz",
+            "sha256": "5b42285478d42a41481ce632a52daf33ce8a19ae791c688fd0fc69bfab59dfbb"
+          },
+          {
+            "name": "right_Healthy_sub-4065_hippocampus_rh.nii.gz",
+            "sha256": "5ea78fb026265c2460886b911c993751392d8dbe5619511c18d7ae3b4f08a53d"
+          },
+          {
+            "name": "right_Healthy_sub-4066_hippocampus_rh.nii.gz",
+            "sha256": "25679ca849798c06024db6da7ccfe0a4a77709c70b11f79556518618f5a15491"
+          },
+          {
+            "name": "right_Healthy_sub-4067_hippocampus_rh.nii.gz",
+            "sha256": "99ddfb84a41b643bbf0069fe72a0e00934239750abee1b3f7c1c0b656b8bc38b"
+          },
+          {
+            "name": "right_Healthy_sub-4068_hippocampus_rh.nii.gz",
+            "sha256": "fccdb71468d3a9f17dcce89c24f8709451f6e874ef0ec29cfdddfd1f9f25317f"
+          },
+          {
+            "name": "right_Healthy_sub-4069_hippocampus_rh.nii.gz",
+            "sha256": "5e8eb69fbcfcf1c53afdb330b2d5ff96c4527f1ed50570d10c7c3bcc1ad95dc7"
+          },
+          {
+            "name": "right_Healthy_sub-4070_hippocampus_rh.nii.gz",
+            "sha256": "71d7d8c2de386df43ca41eca770721037ac61a9b3d1b61dbb051e47efdc37ebb"
+          },
+          {
+            "name": "right_Healthy_sub-4071_hippocampus_rh.nii.gz",
+            "sha256": "80ee3e480c7765ea59d42b5289bcbb95082a72a7116ae7d11e1c51de557c3a40"
+          },
+          {
+            "name": "right_Healthy_sub-4072_hippocampus_rh.nii.gz",
+            "sha256": "69782d91fd77c4c0db861e4563f313416c386cc60ee8672221d45cba53853063"
+          },
+          {
+            "name": "right_Healthy_sub-4073_hippocampus_rh.nii.gz",
+            "sha256": "e1a7d1800be306ee6757406ae4113296ff2809abc70b5f511b65f7e8100dedd7"
+          },
+          {
+            "name": "right_Healthy_sub-4074_hippocampus_rh.nii.gz",
+            "sha256": "7051e167d23a0cd898870026013e9fcf7ad6a48ea15eff54ff25bbc8d1045ed6"
+          },
+          {
+            "name": "right_Healthy_sub-4075_hippocampus_rh.nii.gz",
+            "sha256": "60dcfbc3325137eae31a4556ab526125a4cc26bdb7e221e1cdfbf4216845914e"
+          },
+          {
+            "name": "right_Healthy_sub-4076_hippocampus_rh.nii.gz",
+            "sha256": "250737c42b00c2393061d9f03f133060ac9896b7b6460fd8bdff1afc553c78dd"
+          },
+          {
+            "name": "right_Healthy_sub-4077_hippocampus_rh.nii.gz",
+            "sha256": "f6121e81130f754559dd82437489f1466808c4e769dcd440ba82f93da775f5e6"
+          },
+          {
+            "name": "right_Healthy_sub-4078_hippocampus_rh.nii.gz",
+            "sha256": "1aeb7f8a83b969d5f0bb1979ca97386a139db9e1697dca4770da391ddf7c452d"
+          },
+          {
+            "name": "right_Healthy_sub-4079_hippocampus_rh.nii.gz",
+            "sha256": "b120f1e580949b4715192c7349f5373c5989c4a40d7a1e4224029de14f056a33"
+          },
+          {
+            "name": "right_Healthy_sub-407_hippocampus_rh.nii.gz",
+            "sha256": "436780c935e52cb6db520100f135834b1c4ae8df0456865e0111cd5654a9f476"
+          },
+          {
+            "name": "right_Healthy_sub-4080_hippocampus_rh.nii.gz",
+            "sha256": "ae51c7af81adff813d303165e1eb944aad8e93d998e07d48bec25f810f8d0212"
+          },
+          {
+            "name": "right_Healthy_sub-4081_hippocampus_rh.nii.gz",
+            "sha256": "0c77dc534c654e35b3e606f06ffab438c4f369d0b58d47ab48bd9e4105500e90"
+          },
+          {
+            "name": "right_Healthy_sub-4082_hippocampus_rh.nii.gz",
+            "sha256": "64bd0c20f2f362f44cf5b502fea2e9ebf818cebcbd71e2e17cf455dd9061a86b"
+          },
+          {
+            "name": "right_Healthy_sub-4083_hippocampus_rh.nii.gz",
+            "sha256": "32ba2b8a8da6434e593386ec70e1896cc00526a26794604d925611205d211d5f"
+          },
+          {
+            "name": "right_Healthy_sub-4084_hippocampus_rh.nii.gz",
+            "sha256": "cd2bcdb42df4674d5c7f9e526724b7a89a467c43aad1b2dd4225883ee366c623"
+          },
+          {
+            "name": "right_Healthy_sub-4085_hippocampus_rh.nii.gz",
+            "sha256": "fdd0613655910881f5c2c0d67e9013a195e6ae10fda15d04c9ba573368f22691"
+          },
+          {
+            "name": "right_Healthy_sub-4086_hippocampus_rh.nii.gz",
+            "sha256": "472e250eb1308d4c9c78bf91dbc2541265cdddee0dd9a0d7d78716a3bcf83e94"
+          },
+          {
+            "name": "right_Healthy_sub-4087_hippocampus_rh.nii.gz",
+            "sha256": "ccf9a1626423f2233b12b2f89e5d615813240a938978a7c4ec43ea4a924fde6a"
+          },
+          {
+            "name": "right_Healthy_sub-4088_hippocampus_rh.nii.gz",
+            "sha256": "287b10c2b9b1501bfd6172afa129fb8ce7b209a917d738f13b23fb2bdf82d6ff"
+          },
+          {
+            "name": "right_Healthy_sub-4089_hippocampus_rh.nii.gz",
+            "sha256": "c671c1c3d48316c1320f4133858dacb9768ca149e747d75da7a637ddbb7ac357"
+          },
+          {
+            "name": "right_Healthy_sub-408_hippocampus_rh.nii.gz",
+            "sha256": "2b6162a88b505e26a41fb0a94fcb8181d2381c75cc2ec9234898c1cb2016d8df"
+          },
+          {
+            "name": "right_Healthy_sub-4090_hippocampus_rh.nii.gz",
+            "sha256": "32fc03550038c32d661231d509e3a5d9fea47717be64c728e3c0459b19c16135"
+          },
+          {
+            "name": "right_Healthy_sub-4091_hippocampus_rh.nii.gz",
+            "sha256": "64ad59ffd69c254ccfe5b475c9213ec7263299e66d71aff9d013ac283a4908a2"
+          },
+          {
+            "name": "right_Healthy_sub-4092_hippocampus_rh.nii.gz",
+            "sha256": "871f7f18b0d552199142d321f0320971139000b73748fe54b62d05e3363db3d6"
+          },
+          {
+            "name": "right_Healthy_sub-4093_hippocampus_rh.nii.gz",
+            "sha256": "d127c4a1b1e00141192a55ac9851487fd1a6946aa5c26efdaece4bfb41fb5e5b"
+          },
+          {
+            "name": "right_Healthy_sub-4094_hippocampus_rh.nii.gz",
+            "sha256": "ba17e5a04a586051735032b0fd3f6778667ce89fea16c85565fe0ea4685df316"
+          },
+          {
+            "name": "right_Healthy_sub-4095_hippocampus_rh.nii.gz",
+            "sha256": "7bed5680ab636ea73c71757f47eb668b5f26a5b4335fbd8f98920b76f47593f5"
+          },
+          {
+            "name": "right_Healthy_sub-4096_hippocampus_rh.nii.gz",
+            "sha256": "13a1f1b9796525bb726bbc429bd656f5a93c6a8467a2d549a5461843e9ec9dbd"
+          },
+          {
+            "name": "right_Healthy_sub-4097_hippocampus_rh.nii.gz",
+            "sha256": "fc7b9f5a09dfd7a2e58b640d131d60b2933fff01a80a63ded6d20d51516faad7"
+          },
+          {
+            "name": "right_Healthy_sub-4098_hippocampus_rh.nii.gz",
+            "sha256": "5f422ca66443e396e068549a99b9946aaec5a8cb6cd02b60523f7a9c64fad2ac"
+          },
+          {
+            "name": "right_Healthy_sub-4099_hippocampus_rh.nii.gz",
+            "sha256": "4d35457f87277059bf130890fa2f31f1d2302373075941989e0a932b38211e74"
+          },
+          {
+            "name": "right_Healthy_sub-4100_hippocampus_rh.nii.gz",
+            "sha256": "cb89f98f22b79522cba90650f5f328a49468aab4478ed807d3b01ecd5e8574cf"
+          },
+          {
+            "name": "right_Healthy_sub-416_hippocampus_rh.nii.gz",
+            "sha256": "1af498fbdfac1d008150213466f4527a1483bb53fec59b980a5344e9c9285ecd"
+          },
+          {
+            "name": "right_Healthy_sub-418_hippocampus_rh.nii.gz",
+            "sha256": "5bbc78382115ea280791206c21eb178fbe0d68d5538eac1d6ef646ddb76c721e"
+          },
+          {
+            "name": "right_Healthy_sub-420_hippocampus_rh.nii.gz",
+            "sha256": "34c14157bc640873a1ae84ac132e52b384b147a9ef5bec46877c0294e77e0426"
+          },
+          {
+            "name": "right_Healthy_sub-421_hippocampus_rh.nii.gz",
+            "sha256": "3b3b0766e7fbbc4a24db7777c615d667ba43cd07d1ea411611869859a37f0254"
+          },
+          {
+            "name": "right_Healthy_sub-423_hippocampus_rh.nii.gz",
+            "sha256": "eab103b1fee7ed6361fd6dd000e79c0aea6cad589176898279d2f0d88931e58d"
+          },
+          {
+            "name": "right_Healthy_sub-425_hippocampus_rh.nii.gz",
+            "sha256": "77801dfb22c1344db4b4b79b7d9b30587b3cf06e985ba455c4fdb7093dc79887"
+          },
+          {
+            "name": "right_Healthy_sub-426_hippocampus_rh.nii.gz",
+            "sha256": "dcbec0f0a735d3ff504b76a2207fb8385c8ad55a31ab3c43cc6b809a97a98270"
+          },
+          {
+            "name": "right_Healthy_sub-430_hippocampus_rh.nii.gz",
+            "sha256": "3b9bb5c134a5f6285ec2cd0256a406314f7282d9919b637c7965a504f668d8d0"
+          },
+          {
+            "name": "right_Healthy_sub-433_hippocampus_rh.nii.gz",
+            "sha256": "43e7cd2b1f31b193ce42b4488a512b2d05fa839791e2d3a306e5ffd701a15431"
+          },
+          {
+            "name": "right_Healthy_sub-43_hippocampus_rh.nii.gz",
+            "sha256": "052272c87ae236b577fae80a4239eaa33b292991f97a99e18403e0d924fbbb31"
+          },
+          {
+            "name": "right_Healthy_sub-441_hippocampus_rh.nii.gz",
+            "sha256": "64da4f0766b137e456be51f54b29bc93865ea9ddf2d6afcdbc57dc769cd2a949"
+          },
+          {
+            "name": "right_Healthy_sub-444_hippocampus_rh.nii.gz",
+            "sha256": "1140b32206644738cc51ccff0b5852293db19bab36c0f33c9249640285f94839"
+          },
+          {
+            "name": "right_Healthy_sub-445_hippocampus_rh.nii.gz",
+            "sha256": "efae00fdc3d5fd35b773cdee3cc0d2f480fb033e580f32591c09483abc27e707"
+          },
+          {
+            "name": "right_Healthy_sub-446_hippocampus_rh.nii.gz",
+            "sha256": "786953bdfe787e0555c4c13ee2e111ded676200d6207efd54508fca4701405fb"
+          },
+          {
+            "name": "right_Healthy_sub-450_hippocampus_rh.nii.gz",
+            "sha256": "162afcdae9e33f1efb67b8843d509418ed2bec0dd26c3d1c9a768d94ea4b94e8"
+          },
+          {
+            "name": "right_Healthy_sub-452_hippocampus_rh.nii.gz",
+            "sha256": "a60710036974e70eb598a7d0cf381c149371d923776cfef702bab3ea430bfc3d"
+          },
+          {
+            "name": "right_Healthy_sub-454_hippocampus_rh.nii.gz",
+            "sha256": "392978e199cb43d973d0b9433538988fcf6d9ab7d98244b672f7a3187f1a1e11"
+          },
+          {
+            "name": "right_Healthy_sub-460_hippocampus_rh.nii.gz",
+            "sha256": "39b3676a9f188e64ff83709855d1302310ab0a1a0d28143ba7688b539c565396"
+          },
+          {
+            "name": "right_Healthy_sub-461_hippocampus_rh.nii.gz",
+            "sha256": "b6064f0e04b099f5a2978a41a4894bd5dd5b0f45f2da81d4adde4cbff939b28e"
+          },
+          {
+            "name": "right_Healthy_sub-46_hippocampus_rh.nii.gz",
+            "sha256": "352192892ccd15605892fca62c310b5bc67bef7d054afee040327b58a53e5243"
+          },
+          {
+            "name": "right_Healthy_sub-55_hippocampus_rh.nii.gz",
+            "sha256": "88f26f713123d4f58557443096b2d345e8dc6a82de3b3e83b6222486e7775dce"
+          },
+          {
+            "name": "right_Healthy_sub-56_hippocampus_rh.nii.gz",
+            "sha256": "37a59ffc422c563722a80650ef6d33c7af57a82d452b8e8914cc8c1e3490224a"
+          },
+          {
+            "name": "right_Healthy_sub-5_hippocampus_rh.nii.gz",
+            "sha256": "83da0f904bfa022e4ad9ec846487f7cff663b85471b8a0848174b4e64a7ed233"
+          },
+          {
+            "name": "right_Healthy_sub-67_hippocampus_rh.nii.gz",
+            "sha256": "34dd928fa014997e7cf88f1830d5bb8c498dd77d13d08630aef61cd7faa6a1fc"
+          },
+          {
+            "name": "right_Healthy_sub-68_hippocampus_rh.nii.gz",
+            "sha256": "12dafcf12578d16d9f04152a4df283cb6f499e997a71428904dad630e407479f"
+          },
+          {
+            "name": "right_Healthy_sub-71_hippocampus_rh.nii.gz",
+            "sha256": "4ce25c199643efe3f717380551911b15f39d369483e2bce4dc7712c9de7091e2"
+          },
+          {
+            "name": "right_Healthy_sub-74_hippocampus_rh.nii.gz",
+            "sha256": "7fae8fe2c2bc7c0d12cfffab5db3d14fca5587848fdd43f1aa9cb742a5b9c358"
+          },
+          {
+            "name": "right_Healthy_sub-77_hippocampus_rh.nii.gz",
+            "sha256": "1285c1027c70fb3b990e62344092e78b7154a5188ca520f7945040b97964e254"
+          },
+          {
+            "name": "right_Healthy_sub-78_hippocampus_rh.nii.gz",
+            "sha256": "a24c09f92c2fe80e24e0b6a951537326f21a8a0ae6f1e6d8a87225487dfc9fd7"
+          },
+          {
+            "name": "right_Healthy_sub-85_hippocampus_rh.nii.gz",
+            "sha256": "2461bac2828cc3d97158681e8c04ead06f49dd7a185e03449b4d820b3518e14c"
+          },
+          {
+            "name": "right_Healthy_sub-87_hippocampus_rh.nii.gz",
+            "sha256": "f82c362638ff37d355391df58520518432b36346236f64501bcb2dfba524738a"
+          },
+          {
+            "name": "right_Healthy_sub-90_hippocampus_rh.nii.gz",
+            "sha256": "32c5589d8fc8b5741173efe255c18aa398f81b08eff17899b00061d075c0546a"
+          },
+          {
+            "name": "right_Healthy_sub-92_hippocampus_rh.nii.gz",
+            "sha256": "0b843c251aab1b41b9dfd7584dfe237279eb7916abe9e63fc113cd01c98b650c"
+          },
+          {
+            "name": "right_Healthy_sub-93_hippocampus_rh.nii.gz",
+            "sha256": "cc23fcea788a4c1a3fcf7ae285e6bcdb44861956ad068e82c8fe0133ba6ab8f3"
+          },
+          {
+            "name": "right_TLE_sub-101_hippocampus_rh.nii.gz",
+            "sha256": "527852885c389629d1182a1b070fcdb81a21ec175834f788c1fff9bc9486900c"
+          },
+          {
+            "name": "right_TLE_sub-105_hippocampus_rh.nii.gz",
+            "sha256": "f1fba16a4c0958458557a37f8d8770a0eb49b95e81da298b2a93a901eae69f03"
+          },
+          {
+            "name": "right_TLE_sub-114_hippocampus_rh.nii.gz",
+            "sha256": "649b2a6311af10a7f3f5a1e76d20fc18f0bfe8cbf2c3a98924ae6d7c4d0d6f8c"
+          },
+          {
+            "name": "right_TLE_sub-115_hippocampus_rh.nii.gz",
+            "sha256": "e9d9f7257b54e740d56bd2b88f96eb8136a1740e073b50017d31eadcfcf838f1"
+          },
+          {
+            "name": "right_TLE_sub-11_hippocampus_rh.nii.gz",
+            "sha256": "a81ab652218d5cad23a0fedc0d6db7dc7afe804394a2bbba2276468fe43ffff2"
+          },
+          {
+            "name": "right_TLE_sub-126_hippocampus_rh.nii.gz",
+            "sha256": "db47ca4804b53c3446fc0dc3a84956dbbb5972f581d2d358a13d25940fe2c0cf"
+          },
+          {
+            "name": "right_TLE_sub-135_hippocampus_rh.nii.gz",
+            "sha256": "f21b9198ebadb3c03e0444d621491761c53e990dddefa795268e3394ec41ba09"
+          },
+          {
+            "name": "right_TLE_sub-144_hippocampus_rh.nii.gz",
+            "sha256": "d67562e329c00ddbd332d456e8f1604201db10e6202196acb77d64893d573c61"
+          },
+          {
+            "name": "right_TLE_sub-147_hippocampus_rh.nii.gz",
+            "sha256": "81652675c555952f31d7a32259310a29647dbce328d6f94d850d9d93e3315d94"
+          },
+          {
+            "name": "right_TLE_sub-152_hippocampus_rh.nii.gz",
+            "sha256": "b4cee889b8fb68378ea530e7010638d085fdb217b312c564b843d14f92eddf20"
+          },
+          {
+            "name": "right_TLE_sub-153_hippocampus_rh.nii.gz",
+            "sha256": "284726f1670997ee99265ee793b72b2e77e1ea61c78d16b0527d394898008ad3"
+          },
+          {
+            "name": "right_TLE_sub-155_hippocampus_rh.nii.gz",
+            "sha256": "b8cc4f78593646562da6997ce6bca221593f7af3f3f55bf519ff5b6400ef3d0c"
+          },
+          {
+            "name": "right_TLE_sub-161_hippocampus_rh.nii.gz",
+            "sha256": "8ab0b4a60091bf5c05c61fc46a2e74d7f18d6332432a82e43fa739499576c455"
+          },
+          {
+            "name": "right_TLE_sub-16_hippocampus_rh.nii.gz",
+            "sha256": "2eda07d542ff8aaefc4d9b600a0a2f6b354ebafb5cee6fcf79608eeada089d1f"
+          },
+          {
+            "name": "right_TLE_sub-175_hippocampus_rh.nii.gz",
+            "sha256": "bb27b681e63260c1b9d0b048b47f797b08438ba8e7a4ba1238ddd1911aecd3fe"
+          },
+          {
+            "name": "right_TLE_sub-193_hippocampus_rh.nii.gz",
+            "sha256": "89c5e0703628c7870541b7989d13d712849b5f35bb0cf0e60229150e418e8072"
+          },
+          {
+            "name": "right_TLE_sub-197_hippocampus_rh.nii.gz",
+            "sha256": "ade91b918108db9126e26c92a686c079c258bbabffe2c683ebf79114495e3c8c"
+          },
+          {
+            "name": "right_TLE_sub-201_hippocampus_rh.nii.gz",
+            "sha256": "02d3115b3288d032abf96820f0cbc84d53e1aa810f0ac4397bce4fbe9acd9054"
+          },
+          {
+            "name": "right_TLE_sub-203_hippocampus_rh.nii.gz",
+            "sha256": "ffa6930bb0a0a5a721a808d755b616248668ccbcfeb4bc914a930b01e5f98a1f"
+          },
+          {
+            "name": "right_TLE_sub-207_hippocampus_rh.nii.gz",
+            "sha256": "e7db82af3359c7e46a5ec38e4ca34cd5bba8ea874f6503f1813cc1ec6194f68e"
+          },
+          {
+            "name": "right_TLE_sub-219_hippocampus_rh.nii.gz",
+            "sha256": "788ef2a93dbfbfa3d87693e0277a4c500b3d4d447c7a9a3068613a3be18ee4ca"
+          },
+          {
+            "name": "right_TLE_sub-222_hippocampus_rh.nii.gz",
+            "sha256": "3f9378ba046f9f5c852b6f0616bd924a6a0bc606cebf299ed2112b93a4e605a3"
+          },
+          {
+            "name": "right_TLE_sub-233_hippocampus_rh.nii.gz",
+            "sha256": "43221dac6252d6b84c6759162610ba89f7a7ff8bd9d40927ebeeb3d225a4fe04"
+          },
+          {
+            "name": "right_TLE_sub-237_hippocampus_rh.nii.gz",
+            "sha256": "454688dba8f803f861e7004c13a443c96c6e7e8c4d53e894510de59cbe329ae3"
+          },
+          {
+            "name": "right_TLE_sub-238_hippocampus_rh.nii.gz",
+            "sha256": "ad94d8da33bf9783683ab605b9f16beecbfb83bfc8d2e76be752fffd48bdadfe"
+          },
+          {
+            "name": "right_TLE_sub-246_hippocampus_rh.nii.gz",
+            "sha256": "4448e7dfc01dc0eb0cb0225be8244a26b2b1df7d10d0cb95186d84f0ac6f8fa5"
+          },
+          {
+            "name": "right_TLE_sub-247_hippocampus_rh.nii.gz",
+            "sha256": "dfaffb898a1c2a7f5be5ee738438f51d5735fb32caa90111e9c3d70868f3543c"
+          },
+          {
+            "name": "right_TLE_sub-250_hippocampus_rh.nii.gz",
+            "sha256": "f008fbc4057e632d3690ffce026e42af751a9297ceb9434a2d5a9171adc875b8"
+          },
+          {
+            "name": "right_TLE_sub-255_hippocampus_rh.nii.gz",
+            "sha256": "cd5383e0e532d495c158a8a6db08e9c9535a6de63d14384b28f6c1deed3b3c52"
+          },
+          {
+            "name": "right_TLE_sub-269_hippocampus_rh.nii.gz",
+            "sha256": "d70f4d98a75bd91bbc1570e703b36307f643291cbab25295a5f364e060848740"
+          },
+          {
+            "name": "right_TLE_sub-271_hippocampus_rh.nii.gz",
+            "sha256": "71a81da667ed9e16f4a4795a3088fe52b7cbbbca7609767ab27132d78b6f13b3"
+          },
+          {
+            "name": "right_TLE_sub-28620_hippocampus_rh.nii.gz",
+            "sha256": "36c350edefdd9b1c1a4777ceac3b2f782e7ffac64403d2a661ba2f3045d04114"
+          },
+          {
+            "name": "right_TLE_sub-292_hippocampus_rh.nii.gz",
+            "sha256": "e17bae20beb1c2bcf3b4ba022e6590b5ce6e90f4842a40eca4f0315fccaec8ca"
+          },
+          {
+            "name": "right_TLE_sub-29332_hippocampus_rh.nii.gz",
+            "sha256": "71695ed90a96aae51ff2c5db20c7c6e39a5ba34256f188c34e4676ce2720100c"
+          },
+          {
+            "name": "right_TLE_sub-296_hippocampus_rh.nii.gz",
+            "sha256": "81b8e51793fc7944c3b0ecfe8c515716283812da314ee63f82fcbc3075a6451c"
+          },
+          {
+            "name": "right_TLE_sub-2_hippocampus_rh.nii.gz",
+            "sha256": "a975f48255b5b4d8dec472b7d0879c6e5fc213759d43da32b55b6cc37a6f3902"
+          },
+          {
+            "name": "right_TLE_sub-300_hippocampus_rh.nii.gz",
+            "sha256": "156d2d24ba023b15ed9d5903810ee8d313c4c61c022e7f2ff0d24ded76f6b64b"
+          },
+          {
+            "name": "right_TLE_sub-301_hippocampus_rh.nii.gz",
+            "sha256": "12768a45df22e94a70a7b9da144fc6deba1b057e6868c6e7b09c1c1676dc8603"
+          },
+          {
+            "name": "right_TLE_sub-305_hippocampus_rh.nii.gz",
+            "sha256": "bb0719e06a1dd3c0f2c6545d7a544cd207d75b407111584ddbe45eea71657ae0"
+          },
+          {
+            "name": "right_TLE_sub-31730_hippocampus_rh.nii.gz",
+            "sha256": "6f359b714992bd72f04c26f221fc507aba6e5ad112ad30281376581688a7c44b"
+          },
+          {
+            "name": "right_TLE_sub-317_hippocampus_rh.nii.gz",
+            "sha256": "f1babdcea94125f77903385faf1de71e0c110518e53f353e08d1be2e2f821ef4"
+          },
+          {
+            "name": "right_TLE_sub-31_hippocampus_rh.nii.gz",
+            "sha256": "f2ef57c335d3a692fad58a603fd266c03555094360838b69be10d1f6ec3a0a5c"
+          },
+          {
+            "name": "right_TLE_sub-32231_hippocampus_rh.nii.gz",
+            "sha256": "667ce3561cc48e62042714f07656343089c889de08b0230c2b5e90164ac827fd"
+          },
+          {
+            "name": "right_TLE_sub-32310_hippocampus_rh.nii.gz",
+            "sha256": "c330c7e9beaeb3554ef1ceca035b54815c5df34e4f3f1fb2f42c57ee99078e3b"
+          },
+          {
+            "name": "right_TLE_sub-32436_hippocampus_rh.nii.gz",
+            "sha256": "cc49ed22e24bd9a04e2341a262e3cd088d78bf8e58b6870b51d495a50c28ec5d"
+          },
+          {
+            "name": "right_TLE_sub-324_hippocampus_rh.nii.gz",
+            "sha256": "5d474cbdb530fa9ec94ede1cdc97a9627db7df728416eae5606bb4b1f37e58b5"
+          },
+          {
+            "name": "right_TLE_sub-325_hippocampus_rh.nii.gz",
+            "sha256": "311492ad642bd04ccefbea6efb309de56ce85e8b2c01b75ac4f1bbf326c9205c"
+          },
+          {
+            "name": "right_TLE_sub-327_hippocampus_rh.nii.gz",
+            "sha256": "170f3880f1acb1cc875248ae252d023e79016e1d3f4fb2dffe02a77f13a2f234"
+          },
+          {
+            "name": "right_TLE_sub-330_hippocampus_rh.nii.gz",
+            "sha256": "ecdc8e9d724b84ff4acf4025c7818db7ae14e7a2e519f23d1e6f5bac5ece985b"
+          },
+          {
+            "name": "right_TLE_sub-332_hippocampus_rh.nii.gz",
+            "sha256": "e78625e461914b5624498e7288c2381f41834d4f1d2ff1efaccb7326442337f2"
+          },
+          {
+            "name": "right_TLE_sub-334_hippocampus_rh.nii.gz",
+            "sha256": "83bf5fdc98f183bbd94baee1f4d353a46943eee1ca8e022287cab099fcb3239e"
+          },
+          {
+            "name": "right_TLE_sub-340_hippocampus_rh.nii.gz",
+            "sha256": "a8ea11be5c4644eb3f2a48cf74ddf2ea4aff39c60fbd23b2de494325bb9106dd"
+          },
+          {
+            "name": "right_TLE_sub-343_hippocampus_rh.nii.gz",
+            "sha256": "fbcd5d6a0240d6bde466dc55947064203709c5d3adeb8f3b6bf7b918b4f5859b"
+          },
+          {
+            "name": "right_TLE_sub-34437_hippocampus_rh.nii.gz",
+            "sha256": "5ee2d1a946529c1a69b842bde9c815c5ea6e34d2a3b5d5b49e6ba0e54605efda"
+          },
+          {
+            "name": "right_TLE_sub-344_hippocampus_rh.nii.gz",
+            "sha256": "dbd8443d98421c5ca00421f8402dc92342c45a6702371417172930b12c39535d"
+          },
+          {
+            "name": "right_TLE_sub-346_hippocampus_rh.nii.gz",
+            "sha256": "167163bf1ad248b625b545107c328b5b035a6f21a753572fd3312719c74b4ae2"
+          },
+          {
+            "name": "right_TLE_sub-35232_hippocampus_rh.nii.gz",
+            "sha256": "2196d86c1a690884c107b736fb13d84badb5d5e409be27412b6dd02629e0cebb"
+          },
+          {
+            "name": "right_TLE_sub-352_hippocampus_rh.nii.gz",
+            "sha256": "20c0dee66d7520c600e115ec8f7994ed7c1d67f0af3bef22c873ba2a3abed24c"
+          },
+          {
+            "name": "right_TLE_sub-35538_hippocampus_rh.nii.gz",
+            "sha256": "1ffe2c310673e0b15e6fa47f98c3fa0b45dc1e6956ce419596084e247527f5a9"
+          },
+          {
+            "name": "right_TLE_sub-356_hippocampus_rh.nii.gz",
+            "sha256": "3956e1fb31ba0c7038c7d4af5158ddf011e02aa8317187a5d09bc59b0b5eed85"
+          },
+          {
+            "name": "right_TLE_sub-362_hippocampus_rh.nii.gz",
+            "sha256": "413c7467dc65dc8eff75b58a87f20bd351fe4a1a780befc97e19e8ef6db44ec9"
+          },
+          {
+            "name": "right_TLE_sub-36387_hippocampus_rh.nii.gz",
+            "sha256": "fae2d7ee85a60e1a60f2442a32a9dc3790ac72faf8fd0c11e007a1a11b725be7"
+          },
+          {
+            "name": "right_TLE_sub-365_hippocampus_rh.nii.gz",
+            "sha256": "b6b1b42f3a0eb536a38be31d95722ca3efde326c2626a94628e1bd08b172f5d8"
+          },
+          {
+            "name": "right_TLE_sub-36664_hippocampus_rh.nii.gz",
+            "sha256": "153677c74830be3dfa2b3b607a3aadb181aacea7c9fbd374102581e3be2f95f3"
+          },
+          {
+            "name": "right_TLE_sub-37130_hippocampus_rh.nii.gz",
+            "sha256": "b278379d439fc4517c009caab00f986968aafdb2de872cd98b3e9c03a3ce2f28"
+          },
+          {
+            "name": "right_TLE_sub-374_hippocampus_rh.nii.gz",
+            "sha256": "d033e1cdadd9c7457a046f117ba71aa892e05f38219184fde09ccae2000a3085"
+          },
+          {
+            "name": "right_TLE_sub-376_hippocampus_rh.nii.gz",
+            "sha256": "706894f82bbc329e572cf5cc81f2589cc177131572ef8788e98f162ebf98a932"
+          },
+          {
+            "name": "right_TLE_sub-377_hippocampus_rh.nii.gz",
+            "sha256": "2d9a449df2942a1b7de8a0bd8a85fc43c13d8a9cdb5c44af231c73e9b4e3f162"
+          },
+          {
+            "name": "right_TLE_sub-380_hippocampus_rh.nii.gz",
+            "sha256": "926a32c9f1d24b4a41da6983326671c6661a242d8ac7e6e20503852686ed62fd"
+          },
+          {
+            "name": "right_TLE_sub-382_hippocampus_rh.nii.gz",
+            "sha256": "708ac3c1a4bb507401df676475c2be958867dfedd86efe14192e775ace84713a"
+          },
+          {
+            "name": "right_TLE_sub-385_hippocampus_rh.nii.gz",
+            "sha256": "1a8e057a1f0e472a1d4d4943454fd9450d8c928c211171aeb703f961432b6bd7"
+          },
+          {
+            "name": "right_TLE_sub-38_hippocampus_rh.nii.gz",
+            "sha256": "24c3440796f8a1e1097206ea269b145ef02712c2299c75f3e6db3d53722153b5"
+          },
+          {
+            "name": "right_TLE_sub-394_hippocampus_rh.nii.gz",
+            "sha256": "4d5da720270ce3c23cd7d953c7012604e991bed7a52b516d3de55f2dc974d1c5"
+          },
+          {
+            "name": "right_TLE_sub-399_hippocampus_rh.nii.gz",
+            "sha256": "415ab89c50013b5b0038ce70b415dfc5a88e5ece2a135170c600ed9c90f0ee28"
+          },
+          {
+            "name": "right_TLE_sub-400_hippocampus_rh.nii.gz",
+            "sha256": "2dd8cb182bdc09e44b9c6a6c92cc0fba04854a5825ebdae1b887a2dd80af0612"
+          },
+          {
+            "name": "right_TLE_sub-402_hippocampus_rh.nii.gz",
+            "sha256": "6a89162df5efcf8b157b1b181096ab635b04ae7e62c6b5fbb7316b681aabf2c2"
+          },
+          {
+            "name": "right_TLE_sub-404_hippocampus_rh.nii.gz",
+            "sha256": "3e225484ea9e945901d0d1c9bb2000ec6ac4be03e8286da13cd4369e389b9b47"
+          },
+          {
+            "name": "right_TLE_sub-405_hippocampus_rh.nii.gz",
+            "sha256": "be1ff849d39cf423a3e2aa16472c67ef837310b73d93464ab89d1f80ddd9fc9d"
+          },
+          {
+            "name": "right_TLE_sub-406_hippocampus_rh.nii.gz",
+            "sha256": "d357ef62d220475e8a49fd70cca81aafe6d31a795d5c1ff9266ef6cf92a322c9"
+          },
+          {
+            "name": "right_TLE_sub-40_hippocampus_rh.nii.gz",
+            "sha256": "6f417c8670e363ab223112d9cb74e2a8735c242bd12665520288d4adcf7fd73c"
+          },
+          {
+            "name": "right_TLE_sub-413_hippocampus_rh.nii.gz",
+            "sha256": "3626963b600094242d9bdb7f37dfab8b84aae64cf357a5696ce22968a6d8c83c"
+          },
+          {
+            "name": "right_TLE_sub-417_hippocampus_rh.nii.gz",
+            "sha256": "cf7d8c3b0ba6c4eb8a5bd2ab484581325ed9ba85f1c25a4d1403e08f189b52fd"
+          },
+          {
+            "name": "right_TLE_sub-419_hippocampus_rh.nii.gz",
+            "sha256": "5366c2fd708971312512bc86777179f76019ce744d448d998e8d51445f030626"
+          },
+          {
+            "name": "right_TLE_sub-41_hippocampus_rh.nii.gz",
+            "sha256": "f8046219e91a53a716cca23504933ba827f7d7681fcb337c47e85def44c37e5d"
+          },
+          {
+            "name": "right_TLE_sub-427_hippocampus_rh.nii.gz",
+            "sha256": "873e2d4c82bb382304efc2fdf9d343983defd3848be1a29ad95b11513c367212"
+          },
+          {
+            "name": "right_TLE_sub-432_hippocampus_rh.nii.gz",
+            "sha256": "e1389d1b9c929c552f7b755cc3abac03a52fda50023912460f089bad612daf89"
+          },
+          {
+            "name": "right_TLE_sub-437_hippocampus_rh.nii.gz",
+            "sha256": "b3680efe11b839b6452e20b089f7caa0cdb755c91b954baf66b9959d9233b916"
+          },
+          {
+            "name": "right_TLE_sub-442_hippocampus_rh.nii.gz",
+            "sha256": "96ad98f2bc3cea8a59eee2b117643980669537af588b322519640d62b6f8ae93"
+          },
+          {
+            "name": "right_TLE_sub-447_hippocampus_rh.nii.gz",
+            "sha256": "c24c1790f9fe995ec18c1ea51f3b94cb251c31cf03389e80f91e86927bf4ede6"
+          },
+          {
+            "name": "right_TLE_sub-451_hippocampus_rh.nii.gz",
+            "sha256": "da6871a738dbf4e5f3bfef47fd05112336c28c6e003d932a99bb998e98c84b5f"
+          },
+          {
+            "name": "right_TLE_sub-455_hippocampus_rh.nii.gz",
+            "sha256": "c8db7aa9f053c0aa6d49bfc954a12a93389b4d4e2f40e1819ca966dcda963450"
+          },
+          {
+            "name": "right_TLE_sub-45_hippocampus_rh.nii.gz",
+            "sha256": "c30b33f98c4268208fa4c722a1f8fb30755d52cb93685409b43affa9ee1ee06c"
+          },
+          {
+            "name": "right_TLE_sub-49_hippocampus_rh.nii.gz",
+            "sha256": "fbccacfb6d9f7c76ac3bd828faaa377f29a16e6d78af5a13ca2f8face55269fb"
+          },
+          {
+            "name": "right_TLE_sub-57_hippocampus_rh.nii.gz",
+            "sha256": "ed98455d3c5f8b60d5a8a5e8f5b3ed6672f87dd27dba776f325b8d66c47266cf"
+          },
+          {
+            "name": "right_TLE_sub-61_hippocampus_rh.nii.gz",
+            "sha256": "930c6f06b9ec1622eea558254fad518aefc774552bffccc2bce393b58a34cb85"
+          },
+          {
+            "name": "right_TLE_sub-64_hippocampus_rh.nii.gz",
+            "sha256": "e178ba3374d8652d16f691a810d0d60f0a27888b67c2755ee587e047b0bbf74f"
+          },
+          {
+            "name": "right_TLE_sub-70_hippocampus_rh.nii.gz",
+            "sha256": "406f3998079519f65627e5595d4b055ecffbbe7b340f61d773e6f5867f883c7e"
+          },
+          {
+            "name": "right_TLE_sub-75_hippocampus_rh.nii.gz",
+            "sha256": "711d592d4f2e4525fb38dff6af54334df81e7d5882d5ea508286eb78b37c4abe"
+          },
+          {
+            "name": "right_TLE_sub-76_hippocampus_rh.nii.gz",
+            "sha256": "3b3a0d7f8f4ae955330adbbc9e257e9820ebb55cb06c6ba334d06b6864dee57d"
+          },
+          {
+            "name": "right_TLE_sub-7_hippocampus_rh.nii.gz",
+            "sha256": "a33d8817595f216f01923b36ed06bac5550eaf50f90234784167bbe6ada1a7c8"
+          },
+          {
+            "name": "right_TLE_sub-82_hippocampus_rh.nii.gz",
+            "sha256": "ac08e90bc722228c5c486e274064cf6c868eeffd93ae756adb3868ffd08cb3d6"
+          },
+          {
+            "name": "right_TLE_sub-84_hippocampus_rh.nii.gz",
+            "sha256": "c310194d4d718dd00fec8713eebf3a953ea010e0cf8176945eab5896bd97a77e"
+          },
+          {
+            "name": "right_TLE_sub-94_hippocampus_rh.nii.gz",
+            "sha256": "580259bb118ae06de3aeb157125f0dcc88d68f6434e63ac7c4b0840a0b979e60"
+          },
+          {
+            "name": "right_TLE_sub-95_hippocampus_rh.nii.gz",
+            "sha256": "87798d1d84572ea0e82d65a679350620cbc0333e9347d10d27856e32ed00df03"
+          },
+          {
+            "name": "right_TLE_sub-97_hippocampus_rh.nii.gz",
+            "sha256": "a602cde5c37d32282c6c570f72dfa1b4c8f2612e4396860d80bfcfb1d15374a7"
+          }
+        ]
+      },
+      "status": {
+        "success": true,
+        "subjects": 381,
+        "geometry_version": "fixed-training-reference-v1",
+        "reference_template": "C:/Users/IHCK/Desktop/1_10_69Final/Hippocampal-Shape-Analysis-for-Epilepsy-Detection/ICP/output_right_hippocampus\\mean_shape.ply",
+        "reference_sha256": "3f8c7896bca197a48955824eb37e90c91a3c48a6fc26b2ba893af7f216deb461",
+        "mode": "fit_reference",
+        "reference_origin": null,
+        "derived_mean_shape": "C:/Users/IHCK/Desktop/1_10_69Final/Hippocampal-Shape-Analysis-for-Epilepsy-Detection/ICP/output_right_hippocampus\\mean_shape.ply",
+        "independent_test_reference": true,
+        "parameters": {
+          "output_voxels": 128,
+          "output_spacing": 0.015625,
+          "max_groupwise_iterations": 20,
+          "groupwise_tolerance": 5e-05,
+          "pairwise_iterations": 100,
+          "pairwise_tolerance": 0.0001,
+          "pairwise_landmarks": 200,
+          "interpolation": "nn",
+          "invert_transform": "auto"
+        }
+      }
+    }
+  ]
+}

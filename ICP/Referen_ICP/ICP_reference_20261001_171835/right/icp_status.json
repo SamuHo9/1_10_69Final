@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "subjects": 381,
+  "geometry_version": "fixed-training-reference-v1",
+  "reference_template": "C:/Users/IHCK/Desktop/1_10_69Final/Hippocampal-Shape-Analysis-for-Epilepsy-Detection/ICP/output_right_hippocampus\\mean_shape.ply",
+  "reference_sha256": "3f8c7896bca197a48955824eb37e90c91a3c48a6fc26b2ba893af7f216deb461",
+  "mode": "fit_reference",
+  "reference_origin": null,
+  "derived_mean_shape": "C:/Users/IHCK/Desktop/1_10_69Final/Hippocampal-Shape-Analysis-for-Epilepsy-Detection/ICP/output_right_hippocampus\\mean_shape.ply",
+  "independent_test_reference": true,
+  "parameters": {
+    "output_voxels": 128,
+    "output_spacing": 0.015625,
+    "max_groupwise_iterations": 20,
+    "groupwise_tolerance": 5e-05,
+    "pairwise_iterations": 100,
+    "pairwise_tolerance": 0.0001,
+    "pairwise_landmarks": 200,
+    "interpolation": "nn",
+    "invert_transform": "auto"
+  },
+  "reference_archive_dir": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\ICP\\Referen_ICP\\ICP_reference_20261001_171835\\right",
+  "reference_manifest": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\ICP\\Referen_ICP\\ICP_reference_20261001_171835\\reference_manifest.json"
+}

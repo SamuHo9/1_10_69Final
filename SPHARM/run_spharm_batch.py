@@ -1,11 +1,29 @@
 import os
 import glob
 import slicer
+import vtk
 import time
 import sys
 import argparse
 import subprocess
+import json
+import hashlib
 from datetime import datetime
+
+# The SPHARM-PDM CLP binaries are native Windows processes.  A malformed mesh
+# can trigger an access violation; suppress the OS crash dialog so a batch run
+# receives the failure and can continue with the next subject.
+if sys.platform == "win32":
+    try:
+        import ctypes
+        _SEM_FAILCRITICALERRORS = 0x0001
+        _SEM_NOGPFAULTERRORBOX = 0x0002
+        _SEM_NOOPENFILEERRORBOX = 0x8000
+        ctypes.windll.kernel32.SetErrorMode(
+            _SEM_FAILCRITICALERRORS | _SEM_NOGPFAULTERRORBOX | _SEM_NOOPENFILEERRORBOX
+        )
+    except Exception:
+        pass
 
 def get_script_dir():
     try:
@@ -25,6 +43,16 @@ def sprint(msg, log_file):
     with open(log_file, 'a') as f:
         f.write(f"[{timestamp}] {msg}\n")
 
+
+def file_sha256(path):
+    if not path or not os.path.isfile(path):
+        return None
+    digest = hashlib.sha256()
+    with open(path, 'rb') as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b''):
+            digest.update(chunk)
+    return digest.hexdigest()
+
 def cleanup_subject_files(output_base_dir, basename):
     patterns = [
         f"{basename}_pp.*",
@@ -36,6 +64,7 @@ def cleanup_subject_files(output_base_dir, basename):
         f"{basename}_SPHARM_ellalign.vtk", f"{basename}_SPHARM_ellalign.coef",
         f"{basename}_SPHARM_procalign.vtk", f"{basename}_SPHARM_procalign.coef",
         f"{basename}_SPHARM_grid.vtk",
+        f"{basename}_processing.json",
         f"{basename}_SPHARMMedialAxis.vtk",
         f"{basename}_MedialAxisScalars.csv",
     ]
@@ -49,14 +78,50 @@ def cleanup_subject_files(output_base_dir, basename):
                 pass
     return removed
 
-def run_cli_checked(module, params, step_name, log_file):
+
+def write_processing_contract(final_coef, input_path, output_base_dir,
+                              config, reference_template):
+    """Write provenance consumed by feature extraction and Desktop inference."""
+    status = {}
+    status_path = os.path.join(os.path.dirname(output_base_dir), 'icp_status.json')
+    if os.path.isfile(status_path):
+        try:
+            with open(status_path, 'r', encoding='utf-8') as stream:
+                status = json.load(stream)
+        except (OSError, ValueError):
+            status = {}
+    sidecar = final_coef.replace('_SPHARM.coef', '_processing.json')
+    payload = {
+        'feature_contract': {
+            'version': 'spharm-feature-v1',
+            'icp_mode': status.get('mode', 'unknown'),
+            'icp_geometry_version': status.get('geometry_version'),
+            'icp_reference_sha256': status.get('reference_sha256'),
+            'spharm_template': reference_template,
+            'spharm_template_sha256': file_sha256(reference_template),
+            'num_iterations': int(config['num_iter']),
+            'subdiv_level': int(config['subdiv']),
+            'spharm_degree': int(config['degree']),
+            'grid_theta': 4.5,
+            'grid_phi': 4.5,
+        },
+        'input_name': os.path.basename(input_path),
+        'input_sha256': file_sha256(input_path),
+    }
+    with open(sidecar, 'w', encoding='utf-8') as stream:
+        json.dump(payload, stream, indent=2)
+
+def run_cli_checked(module, params, step_name, log_file, allow_completed_with_errors=False):
     cli_node = slicer.cli.run(module, None, params, wait_for_completion=True)
     status = cli_node.GetStatusString()
     err = (cli_node.GetErrorText() or "").strip()
     out = (cli_node.GetOutputText() or "").strip()
     if err:
         sprint(f"    [{step_name}] stderr: {err[:600]}", log_file)
-    if status not in ("Completed", "Completed with errors"):
+    if status == "Completed with errors" and allow_completed_with_errors:
+        sprint(f"    !!! CLI '{step_name}' reported warnings; validating output nodes", log_file)
+        return True
+    if status != "Completed":
         sprint(f"    !!! CLI '{step_name}' status = {status}", log_file)
         if out:
             sprint(f"    [{step_name}] stdout: {out[:600]}", log_file)
@@ -119,16 +184,31 @@ def parse_args():
     parser.add_argument("--regenerate_spharm_only", action="store_true", help="Skip SegPostProcess and GenParaMesh")
     parser.add_argument("--reference_template", type=str, default=None,
                         help="Path to reference _SPHARM.vtk used as regTemplate/flipTemplate.")
+    parser.add_argument(
+        "--no_reference_template",
+        action="store_true",
+        help="Bootstrap mode: do not auto-detect or use a SPHARM template.",
+    )
     parser.add_argument("--num_iterations", type=int, default=None, help="Iterations for GenParaMesh")
     parser.add_argument("--subdiv_level", type=int, default=None, help="Subdivision level for ParaToSPHARMMesh")
     parser.add_argument("--spharm_degree", type=int, default=None, help="SPHARM degree for ParaToSPHARMMesh")
+    parser.add_argument("--num_shards", type=int, default=1, help="Total number of parallel shards")
+    parser.add_argument("--shard_index", type=int, default=0, help="Shard index (0-based) for this worker")
     args, _ = parser.parse_known_args()
     return args
 
-def init_logging(output_base_dir, input_dir, output_root, mode_tag, num_iter, subdiv, degree):
-    log_file = os.path.join(SCRIPT_DIR, "spharm_debug_log.txt")
-    with open(log_file, 'w') as f:
+def init_logging(output_base_dir, input_dir, output_root, mode_tag, num_iter, subdiv, degree, shard_index=0, num_shards=1):
+    log_dir = os.path.join(output_root, "logs")
+    os.makedirs(log_dir, exist_ok=True)
+    if num_shards > 1:
+        log_filename = f"spharm_debug_log_shard{shard_index}of{num_shards}.txt"
+    else:
+        log_filename = "spharm_debug_log.txt"
+    log_file = os.path.join(log_dir, log_filename)
+    with open(log_file, 'w', encoding='utf-8') as f:
         f.write(f"--- SPHARM Batch Mode Start: {datetime.now()} ---\n")
+        if num_shards > 1:
+            f.write(f"Shard: {shard_index + 1} of {num_shards}\n")
         f.write(f"Mode: {mode_tag} (iter={num_iter}, subdiv={subdiv}, degree={degree})\n")
         f.write(f"Input: {input_dir}\n")
         f.write(f"Output: {output_root}\n")
@@ -152,6 +232,10 @@ def find_label_files(input_dir, log_file):
     return file_list
 
 def resolve_reference_template(args, file_list, output_base_dir, log_file):
+    if args.no_reference_template:
+        sprint("\n[INFO] Bootstrap mode: template registration is disabled by --no_reference_template.", log_file)
+        return None
+
     reference_template = args.reference_template
 
     if not reference_template and file_list:
@@ -181,7 +265,7 @@ def resolve_reference_template(args, file_list, output_base_dir, log_file):
                 sprint(f"\nAuto-detected official template for [{side.upper()}]: {os.path.basename(reference_template)}", log_file)
 
     if reference_template:
-        reference_template = reference_template.replace("\\", "/")
+        reference_template = os.path.abspath(reference_template).replace("\\", "/")
         ref_coef = reference_template.replace(".vtk", ".coef")
         if not os.path.isfile(ref_coef):
             sprint(f"\n[ERROR] reference_template '{os.path.basename(reference_template)}' missing matching .coef file ('{os.path.basename(ref_coef)}').", log_file)
@@ -195,28 +279,44 @@ def resolve_reference_template(args, file_list, output_base_dir, log_file):
     return reference_template
 
 def process_single_subject(file_path, index, total_files, output_base_dir, args, config, reference_template, log_file):
-    file_path = os.path.normpath(file_path).replace("\\", "/")
-    basename = os.path.basename(file_path).split('.')[0]
+    basename = os.path.basename(file_path)
+    for ext in [".nii.gz", ".nii", ".mgz", ".nrrd", ".hdr"]:
+        if basename.lower().endswith(ext):
+            basename = basename[:-len(ext)]
+            break
+
+    spharm_base = os.path.join(output_base_dir, basename).replace("\\", "/")
+    final_vtk = f"{spharm_base}_SPHARM.vtk"
+    final_coef = f"{spharm_base}_SPHARM.coef"
+    grid_vtk = f"{spharm_base}_SPHARM_grid.vtk"
+
+    # Check if subject is already completely processed
+    if (os.path.isfile(grid_vtk) and os.path.getsize(grid_vtk) > 100
+            and os.path.isfile(final_vtk) and os.path.getsize(final_vtk) > 100
+            and os.path.isfile(final_coef) and os.path.getsize(final_coef) > 100):
+        sprint(f"\n>>> [{index+1}/{total_files}] ALREADY COMPLETED (skipping): {basename}", log_file)
+        if not os.path.isfile(final_coef.replace('_SPHARM.coef', '_processing.json')):
+            sprint("    WARNING: preprocessing provenance sidecar is missing; "
+                   "feature extraction will refuse this artifact", log_file)
+        return True
+
     sprint(f"\n>>> [{index+1}/{total_files}] STARTING: {basename}", log_file)
 
     pp_mask_path = os.path.join(output_base_dir, f"{basename}_pp.nrrd").replace("\\", "/")
     para_mesh_path = os.path.join(output_base_dir, f"{basename}_para.vtk").replace("\\", "/")
     surf_mesh_path = os.path.join(output_base_dir, f"{basename}_surf.vtk").replace("\\", "/")
-    spharm_base = os.path.join(output_base_dir, basename).replace("\\", "/")
 
     regen_mode = (args.regenerate_spharm_only
                   and os.path.exists(para_mesh_path)
                   and os.path.exists(surf_mesh_path))
 
+    # In regeneration mode keep existing artifacts until the replacement has
+    # been verified.  Deleting them before ParaToSPHARMMesh runs can turn a
+    # recoverable CLI failure into permanent data loss.
     if not regen_mode:
         n_removed = cleanup_subject_files(output_base_dir, basename)
         if n_removed > 0:
             sprint(f"  - Cleaned {n_removed} stale files from previous run", log_file)
-    else:
-        for pat in [f"{basename}_SPHARM*.*", f"{basename}_SPHARMMedialAxis.vtk", f"{basename}_MedialAxisScalars.csv"]:
-            for f in glob.glob(os.path.join(output_base_dir, pat)):
-                try: os.remove(f)
-                except OSError: pass
 
     input_node = None
     pp_node = None
@@ -258,7 +358,8 @@ def process_single_subject(file_path, index, total_files, output_base_dir, args,
                 'numIterations': config['num_iter'],
                 'label': 1
             }
-            if not run_cli_checked(slicer.modules.genparameshclp, para_params, "GenParaMesh", log_file):
+            if not run_cli_checked(slicer.modules.genparameshclp, para_params, "GenParaMesh", log_file,
+                                   allow_completed_with_errors=True):
                 return False
             if not node_has_points(para_node) or not node_has_points(surf_node):
                 sprint(f"  - !!! GenParaMesh returned EMPTY mesh — skipping", log_file)
@@ -294,11 +395,19 @@ def process_single_subject(file_path, index, total_files, output_base_dir, args,
                 spharm_params['flipTemplateOn'] = False
                 sprint(f"    Using template alignment (no flipTemplate) -> will produce _SPHARM_procalign.vtk", log_file)
 
-        run_cli_checked(slicer.modules.paratospharmmeshclp, spharm_params, "ParaToSPHARMMesh", log_file)
+        # ParaToSPHARMMesh in SlicerSALT frequently exits with the wrapper
+        # status "Completed with errors" after it has already written a valid
+        # VTK/coef pair.  Accept that status only here, then enforce strict
+        # file/geometry validation below; all other CLI failures remain fatal.
+        if not run_cli_checked(slicer.modules.paratospharmmeshclp, spharm_params,
+                               "ParaToSPHARMMesh", log_file,
+                               allow_completed_with_errors=True):
+            return False
 
         if not (os.path.exists(own_spharm_path) and os.path.exists(own_spharm_path.replace(".vtk", ".coef"))):
             sprint(f"  - ERROR: SPHARM outputs not found for {basename}", log_file)
-            cleanup_subject_files(output_base_dir, basename)
+            if not regen_mode:
+                cleanup_subject_files(output_base_dir, basename)
             return False
 
         try:
@@ -308,10 +417,14 @@ def process_single_subject(file_path, index, total_files, output_base_dir, args,
             poly = reader.GetOutput()
             if poly is None or poly.GetNumberOfPoints() < 10 or poly.GetNumberOfCells() == 0:
                 sprint(f"  - ERROR: Invalid/Corrupted SPHARM output (0 cells / NaN) for {basename}", log_file)
-                cleanup_subject_files(output_base_dir, basename)
+                if not regen_mode:
+                    cleanup_subject_files(output_base_dir, basename)
                 return False
-        except Exception:
-            pass
+        except Exception as exc:
+            sprint(f"  - ERROR: Could not read SPHARM VTK for {basename}: {exc}", log_file)
+            if not regen_mode:
+                cleanup_subject_files(output_base_dir, basename)
+            return False
 
         final_vtk = f"{spharm_base}_SPHARM.vtk"
         final_coef = f"{spharm_base}_SPHARM.coef"
@@ -323,32 +436,40 @@ def process_single_subject(file_path, index, total_files, output_base_dir, args,
 
             resample_script = os.path.join(SCRIPT_DIR, "resample_spharm_grid.py")
             if not os.path.isfile(resample_script):
-                sprint(f"  - WARNING: resample_spharm_grid.py not found at {resample_script}", log_file)
+                sprint(f"  - ERROR: resample_spharm_grid.py not found at {resample_script}", log_file)
+                return False
             else:
                 cmd = [sys.executable, resample_script, final_coef, grid_vtk, theta_step, phi_step]
                 sprint(f"  - Running: {' '.join(cmd)}", log_file)
+                resample_ok = False
                 try:
                     kwargs = {}
                     if os.name == 'nt':
                         kwargs['creationflags'] = 0x08000000
                     result = subprocess.run(cmd, check=True, capture_output=True, text=True, **kwargs)
+                    resample_ok = True
                     if result.stdout:
                         sprint(f"  - Resample stdout: {result.stdout.strip()}", log_file)
                 except subprocess.CalledProcessError as sub_err:
                     sprint(f"  - ERROR: resample_spharm_grid.py failed (exit {sub_err.returncode})", log_file)
                     sprint(f"  - stderr: {sub_err.stderr.strip()}", log_file)
 
-                if os.path.exists(grid_vtk):
+                if resample_ok and os.path.isfile(grid_vtk) and os.path.getsize(grid_vtk) > 100:
                     sprint(f"  - SUCCESS: {basename} Grid VTK created.", log_file)
+                    write_processing_contract(final_coef, file_path, output_base_dir,
+                                              config, reference_template)
                 else:
-                    sprint(f"  - WARNING: Grid resampling failed for {basename}.", log_file)
+                    sprint(f"  - ERROR: Grid resampling failed for {basename}.", log_file)
+                    return False
         else:
             sprint(f"  - ERROR: Result VTK not generated for {basename}.", log_file)
+            return False
 
     except Exception as e:
         import traceback
         sprint(f"  - CRITICAL ERROR for {basename}: {str(e)}", log_file)
         sprint(traceback.format_exc(), log_file)
+        return False
 
     finally:
         for node in [input_node, pp_node, para_node, surf_node]:
@@ -360,7 +481,11 @@ def process_single_subject(file_path, index, total_files, output_base_dir, args,
     return True
 
 def run_batch_spharm():
+    import json
     args = parse_args()
+
+    if args.num_shards < 1 or args.shard_index < 0 or args.shard_index >= args.num_shards:
+        raise ValueError('Invalid shard configuration')
 
     if args.num_iterations is not None or args.subdiv_level is not None or args.spharm_degree is not None:
         NUM_ITER = args.num_iterations if args.num_iterations is not None else (200 if args.fast else 1000)
@@ -377,14 +502,64 @@ def run_batch_spharm():
     output_base_dir = os.path.join(output_root, "spharm_results")
     os.makedirs(output_base_dir, exist_ok=True)
 
-    log_file = init_logging(output_base_dir, input_dir, output_root, MODE_TAG, NUM_ITER, SUBDIV, DEGREE)
-    file_list = find_label_files(input_dir, log_file)
+    log_file = init_logging(output_base_dir, input_dir, output_root, MODE_TAG, NUM_ITER, SUBDIV, DEGREE,
+                            shard_index=args.shard_index, num_shards=args.num_shards)
+    all_files = find_label_files(input_dir, log_file)
+
+    if not all_files:
+        raise RuntimeError('No input labels found')
+
+    if args.num_shards > 1:
+        file_list = [f for idx, f in enumerate(all_files) if idx % args.num_shards == args.shard_index]
+        sprint(f"Shard {args.shard_index + 1}/{args.num_shards}: assigned {len(file_list)} of {len(all_files)} files.", log_file)
+    else:
+        file_list = all_files
+
     reference_template = resolve_reference_template(args, file_list, output_base_dir, log_file)
 
     config = {'num_iter': NUM_ITER, 'subdiv': SUBDIV, 'degree': DEGREE}
 
+    outcomes = []
     for i, file_path in enumerate(file_list):
-        process_single_subject(file_path, i, len(file_list), output_base_dir, args, config, reference_template, log_file)
+        try:
+            ok = process_single_subject(file_path, i, len(file_list), output_base_dir,
+                                        args, config, reference_template, log_file)
+        except Exception as exc:
+            sprint(f'  - CRITICAL ERROR for {file_path}: {exc}', log_file)
+            ok = False
+        outcomes.append({'input': file_path, 'success': bool(ok)})
+
+    failed = sum(not row['success'] for row in outcomes)
+    reference_sha256 = None
+    if reference_template and os.path.isfile(reference_template):
+        try:
+            import hashlib as _hashlib
+            _digest = _hashlib.sha256()
+            with open(reference_template, 'rb') as _ref_stream:
+                for _chunk in iter(lambda: _ref_stream.read(1024 * 1024), b''):
+                    _digest.update(_chunk)
+            reference_sha256 = _digest.hexdigest()
+        except OSError:
+            reference_sha256 = None
+    status_file = os.path.join(output_root, f'spharm_status_shard{args.shard_index}.json')
+    with open(status_file, 'w', encoding='utf-8') as stream:
+        json.dump({
+            'total': len(outcomes),
+            'failed': failed,
+            'subjects': outcomes,
+            'input_dir': os.path.abspath(input_dir),
+            'output_dir': os.path.abspath(output_root),
+            'mode': MODE_TAG,
+            'config': config,
+            'reference_template': reference_template,
+            'reference_sha256': reference_sha256,
+            'required_outputs': [
+                '_SPHARM.coef', '_SPHARM.vtk',
+                '_SPHARM_grid.vtk', '_SPHARM_ellalign.coef'
+            ],
+        }, stream, indent=2)
+    if failed:
+        raise RuntimeError(f'SPHARM incomplete: {failed}/{len(outcomes)} failed; see {status_file}')
 
     sprint("\n" + "="*60, log_file)
     sprint("!!! ALL BATCH PROCESSING COMPLETED !!!", log_file)

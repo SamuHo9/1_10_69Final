@@ -1,0 +1,31 @@
+{
+  "dataset": "pointnet_plsda",
+  "side": "left",
+  "model": "PointNet",
+  "kind": "xyz",
+  "input_train": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\pointnet_plsda\\left\\train_prepared.csv",
+  "input_test": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\pointnet_plsda\\left\\test_prepared.csv",
+  "input_sha256": {
+    "train": "a02ae837465dbfb12f186b40d0fc1e8d9157b31862f248efcef81eb1ddabb276",
+    "test": "80ee0b0fec002c840b320bdd9071aa0d4d677d6a2c78cd42912bd1f5fe61c293"
+  },
+  "seed": 42,
+  "epochs": 80,
+  "batch_size": 32,
+  "pls_components": null,
+  "preprocessing_fit_scope": "supplied_training_csv_only",
+  "cross_validation_performed": false,
+  "test_used_for_selection": false,
+  "augmentation_during_training": false,
+  "known_input_limitations": "Hemisphere labels; existing ICP reference included test. Prepared augmentation is used as supplied.",
+  "sklearn_version": "1.8.0",
+  "numpy_version": "2.3.5",
+  "runtime": {
+    "device": "cuda",
+    "torch_version": "2.10.0+cu128",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "architecture_source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\All_Augment_tain\\left\\PointNet\\train_pointnet.py",
+    "architecture_sha256": "357c1bf0a1c4d3f47406f26e465a9a92475325ddb10c4f512f5888d1b8de2943"
+  },
+  "test_prediction_rule": "probability >= 0.5"
+}

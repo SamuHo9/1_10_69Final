@@ -1,0 +1,1533 @@
+{
+  "version": "fixed-training-reference-v1",
+  "template_sha256": "e5db3de875fed2b774ef297526ba8f600742695e35415b1ebbca9d8f0063a94d",
+  "physical_to_normalized_scale": 0.030540623455748855,
+  "output_spacing": 0.015625,
+  "output_voxels": 128,
+  "training_inputs": [
+    {
+      "name": "left_Healthy_sub-00373_hippocampus_lh.nii.gz",
+      "sha256": "8955d43807fc3a85769227eb9e909a0b624bb948cdc6fb7c1eed85ae58a28c3b"
+    },
+    {
+      "name": "left_Healthy_sub-04001_hippocampus_lh.nii.gz",
+      "sha256": "541754bd2e78ced549b11499713a746e68063b16cb92042bc7f695cb7611b0f6"
+    },
+    {
+      "name": "left_Healthy_sub-04004_hippocampus_lh.nii.gz",
+      "sha256": "2d52aa0d1a3d53392be3586f85c0f595a34a834b1c504c5a330ef871345a65e0"
+    },
+    {
+      "name": "left_Healthy_sub-04005_hippocampus_lh.nii.gz",
+      "sha256": "82db3c36b592ef22d656f821c64c5a44907510c314f8ba7c2126d5de1afaca59"
+    },
+    {
+      "name": "left_Healthy_sub-04009_hippocampus_lh.nii.gz",
+      "sha256": "8e62a85e8cbb3abd7c8b73b71a5bf9d12a691f1bf704d25b7f90b51d5f3f7404"
+    },
+    {
+      "name": "left_Healthy_sub-04013_hippocampus_lh.nii.gz",
+      "sha256": "20510925f0335361dd7c02966d3042b21af8e8617e51d8d1b72d74d2587ebb71"
+    },
+    {
+      "name": "left_Healthy_sub-04015_hippocampus_lh.nii.gz",
+      "sha256": "07e845624ef8067e97b91496cac1ab2b243b26c4045b04b0eda2df676c19b830"
+    },
+    {
+      "name": "left_Healthy_sub-04018_hippocampus_lh.nii.gz",
+      "sha256": "0455404e4b7872697e43372607b5978fca6d263000a7e9c05ad72f3e35d49137"
+    },
+    {
+      "name": "left_Healthy_sub-04027_hippocampus_lh.nii.gz",
+      "sha256": "ff6ad6a8ac78409f3d77aa974a02114905877f47a60604e3bb10e0b7efef6b8c"
+    },
+    {
+      "name": "left_Healthy_sub-04028_hippocampus_lh.nii.gz",
+      "sha256": "e67dcfa7c24d661441b1b9c45e135f3dfd046f590b73aea2f4d1d3631ba949fc"
+    },
+    {
+      "name": "left_Healthy_sub-04164_hippocampus_lh.nii.gz",
+      "sha256": "291c41d82e48af9fd4b79fd757e0d31d414a26d645eade62c8b67be5b7a68ca2"
+    },
+    {
+      "name": "left_Healthy_sub-04165_hippocampus_lh.nii.gz",
+      "sha256": "0efffc2c9288d3304fedbb039361ca822c81f8fd59b6a46da72ab9d8220bc5c4"
+    },
+    {
+      "name": "left_Healthy_sub-04166_hippocampus_lh.nii.gz",
+      "sha256": "ff4108082cd58f3cb120ac2dc1a1b060ed3fa5086badb7927a8a982dd68ab9bf"
+    },
+    {
+      "name": "left_Healthy_sub-04169_hippocampus_lh.nii.gz",
+      "sha256": "dee69376772e8c64d7f6e8929adcb694cefc625bfb6a9b6b72575c6d8837f661"
+    },
+    {
+      "name": "left_Healthy_sub-04170_hippocampus_lh.nii.gz",
+      "sha256": "3d07ccaa46cd86e7e5339027691f1bd26aa2365602c794abbf7b82d2ced3e7f3"
+    },
+    {
+      "name": "left_Healthy_sub-04171_hippocampus_lh.nii.gz",
+      "sha256": "cb81a730f048b17dadec0f09a5af4dee53fc0531353159bec0ca2a69880aef8a"
+    },
+    {
+      "name": "left_Healthy_sub-04173_hippocampus_lh.nii.gz",
+      "sha256": "9f2f092befd6b42439b1eeb0826830eb135c46c0d8d522d3b955a78a9e4e2692"
+    },
+    {
+      "name": "left_Healthy_sub-04178_hippocampus_lh.nii.gz",
+      "sha256": "ccc1bcbed7cb60f16c158ba4c2c4863ea4bbd7dc00937155017956ec277f219c"
+    },
+    {
+      "name": "left_Healthy_sub-04181_hippocampus_lh.nii.gz",
+      "sha256": "90822da32d2c41dbb9a5dfb4efa4d7b299e3d1bd87d38460f44c6ea2414bee55"
+    },
+    {
+      "name": "left_Healthy_sub-04201_hippocampus_lh.nii.gz",
+      "sha256": "da4f23c5e0790815c030b4bd454263fb952d4e57af96b70eae25bfc03b7ff955"
+    },
+    {
+      "name": "left_Healthy_sub-04202_hippocampus_lh.nii.gz",
+      "sha256": "36fe709efc04863d3628299798aecf4f9aae751750fa7155b2cde1898fee66ed"
+    },
+    {
+      "name": "left_Healthy_sub-04204_hippocampus_lh.nii.gz",
+      "sha256": "9108b255713d459c28582a291208436826c8c595e86e0e60b2ef9b040d2d12bb"
+    },
+    {
+      "name": "left_Healthy_sub-04209_hippocampus_lh.nii.gz",
+      "sha256": "95e470ebf38a10c35e8f73994d7b8ea7703aaa32145255eacff47750e63203dc"
+    },
+    {
+      "name": "left_Healthy_sub-04210_hippocampus_lh.nii.gz",
+      "sha256": "a3f3c5f6182e3fe4465552e0eccb5185377000b58eac907fa6c06342f210adc2"
+    },
+    {
+      "name": "left_Healthy_sub-04211_hippocampus_lh.nii.gz",
+      "sha256": "bf29179f73685e9455cf7ab937ba2c7f5b3a73075034d7608c40dc5007fdfd85"
+    },
+    {
+      "name": "left_Healthy_sub-04215_hippocampus_lh.nii.gz",
+      "sha256": "75a2c1b09386ff55cf04a9134e4ce5e2818e6a1cdac74f55ecf3a6e84be8f348"
+    },
+    {
+      "name": "left_Healthy_sub-04216_hippocampus_lh.nii.gz",
+      "sha256": "f725ab736ecae464a901a8e6150e9b4ceebac6ceb209aee10b0ef3ab75841e1f"
+    },
+    {
+      "name": "left_Healthy_sub-04217_hippocampus_lh.nii.gz",
+      "sha256": "cb08610e17b4ec9727bd6a4b9912fa62f39e5e5802d677a95b1fc00268fc8f4b"
+    },
+    {
+      "name": "left_Healthy_sub-04221_hippocampus_lh.nii.gz",
+      "sha256": "77c0cb8b85b041070a5ddd8bb0fdc06c1d95931707e3d790772ceca6032fdc86"
+    },
+    {
+      "name": "left_Healthy_sub-04245_hippocampus_lh.nii.gz",
+      "sha256": "56666e9aa5dea80dcec78cf7a54f41baebbed5be634d536fbe5fef521ab67fca"
+    },
+    {
+      "name": "left_Healthy_sub-101_hippocampus_lh.nii.gz",
+      "sha256": "7a3b8a54424b18ae6e35d8c4003646570dd2aea6ea5fb694535925d2adac8f2c"
+    },
+    {
+      "name": "left_Healthy_sub-105_hippocampus_lh.nii.gz",
+      "sha256": "1d446c576f25e8ad51ff06cb64f569a4adf5a79b29fe02374e77af81014c9a90"
+    },
+    {
+      "name": "left_Healthy_sub-114_hippocampus_lh.nii.gz",
+      "sha256": "4fbf6193c077332146f111aa48d3b7f0f64f259d97133c35007e9617f8891062"
+    },
+    {
+      "name": "left_Healthy_sub-115_hippocampus_lh.nii.gz",
+      "sha256": "1347dd4025d17036a10bfd98634a0fcbf92d087e588c99d60cc5b1a87a7a9ae4"
+    },
+    {
+      "name": "left_Healthy_sub-11_hippocampus_lh.nii.gz",
+      "sha256": "a43951d7aa9b6d2396187689fd9974a997c35dd50e5ca52986026ee7edcf0407"
+    },
+    {
+      "name": "left_Healthy_sub-126_hippocampus_lh.nii.gz",
+      "sha256": "4dfc6f8073c027ac3cbcfbb7daccffcb6a8da3ac7467f2f3f64edd124fae98c5"
+    },
+    {
+      "name": "left_Healthy_sub-135_hippocampus_lh.nii.gz",
+      "sha256": "21ca6d72c558355ce99ae39073bfc13700ee8920312e441c4fd9f0281bcadaf9"
+    },
+    {
+      "name": "left_Healthy_sub-144_hippocampus_lh.nii.gz",
+      "sha256": "7464acf64fb0e8dc617464e1260c295907a232bdee31061a08bba73a7271ffbb"
+    },
+    {
+      "name": "left_Healthy_sub-147_hippocampus_lh.nii.gz",
+      "sha256": "f1e4df4e7da478b32539487190f68fad5b6a0855b3b8673b8c7a7b60f7901491"
+    },
+    {
+      "name": "left_Healthy_sub-152_hippocampus_lh.nii.gz",
+      "sha256": "dfb993d4ce1814562dee4c1b3409bfb11891cca9bc02f4be1069b8538988d916"
+    },
+    {
+      "name": "left_Healthy_sub-153_hippocampus_lh.nii.gz",
+      "sha256": "ab16498b7a1cf20ce0a0ea67efec75b93899252177eb4cd90c85cb37fc824f60"
+    },
+    {
+      "name": "left_Healthy_sub-155_hippocampus_lh.nii.gz",
+      "sha256": "070a72f8538f5410db9d1ce598844d56c9cf54234281acb7686604fe5513e73c"
+    },
+    {
+      "name": "left_Healthy_sub-161_hippocampus_lh.nii.gz",
+      "sha256": "97db09d3c2f1b734e9b9a5fcf6fb49dd725301f455d967514eb3fa16e8335631"
+    },
+    {
+      "name": "left_Healthy_sub-16_hippocampus_lh.nii.gz",
+      "sha256": "6ae2b2efd83b06642d67e2c30bd45011e6b91736eb48370cdfa1685104d1594d"
+    },
+    {
+      "name": "left_Healthy_sub-175_hippocampus_lh.nii.gz",
+      "sha256": "c61c564efc6bea05e8552a8c90cd088472767ae2b5b19c7a721cbc0dca5c2502"
+    },
+    {
+      "name": "left_Healthy_sub-193_hippocampus_lh.nii.gz",
+      "sha256": "6b5f3388a9a06e65cd33f3c5b2336d042a8078ad6c371faa2348512a2e8640ce"
+    },
+    {
+      "name": "left_Healthy_sub-197_hippocampus_lh.nii.gz",
+      "sha256": "393df2d764fc32fcbe87119db9ce9852787a54fe9be30dfa7e9d0387642a9d18"
+    },
+    {
+      "name": "left_Healthy_sub-201_hippocampus_lh.nii.gz",
+      "sha256": "f03e00af111a92ea5348da160d8c011fcb3562e12c43397c82395060c4553498"
+    },
+    {
+      "name": "left_Healthy_sub-203_hippocampus_lh.nii.gz",
+      "sha256": "a98740964e7c662f61c541e029077a9ac38ecdd026cab50a57089e79fe01b272"
+    },
+    {
+      "name": "left_Healthy_sub-207_hippocampus_lh.nii.gz",
+      "sha256": "388fb610afead96129aa48628be0fb5b1d8a8cfd224f9c2e930a423a9b1fb18a"
+    },
+    {
+      "name": "left_Healthy_sub-219_hippocampus_lh.nii.gz",
+      "sha256": "dcee0cb59d0a57ac7635b137a1229f9050b8d045d07ccbc99452bbb1c1c89964"
+    },
+    {
+      "name": "left_Healthy_sub-222_hippocampus_lh.nii.gz",
+      "sha256": "94279611d906d9a4eed549bc493c74449042e83a52a56a7dc7294eb8f461fd53"
+    },
+    {
+      "name": "left_Healthy_sub-233_hippocampus_lh.nii.gz",
+      "sha256": "611a95df303319fadfd9de86391ec67a37f50c779d564745671b3e7a750e20a2"
+    },
+    {
+      "name": "left_Healthy_sub-237_hippocampus_lh.nii.gz",
+      "sha256": "a2b7a88492a217c4cc716d0df439a42cf83c157c36604ec6248f6207c32af55d"
+    },
+    {
+      "name": "left_Healthy_sub-238_hippocampus_lh.nii.gz",
+      "sha256": "48e1607e3f0b69153f8e95dfafbf304d853d604a206ffa81b8621091ebbefbfa"
+    },
+    {
+      "name": "left_Healthy_sub-246_hippocampus_lh.nii.gz",
+      "sha256": "e5e9a925199f20123c629b342044e1264a5c9f0433b359a9c1f39bce95e64fe2"
+    },
+    {
+      "name": "left_Healthy_sub-247_hippocampus_lh.nii.gz",
+      "sha256": "af32e8f604ccba1e93fb4fe2685011bfda826556688920f6f801822e217baf4b"
+    },
+    {
+      "name": "left_Healthy_sub-250_hippocampus_lh.nii.gz",
+      "sha256": "98a59d0fc7f6097bbef867d95cb41fa869fac4a2ce5835b213f7a1cab49782ee"
+    },
+    {
+      "name": "left_Healthy_sub-255_hippocampus_lh.nii.gz",
+      "sha256": "6555c6c79f771506e72a0c52a218dbc9dae9602267e56c004f3c0c0b94560a78"
+    },
+    {
+      "name": "left_Healthy_sub-269_hippocampus_lh.nii.gz",
+      "sha256": "b2869831c0caf9b9d882fdf6295d48b70c3d51f64c0dd3e2196f412c59eb7da2"
+    },
+    {
+      "name": "left_Healthy_sub-271_hippocampus_lh.nii.gz",
+      "sha256": "829ed06f00af2c17833ea55a0e2ad65df745640c1cc4d653556d089db8f14059"
+    },
+    {
+      "name": "left_Healthy_sub-28620_hippocampus_lh.nii.gz",
+      "sha256": "5358b3660bdaab098e792a16fdac8ab02672380bc113afb0ac8738160a45f569"
+    },
+    {
+      "name": "left_Healthy_sub-292_hippocampus_lh.nii.gz",
+      "sha256": "2be7135a9adbe3263e826e27f84ad59c5707088ea8f70881c84c99f4d770c3cb"
+    },
+    {
+      "name": "left_Healthy_sub-29332_hippocampus_lh.nii.gz",
+      "sha256": "a8df0b649b9dd1723bfa027f8f57e5ad77ca48b55b1a7496344c24c0cb2c0738"
+    },
+    {
+      "name": "left_Healthy_sub-296_hippocampus_lh.nii.gz",
+      "sha256": "53bcc1be35e7edffae65457a34a7e4eb0f7ac05432e7fae34e5d6048c11e3727"
+    },
+    {
+      "name": "left_Healthy_sub-2_hippocampus_lh.nii.gz",
+      "sha256": "5939e9d8abc5c7134386330074461ece3d9fc4101dc9cfadba9e2c859514f0e5"
+    },
+    {
+      "name": "left_Healthy_sub-300_hippocampus_lh.nii.gz",
+      "sha256": "7b8e27aed7177bbed43c832d9ff87608bb0a0e8909f024f8082dff24e306f860"
+    },
+    {
+      "name": "left_Healthy_sub-301_hippocampus_lh.nii.gz",
+      "sha256": "8222fc3a7477c0820e8b1588f1a872f0eb93b4c0d7a329b26a348c278cd6e11f"
+    },
+    {
+      "name": "left_Healthy_sub-305_hippocampus_lh.nii.gz",
+      "sha256": "29cd117cf48d51a26efdc1a58c7725a1024e405a369f9ff394ddc4f854e06229"
+    },
+    {
+      "name": "left_Healthy_sub-31730_hippocampus_lh.nii.gz",
+      "sha256": "64a4fe4a9052918b7098c9c6b10305d0edc358523ee98b700ed430aa1c43db2e"
+    },
+    {
+      "name": "left_Healthy_sub-317_hippocampus_lh.nii.gz",
+      "sha256": "e3bc4daf9470271636aa29f9ad2c3c837e1c49d1d52d991d5c3d513598264363"
+    },
+    {
+      "name": "left_Healthy_sub-31_hippocampus_lh.nii.gz",
+      "sha256": "a67d85cd0c268bf083dc293b047fbce0a8fc563ac27375779c60d6fb866f857b"
+    },
+    {
+      "name": "left_Healthy_sub-32231_hippocampus_lh.nii.gz",
+      "sha256": "466d27c72fa315e3f3374a4d577fc2703ef175032986aacdb28c44139fd518e9"
+    },
+    {
+      "name": "left_Healthy_sub-32310_hippocampus_lh.nii.gz",
+      "sha256": "41b40f6fa057b59862223edc938838df4ba9d75992173f5946a806eea9e2e7f1"
+    },
+    {
+      "name": "left_Healthy_sub-32436_hippocampus_lh.nii.gz",
+      "sha256": "128a44ee9ed4515b185550584f4116fd5ad54e55909db15104729a220db7daa4"
+    },
+    {
+      "name": "left_Healthy_sub-324_hippocampus_lh.nii.gz",
+      "sha256": "5f327b4ec3bb53df4239c088d770207fa3c894d96b9e6f045e5ac4c75b73d5dd"
+    },
+    {
+      "name": "left_Healthy_sub-325_hippocampus_lh.nii.gz",
+      "sha256": "b9fb5fa69e138930953461faa757a10a749effff40ed07d4c4a3d731750789d3"
+    },
+    {
+      "name": "left_Healthy_sub-327_hippocampus_lh.nii.gz",
+      "sha256": "838a775c41c799927e70db8675a911b577468e23d42009698b46f24652039b5b"
+    },
+    {
+      "name": "left_Healthy_sub-330_hippocampus_lh.nii.gz",
+      "sha256": "51c4bc49fcb28c86d2d14cc99528c95984d26f626d57ea7161db04e1d10604e0"
+    },
+    {
+      "name": "left_Healthy_sub-332_hippocampus_lh.nii.gz",
+      "sha256": "24c3448c373a1e3806ef40ad1e48dedb26c9befb9ed734746a0e6c59feebc9a1"
+    },
+    {
+      "name": "left_Healthy_sub-334_hippocampus_lh.nii.gz",
+      "sha256": "c3c61fcb573c75056f847312a758224f679e841a7fb4c246777e294dd5c93aad"
+    },
+    {
+      "name": "left_Healthy_sub-340_hippocampus_lh.nii.gz",
+      "sha256": "64db5c713ecb25ac4a0837e11311cc8608e711a9c3279969292f4ffcd69ef102"
+    },
+    {
+      "name": "left_Healthy_sub-343_hippocampus_lh.nii.gz",
+      "sha256": "b5a09a508c609ff390c3ef21d62befbdbf971d9ccfccc8f19fd0c669283295c1"
+    },
+    {
+      "name": "left_Healthy_sub-34437_hippocampus_lh.nii.gz",
+      "sha256": "2c8fbf4286fbaf07a66b9fbcb0fa1c86efdd0cbea60483902cbde77d25710ebe"
+    },
+    {
+      "name": "left_Healthy_sub-344_hippocampus_lh.nii.gz",
+      "sha256": "c7856046be63c4237a26b38b0b176d6939a19a17bc0128387c61ed8d781dd73e"
+    },
+    {
+      "name": "left_Healthy_sub-346_hippocampus_lh.nii.gz",
+      "sha256": "ab90a4b2effb35ac9162ad772120db65425939df1c9964fd6e99e75d8a8c5511"
+    },
+    {
+      "name": "left_Healthy_sub-35232_hippocampus_lh.nii.gz",
+      "sha256": "6843bc4baad85fca957dd80b927ddf3fa3f49278c96904229946879aa25b9250"
+    },
+    {
+      "name": "left_Healthy_sub-352_hippocampus_lh.nii.gz",
+      "sha256": "5d3b1d78557c204b8b44269a43c33acc40d47d43ca99d9c529b112f5c7320aa7"
+    },
+    {
+      "name": "left_Healthy_sub-35538_hippocampus_lh.nii.gz",
+      "sha256": "49aed97e4316ac1cd28d3ca4727b4fa9da120fec305adca1d0b9f61766c44e39"
+    },
+    {
+      "name": "left_Healthy_sub-35557_hippocampus_lh.nii.gz",
+      "sha256": "f93755388ffeec00a4089511d4f6acb403e073b94e9d82e01487be53ed00cdf9"
+    },
+    {
+      "name": "left_Healthy_sub-356_hippocampus_lh.nii.gz",
+      "sha256": "c61e7466d4d69e0ff5cdd137ed9d63243ed582150185ff4998b2171213583226"
+    },
+    {
+      "name": "left_Healthy_sub-362_hippocampus_lh.nii.gz",
+      "sha256": "69d68e9a05390d64f0200b5d917711a3ca5ad1c02087b46519728890f35de210"
+    },
+    {
+      "name": "left_Healthy_sub-36387_hippocampus_lh.nii.gz",
+      "sha256": "5e8a256e55ce65dd608d303e580507da439372f7590927379d22ec2692636de5"
+    },
+    {
+      "name": "left_Healthy_sub-365_hippocampus_lh.nii.gz",
+      "sha256": "889dae332ccd3f0a83199a771fd0051143955783fcbdb6aa636a6507754f3acd"
+    },
+    {
+      "name": "left_Healthy_sub-36664_hippocampus_lh.nii.gz",
+      "sha256": "c0a48e10c4b2f57f554dac50b0072e2d869ac7d640b289e4f695c088f75d654d"
+    },
+    {
+      "name": "left_Healthy_sub-36966_hippocampus_lh.nii.gz",
+      "sha256": "22f41d78ee6d79f49419a5bd835d3190b3db0408038ba82acc041b66f14c47a0"
+    },
+    {
+      "name": "left_Healthy_sub-37117_hippocampus_lh.nii.gz",
+      "sha256": "b7b7d6554d76691de1bddd66923f09200a2da98de3b3a77d43c3607aa2ff512d"
+    },
+    {
+      "name": "left_Healthy_sub-37130_hippocampus_lh.nii.gz",
+      "sha256": "7e880b21209879b7d4bcddac964efae6643a3389877adde1f1c79a322a47f87d"
+    },
+    {
+      "name": "left_Healthy_sub-37149_hippocampus_lh.nii.gz",
+      "sha256": "6be32eb4dcff418b753f6e254aad019b37666075094f9e56476864475d39e33c"
+    },
+    {
+      "name": "left_Healthy_sub-37289_hippocampus_lh.nii.gz",
+      "sha256": "7521604defa6513a46f447d464b59f375f470ca658a67e87d4852267842e3dcd"
+    },
+    {
+      "name": "left_Healthy_sub-374_hippocampus_lh.nii.gz",
+      "sha256": "31ec4577dec77fe8a324664b5534477d62cd94632bb46eb0b10951718fb274ed"
+    },
+    {
+      "name": "left_Healthy_sub-376_hippocampus_lh.nii.gz",
+      "sha256": "42e86e7048eabf0a942abcd6be95d555d530938fb349a99d13c89a4584d1debc"
+    },
+    {
+      "name": "left_Healthy_sub-377_hippocampus_lh.nii.gz",
+      "sha256": "766371c2bc04159a4634e1e3b3a1c8bedebf5e747aebe9b0a4df7401f3a8bb62"
+    },
+    {
+      "name": "left_Healthy_sub-380_hippocampus_lh.nii.gz",
+      "sha256": "957d79a6b54a232f80bc74a508d85b11549790cca758d8ce0357af08f1d8a70d"
+    },
+    {
+      "name": "left_Healthy_sub-382_hippocampus_lh.nii.gz",
+      "sha256": "c48d84513391fd9645d1e4ece89a92389c9cedddd540865969aa5252e73abc3f"
+    },
+    {
+      "name": "left_Healthy_sub-385_hippocampus_lh.nii.gz",
+      "sha256": "dbefc3a1c0ecee0174ee13387075fe9cc7c3ce1b7799701aee67ad1c86ae4530"
+    },
+    {
+      "name": "left_Healthy_sub-38_hippocampus_lh.nii.gz",
+      "sha256": "2a2457874aa605c4464e4ab68d7135d389f913669d6366551bc84b1ab8308686"
+    },
+    {
+      "name": "left_Healthy_sub-394_hippocampus_lh.nii.gz",
+      "sha256": "7fbe31d122fec17ea6d112d9edfd06d8e70cd030091799e9d59263833828e9bd"
+    },
+    {
+      "name": "left_Healthy_sub-399_hippocampus_lh.nii.gz",
+      "sha256": "8531258386682f725c0a0b817af14ae0eb967fb96f865545b9bad3a8046d0dbe"
+    },
+    {
+      "name": "left_Healthy_sub-4001_hippocampus_lh.nii.gz",
+      "sha256": "9fbc4f785025fb4de22276989ae0a056cd80b4d8002207506d84beabe5f9a218"
+    },
+    {
+      "name": "left_Healthy_sub-4002_hippocampus_lh.nii.gz",
+      "sha256": "8764bedba93d855954b17e16f5a47f721d415dc41d2219136b88c9272fc6f7a3"
+    },
+    {
+      "name": "left_Healthy_sub-4003_hippocampus_lh.nii.gz",
+      "sha256": "46f71f6fa8d4d8a2a0ce03781809eeb5d7850e4340117872f6da8eea96d20fdf"
+    },
+    {
+      "name": "left_Healthy_sub-4004_hippocampus_lh.nii.gz",
+      "sha256": "33ac58b3b34d9da078894bf82664a8129f5d7d8c878ac04c8346e22ac15878f5"
+    },
+    {
+      "name": "left_Healthy_sub-4005_hippocampus_lh.nii.gz",
+      "sha256": "495609d0245ae25984ff597e85e3a0cc7fdb4ca1706fcfed921e4050fb091234"
+    },
+    {
+      "name": "left_Healthy_sub-4006_hippocampus_lh.nii.gz",
+      "sha256": "a172a4d0f9ad39781ead441dcc96297be93519f3d85296bd65401a9021306093"
+    },
+    {
+      "name": "left_Healthy_sub-4007_hippocampus_lh.nii.gz",
+      "sha256": "016d66364a176c999f0805749e4a98edbf5e60dfd5f58516fd093a0b735cec65"
+    },
+    {
+      "name": "left_Healthy_sub-4008_hippocampus_lh.nii.gz",
+      "sha256": "d5be5eff2a0f078dcca20f1cd8ce64f0cdffac5fab8a07856dfcd19d859371e2"
+    },
+    {
+      "name": "left_Healthy_sub-4009_hippocampus_lh.nii.gz",
+      "sha256": "006a2cf29266d8c580e1750e9fa433ef82f8ab59635b1a48da0e59a13e311656"
+    },
+    {
+      "name": "left_Healthy_sub-400_hippocampus_lh.nii.gz",
+      "sha256": "2d8b76e2c16799c94573d2ebf0de253362e7e537619440ad28d904a84720672b"
+    },
+    {
+      "name": "left_Healthy_sub-4010_hippocampus_lh.nii.gz",
+      "sha256": "f9e9cd62adcb07fc8b6e7f19d787386952116636cfd77f1b9833fd905d8da8fe"
+    },
+    {
+      "name": "left_Healthy_sub-4011_hippocampus_lh.nii.gz",
+      "sha256": "535250fe7d642f8ff5ca840d7d295760bd5ab027f8b233137371ac49136639c6"
+    },
+    {
+      "name": "left_Healthy_sub-4012_hippocampus_lh.nii.gz",
+      "sha256": "f2a8e42f9d3d4e79fb60019ee280effdfe75aa7925feca96d2529afe80ab73ef"
+    },
+    {
+      "name": "left_Healthy_sub-4013_hippocampus_lh.nii.gz",
+      "sha256": "9cb425a4c4b2f041a5ac09f5b56ad2c71ecaf9042a336845e7f1915f0376d102"
+    },
+    {
+      "name": "left_Healthy_sub-4014_hippocampus_lh.nii.gz",
+      "sha256": "97dcab9afb145b15d0154d012133ccd2fed32d4fd3f3407b5ce98bcc7e08eb07"
+    },
+    {
+      "name": "left_Healthy_sub-4015_hippocampus_lh.nii.gz",
+      "sha256": "099810e92bcba9cfe768c75177a71f4d9fb9ed4eb4616564956573802e2a96a2"
+    },
+    {
+      "name": "left_Healthy_sub-4016_hippocampus_lh.nii.gz",
+      "sha256": "ff9aac94feeb1b27f5d1097d1d5b56cf42345467546467a6e2aaff83295658ac"
+    },
+    {
+      "name": "left_Healthy_sub-4017_hippocampus_lh.nii.gz",
+      "sha256": "aa88256354ab0c7dea05db4286faeac15de3691a1c7e574ed239f3d53b8c1f41"
+    },
+    {
+      "name": "left_Healthy_sub-4018_hippocampus_lh.nii.gz",
+      "sha256": "e5ecd51126bb4d57227bba0337bbcefd66daa319a29413b68415aeb05c67de27"
+    },
+    {
+      "name": "left_Healthy_sub-4019_hippocampus_lh.nii.gz",
+      "sha256": "9a7679b38b888648d0c36fca68b3865d692a7a5e541100188b83fe700a9fd2f7"
+    },
+    {
+      "name": "left_Healthy_sub-4020_hippocampus_lh.nii.gz",
+      "sha256": "53b474067d049e3c20dff7910200668c088a2f9408911c13aad68cc4ee1f07e1"
+    },
+    {
+      "name": "left_Healthy_sub-4021_hippocampus_lh.nii.gz",
+      "sha256": "a13f420fad5f52c3c0a17ea7498458a2ee90ff2d964f0ac015ba18db5cafe309"
+    },
+    {
+      "name": "left_Healthy_sub-4022_hippocampus_lh.nii.gz",
+      "sha256": "294479f41f5adbf28dd91af628325c35f5c74dab9127e75252220510ab5ac2f4"
+    },
+    {
+      "name": "left_Healthy_sub-4023_hippocampus_lh.nii.gz",
+      "sha256": "9612a8c1d09bddbf282e383238d2d2dc04359cdeccda4785a33d2fbb40d4062c"
+    },
+    {
+      "name": "left_Healthy_sub-4024_hippocampus_lh.nii.gz",
+      "sha256": "1ac294bd17ff4740ec9cc131a9cc582a07d5fb84be09cbd2c7c52f57b2f4220e"
+    },
+    {
+      "name": "left_Healthy_sub-4025_hippocampus_lh.nii.gz",
+      "sha256": "0b08d9beb0a0bfa3d7fd78325722748bdd7a0a5e57f7c8c598053285f4f6437e"
+    },
+    {
+      "name": "left_Healthy_sub-4026_hippocampus_lh.nii.gz",
+      "sha256": "3b0e048c43e32e483a9ceaea34a60ac31067d8feb1734329fe552cdfea679d60"
+    },
+    {
+      "name": "left_Healthy_sub-4027_hippocampus_lh.nii.gz",
+      "sha256": "f0a8d2f4b0fc9928ae66616a80d9b422d42d8edb123925126ab127282b9e8088"
+    },
+    {
+      "name": "left_Healthy_sub-4028_hippocampus_lh.nii.gz",
+      "sha256": "9c4f65269a523f4020f14155fc1baeaf14f626b0016a5c1197192f66aff36a97"
+    },
+    {
+      "name": "left_Healthy_sub-4029_hippocampus_lh.nii.gz",
+      "sha256": "ef8cede3724f022bef7c8e02029ba2c92518e2f737552ffe4a3b4302e3bf8735"
+    },
+    {
+      "name": "left_Healthy_sub-402_hippocampus_lh.nii.gz",
+      "sha256": "597f1d579078e69ebf7145c2f0e413f0c9e0beb00def86cd4c6502ffb60b10eb"
+    },
+    {
+      "name": "left_Healthy_sub-4030_hippocampus_lh.nii.gz",
+      "sha256": "9e29bf75107a045c8ed754795fa3901881c15fade3391f825538524e3907cacb"
+    },
+    {
+      "name": "left_Healthy_sub-4031_hippocampus_lh.nii.gz",
+      "sha256": "5451a1fe68168b8a60b9531044329f5d3a3854c8b421a24bcc50384dbc1aa76c"
+    },
+    {
+      "name": "left_Healthy_sub-4032_hippocampus_lh.nii.gz",
+      "sha256": "024573ba4842dfc2e6450999e52d338e3a83f712f6a97e12b706bb6752b1c61f"
+    },
+    {
+      "name": "left_Healthy_sub-4033_hippocampus_lh.nii.gz",
+      "sha256": "fdd77904b404a9f2884edb03ec89b7b8dba4b5a713f485cafd615f18f27bfde8"
+    },
+    {
+      "name": "left_Healthy_sub-4034_hippocampus_lh.nii.gz",
+      "sha256": "e95492abcd3dd35ce5c8e4a6bd6b76c66d40f6df2aa05a7d917f9e0609fde8ea"
+    },
+    {
+      "name": "left_Healthy_sub-4035_hippocampus_lh.nii.gz",
+      "sha256": "bf896470e68f7e161ba9c7749503cce6d8dc0e1fccccc5b3329f9cf56a81913e"
+    },
+    {
+      "name": "left_Healthy_sub-4036_hippocampus_lh.nii.gz",
+      "sha256": "6120f45595d0a6d476012f92fa53e3f5fce2a0924e001f34ebd11b52ece50b5a"
+    },
+    {
+      "name": "left_Healthy_sub-4037_hippocampus_lh.nii.gz",
+      "sha256": "85c07bcaa48267e777410ae0c267fc231c979e11ef2e636fa294db67c062823f"
+    },
+    {
+      "name": "left_Healthy_sub-4038_hippocampus_lh.nii.gz",
+      "sha256": "95496aafd52aafc1e68c858b2acf815155a07aa488beedfd91c1c04cecde3817"
+    },
+    {
+      "name": "left_Healthy_sub-4039_hippocampus_lh.nii.gz",
+      "sha256": "9bc578a5469ddb3082c651e1b19670030fa8ef7fec880e94df556de9b4ff6f8a"
+    },
+    {
+      "name": "left_Healthy_sub-4040_hippocampus_lh.nii.gz",
+      "sha256": "9c3a3e3c2cabdbf1d9dbc1ea7e9c7e00631f98a76cdee1b7b3bbff447ec76959"
+    },
+    {
+      "name": "left_Healthy_sub-4041_hippocampus_lh.nii.gz",
+      "sha256": "387f7fd66cc3905dc27f329c57f8e4bb53f5ce7bf7a4273830a89a6fd19fa491"
+    },
+    {
+      "name": "left_Healthy_sub-4042_hippocampus_lh.nii.gz",
+      "sha256": "36532b18e94275dceea692efb815e3d36141427c49d4671fde7a36bf8bedccd4"
+    },
+    {
+      "name": "left_Healthy_sub-4043_hippocampus_lh.nii.gz",
+      "sha256": "34fb3ae48206028371b465f2953aca294271e1d11251d3ef456281ab5027f619"
+    },
+    {
+      "name": "left_Healthy_sub-4044_hippocampus_lh.nii.gz",
+      "sha256": "fde2e050799be5b5415056134dae8be16821546b2138f95c35a23e0c0caa708b"
+    },
+    {
+      "name": "left_Healthy_sub-4045_hippocampus_lh.nii.gz",
+      "sha256": "9fba543fd6be1cc083f07fb0924646dad47ca96895c54d90e3a55b4338805c82"
+    },
+    {
+      "name": "left_Healthy_sub-4046_hippocampus_lh.nii.gz",
+      "sha256": "6f3a95764203ae0063d7dd39dd8a561acfdc7224e25e65fe4082030af197a4b5"
+    },
+    {
+      "name": "left_Healthy_sub-4047_hippocampus_lh.nii.gz",
+      "sha256": "81018b1e0d411f2552a8051c0f37898a05e7800b14df5412d6d2be4ea40754f1"
+    },
+    {
+      "name": "left_Healthy_sub-4048_hippocampus_lh.nii.gz",
+      "sha256": "8750cf8242cd4a220276965b56a6700e900afcf959d2faa1874486437840255a"
+    },
+    {
+      "name": "left_Healthy_sub-4049_hippocampus_lh.nii.gz",
+      "sha256": "c2b60bed16ceaca9f0b3b5a3f2baace92e5d276e7a08ab45c530f9ad53086cdd"
+    },
+    {
+      "name": "left_Healthy_sub-404_hippocampus_lh.nii.gz",
+      "sha256": "e1cef33cd84b16fbc4e33242ed6f1168c55230657740de9af241e78c51630fb1"
+    },
+    {
+      "name": "left_Healthy_sub-4050_hippocampus_lh.nii.gz",
+      "sha256": "ccd1038a9cd2c0cedb5c10f8d4def31b619a6b79ca639434309e73e3b762b84f"
+    },
+    {
+      "name": "left_Healthy_sub-4051_hippocampus_lh.nii.gz",
+      "sha256": "b8536067e359a66f17385f3ceb9897082f311b90475b25d4c35ba07017c31145"
+    },
+    {
+      "name": "left_Healthy_sub-4052_hippocampus_lh.nii.gz",
+      "sha256": "9fa1a64b9c2d0022103b60efd7f3e2c598ec6d758d2274d8d38f72f9c8f15544"
+    },
+    {
+      "name": "left_Healthy_sub-4053_hippocampus_lh.nii.gz",
+      "sha256": "b16483922d6fa7038dbf6c89fa738c317beb4e1bd968468c2a85d6ad59b33f8f"
+    },
+    {
+      "name": "left_Healthy_sub-4054_hippocampus_lh.nii.gz",
+      "sha256": "fc3c166bd2c4776eb890905b6af29b8c317488afaaff6a7f736fcc83e39030ee"
+    },
+    {
+      "name": "left_Healthy_sub-4055_hippocampus_lh.nii.gz",
+      "sha256": "f5441e4b0adc59cad400cbd8dd58e91e114c4928e8a9a4fc2a984d1bb2f85cd0"
+    },
+    {
+      "name": "left_Healthy_sub-4056_hippocampus_lh.nii.gz",
+      "sha256": "a3aaec23d621bd7ea79318125a124d645c2cf64a6833b254dbe121425c8cfa1d"
+    },
+    {
+      "name": "left_Healthy_sub-4057_hippocampus_lh.nii.gz",
+      "sha256": "9dfb55ec8682bf3a1f8567450f09c2f40dc8fbd73d38adf48cdf6ad5dd800cfb"
+    },
+    {
+      "name": "left_Healthy_sub-4058_hippocampus_lh.nii.gz",
+      "sha256": "f7bef9ae33132a42b1af7dfd137e45768ef57506ea1afc02986d4102aff49eeb"
+    },
+    {
+      "name": "left_Healthy_sub-4059_hippocampus_lh.nii.gz",
+      "sha256": "f451d16bb860006df725a0de09422dc53050fc82f6cd61164065faa9b53a93ac"
+    },
+    {
+      "name": "left_Healthy_sub-405_hippocampus_lh.nii.gz",
+      "sha256": "31f5374f7c754be4b329ede4ffa494e125dd23d2932f3ecd4c729ae6ca437487"
+    },
+    {
+      "name": "left_Healthy_sub-4060_hippocampus_lh.nii.gz",
+      "sha256": "72714feeb8ad140bc6a6d5cc192655423ff3160bd6dee8dfc1b6ac309faedf88"
+    },
+    {
+      "name": "left_Healthy_sub-4061_hippocampus_lh.nii.gz",
+      "sha256": "90b9d113a132368def4879848ccf73fb7db74a2a61f81d2122251ae4ffb8e52a"
+    },
+    {
+      "name": "left_Healthy_sub-4062_hippocampus_lh.nii.gz",
+      "sha256": "89357aff087ebf31f4ae22014bdc96bdc5e8f4cc3e4c183371e4e5dc34ed4ceb"
+    },
+    {
+      "name": "left_Healthy_sub-4063_hippocampus_lh.nii.gz",
+      "sha256": "263903942b8beabf35dc1b4a28672ebf79093f51da37506a076d93dc9fc0a5d2"
+    },
+    {
+      "name": "left_Healthy_sub-4064_hippocampus_lh.nii.gz",
+      "sha256": "c38d3259c0b1fb8cbfa16597f831f909c3b9250cfecaba7638994aa361e1411b"
+    },
+    {
+      "name": "left_Healthy_sub-4065_hippocampus_lh.nii.gz",
+      "sha256": "90a7507759bfab7438e9fb9cc56bc7d9164c74a3aef719a2ed7d1ea1ec32a24c"
+    },
+    {
+      "name": "left_Healthy_sub-4066_hippocampus_lh.nii.gz",
+      "sha256": "8530f220523d1b5de2ab833785d07e394ad41006c41235f9b88f57c0572cb818"
+    },
+    {
+      "name": "left_Healthy_sub-4067_hippocampus_lh.nii.gz",
+      "sha256": "06ab32e408d024bf1870e1d5736a90e41bd469401154cb3e1a75d66441e4ec44"
+    },
+    {
+      "name": "left_Healthy_sub-4068_hippocampus_lh.nii.gz",
+      "sha256": "d59024212c957f77a357a09ed2844d9a839c8e4b8efd432c22a312c4abf410cb"
+    },
+    {
+      "name": "left_Healthy_sub-4069_hippocampus_lh.nii.gz",
+      "sha256": "300386ed9c0cc44f07dd79b0f42847d630f2d44db4ca31669e284ac0c9ebbf7e"
+    },
+    {
+      "name": "left_Healthy_sub-406_hippocampus_lh.nii.gz",
+      "sha256": "9aa3da87e5d308d7e19514599ebd3f95808f196b7a7a4e4e651c3d2dbeba4a32"
+    },
+    {
+      "name": "left_Healthy_sub-4070_hippocampus_lh.nii.gz",
+      "sha256": "76fcd80c25eb8bee9cfc624e15565367315f5d0dec43255b326e62baa29de393"
+    },
+    {
+      "name": "left_Healthy_sub-4071_hippocampus_lh.nii.gz",
+      "sha256": "5abd4197550f09bfea868aac56cb343c1d08175e39bb9150f1ee750607a5c497"
+    },
+    {
+      "name": "left_Healthy_sub-4072_hippocampus_lh.nii.gz",
+      "sha256": "68ee7d06871f558a4a55ab98079bc521b699d12fcf95475d8b058061ae3c0dde"
+    },
+    {
+      "name": "left_Healthy_sub-4073_hippocampus_lh.nii.gz",
+      "sha256": "424c86c812ae56212c0232d27147f309d2c2a7c2d972aa5eaff76140fb36a5af"
+    },
+    {
+      "name": "left_Healthy_sub-4074_hippocampus_lh.nii.gz",
+      "sha256": "c1d1cad222c2795cc7ed713e380e5e8917ae4986ed59f8c6b6d7f8d727542992"
+    },
+    {
+      "name": "left_Healthy_sub-4075_hippocampus_lh.nii.gz",
+      "sha256": "e97494a9a475649d89c14d8c512012bbd2cd13aed4238b18665a055e5fed8204"
+    },
+    {
+      "name": "left_Healthy_sub-4076_hippocampus_lh.nii.gz",
+      "sha256": "6732fc898e07cd1174d3e7e32bd9d287d95eedfe4a4a071146ccefd3ca0062b7"
+    },
+    {
+      "name": "left_Healthy_sub-4077_hippocampus_lh.nii.gz",
+      "sha256": "9c9d9003b10fbf46c6ad066db493faf7450490f39101a8cb557a252ac2164f4e"
+    },
+    {
+      "name": "left_Healthy_sub-4078_hippocampus_lh.nii.gz",
+      "sha256": "90a46fd96313d38b569834785b16bdb313e00febea8888446ab8e51b9b9c320a"
+    },
+    {
+      "name": "left_Healthy_sub-4079_hippocampus_lh.nii.gz",
+      "sha256": "cc5f08136adf89bc12eb039baaf222c5b0a0f436e9b043c5954aa8a2e9309767"
+    },
+    {
+      "name": "left_Healthy_sub-4080_hippocampus_lh.nii.gz",
+      "sha256": "93b18591ebc2e4de28cab50dc22611a39ec8cf18a30f5a12e23c418fa769e488"
+    },
+    {
+      "name": "left_Healthy_sub-4081_hippocampus_lh.nii.gz",
+      "sha256": "cf91c0dd3e8b169c6543fb10707ec031e02fffd2ad299e5e8a4623823b0bced8"
+    },
+    {
+      "name": "left_Healthy_sub-4082_hippocampus_lh.nii.gz",
+      "sha256": "07259764fab7e4a5d65568839d2c9fcc788008df01945fcf65205a0dc11a417e"
+    },
+    {
+      "name": "left_Healthy_sub-4083_hippocampus_lh.nii.gz",
+      "sha256": "c647c42b03f55e816f1c14d3a48dd406b47fc3a72866c3f1718f4d5f71e7b2dc"
+    },
+    {
+      "name": "left_Healthy_sub-4084_hippocampus_lh.nii.gz",
+      "sha256": "ccd67af0d7a5225d9fe3b036e0298cadc8fb5f9c5b3e24a05af37e17aef6e638"
+    },
+    {
+      "name": "left_Healthy_sub-4085_hippocampus_lh.nii.gz",
+      "sha256": "cf621355428f49a876883ac493a13fe3a932920d38fb798c482888a166793bf7"
+    },
+    {
+      "name": "left_Healthy_sub-4086_hippocampus_lh.nii.gz",
+      "sha256": "c1ece3820a8b4840d9ffc5f538b9a4e925d4e941818127f1ecfbe6469cf6c745"
+    },
+    {
+      "name": "left_Healthy_sub-4087_hippocampus_lh.nii.gz",
+      "sha256": "d3ff0a94240cc422263f67afecede1a75a453c92cf3df13ee627042c945afb20"
+    },
+    {
+      "name": "left_Healthy_sub-4088_hippocampus_lh.nii.gz",
+      "sha256": "b66585cc76c3a38aa4f56af9bec73b47a4722139375cd709930a26586ea1b193"
+    },
+    {
+      "name": "left_Healthy_sub-4089_hippocampus_lh.nii.gz",
+      "sha256": "fe9709bbe5d7e39fa6743c2e75a3c50803dfa7d0bf240d10b343f89344f254d3"
+    },
+    {
+      "name": "left_Healthy_sub-4090_hippocampus_lh.nii.gz",
+      "sha256": "527162dcf387ab66900f2a7c1d73340004a7cdb10ccc67a8f808353c0142724b"
+    },
+    {
+      "name": "left_Healthy_sub-4091_hippocampus_lh.nii.gz",
+      "sha256": "92352a8e699c7528f892841a5b49d07573bc13c9ae90318d76b952f184065d27"
+    },
+    {
+      "name": "left_Healthy_sub-4092_hippocampus_lh.nii.gz",
+      "sha256": "c0e342e225a92f4b0bb470408881965ee357c23aa588fed776c4f102eff3e925"
+    },
+    {
+      "name": "left_Healthy_sub-4093_hippocampus_lh.nii.gz",
+      "sha256": "9c0db278abd47b56379c2a629881ce186679f2bd9f195d814f3c3249d0f47a77"
+    },
+    {
+      "name": "left_Healthy_sub-4094_hippocampus_lh.nii.gz",
+      "sha256": "330ad8cd0e2b8e35f35824df5484f921cc4342c02ade5b5ddf6a820947d67e85"
+    },
+    {
+      "name": "left_Healthy_sub-4095_hippocampus_lh.nii.gz",
+      "sha256": "fc6ec557bd5de1fdba5809d13447fcbafb0e7400cfb7c64ec319b4f0c806bfa1"
+    },
+    {
+      "name": "left_Healthy_sub-4096_hippocampus_lh.nii.gz",
+      "sha256": "1ba642330c14994b64295242e291dd7f14832cd6b61132fb37a7a3f4aade4431"
+    },
+    {
+      "name": "left_Healthy_sub-4097_hippocampus_lh.nii.gz",
+      "sha256": "d004a4c0da8494c9a522bcd224a523d3fc3411def6458fe3e277942048e598b0"
+    },
+    {
+      "name": "left_Healthy_sub-4098_hippocampus_lh.nii.gz",
+      "sha256": "84c3d948544f33cc766b64a194ab540d62b035d2c07ab2bbbac8b7091a2a173b"
+    },
+    {
+      "name": "left_Healthy_sub-4099_hippocampus_lh.nii.gz",
+      "sha256": "839c37e3bb4d4e7f16962ecbcd9c233020165d1d7d4c303eff5ac4e719832b14"
+    },
+    {
+      "name": "left_Healthy_sub-40_hippocampus_lh.nii.gz",
+      "sha256": "5322baecd390e60993679d4ebe693c4e7bad56bff63826bd99ab62b988a03d3d"
+    },
+    {
+      "name": "left_Healthy_sub-4100_hippocampus_lh.nii.gz",
+      "sha256": "e8c8b4c61aef4f0489703fbe962859f0b992f7e67652a55d7e0d97192abe5e36"
+    },
+    {
+      "name": "left_Healthy_sub-413_hippocampus_lh.nii.gz",
+      "sha256": "7032e639bb94c71e3639f046848709412975ab47f4bf885557a546ba3db8eb76"
+    },
+    {
+      "name": "left_Healthy_sub-417_hippocampus_lh.nii.gz",
+      "sha256": "6c3fe55921c509f4df56bae22f278c56124d27629cc5a881c4e84fb7ac4081d1"
+    },
+    {
+      "name": "left_Healthy_sub-419_hippocampus_lh.nii.gz",
+      "sha256": "9d56efd7f88e9a5b89dd49ac4501468b4a0058dcf3285a7812ace27b033c5d9a"
+    },
+    {
+      "name": "left_Healthy_sub-41_hippocampus_lh.nii.gz",
+      "sha256": "f12a0793cf4a8d9b263893355e833ecdb332da6f7b46448a424f977f8162f377"
+    },
+    {
+      "name": "left_Healthy_sub-427_hippocampus_lh.nii.gz",
+      "sha256": "d2829d1eec63e6f1c844c54eaaff2264c6b0ec3b6ab53fff835972cea93f9845"
+    },
+    {
+      "name": "left_Healthy_sub-432_hippocampus_lh.nii.gz",
+      "sha256": "96b67eb404ada32df82ad089e9528dd055002e8560f8274d74ac51e7a480b702"
+    },
+    {
+      "name": "left_Healthy_sub-437_hippocampus_lh.nii.gz",
+      "sha256": "4b8815ef9981a110d5d0d8b0164c66f74b81a35c398f61308687f51c1cdc3023"
+    },
+    {
+      "name": "left_Healthy_sub-442_hippocampus_lh.nii.gz",
+      "sha256": "f7b1b18040318a1faddbe61107c35ca78a0d120786daee0f352a0945b86f94e9"
+    },
+    {
+      "name": "left_Healthy_sub-447_hippocampus_lh.nii.gz",
+      "sha256": "9da881defe387db45dff6a9790f3862d4ef8d29db78f07b9239ab73ef21b303f"
+    },
+    {
+      "name": "left_Healthy_sub-451_hippocampus_lh.nii.gz",
+      "sha256": "3c9af7a6c592f88298b26910736a22af0e4d4ad94631c178797b93c9153b704f"
+    },
+    {
+      "name": "left_Healthy_sub-455_hippocampus_lh.nii.gz",
+      "sha256": "3f9a051d06b96f325ea53da429489831774d1696c64ada204474e23a1126fb61"
+    },
+    {
+      "name": "left_Healthy_sub-45_hippocampus_lh.nii.gz",
+      "sha256": "3c8ff8e5e8b883188b887393b5298eb7fe1ee2b4d9ca16e9f458392087d11245"
+    },
+    {
+      "name": "left_Healthy_sub-49_hippocampus_lh.nii.gz",
+      "sha256": "3c5e2c9c4d1174b4657e38d83ec7f43a5cb0380cd2093c027a11072f2b56a347"
+    },
+    {
+      "name": "left_Healthy_sub-57_hippocampus_lh.nii.gz",
+      "sha256": "cbc24c39df17dc1d281825faaa09e39f6e43403465a9c4eed402c2df06de2f4b"
+    },
+    {
+      "name": "left_Healthy_sub-61_hippocampus_lh.nii.gz",
+      "sha256": "5e8af37ed928be3687f39779dabd9fc7954c3fa528713156677f6fae378ff0be"
+    },
+    {
+      "name": "left_Healthy_sub-64_hippocampus_lh.nii.gz",
+      "sha256": "b9e67a586db16d7ac6a7396d830eec30d74f784900a0c693c80f0332919580e2"
+    },
+    {
+      "name": "left_Healthy_sub-70_hippocampus_lh.nii.gz",
+      "sha256": "35b0325c71ecfa155c383070508dacbf995d49ac524f0e8305739c016b2f3269"
+    },
+    {
+      "name": "left_Healthy_sub-75_hippocampus_lh.nii.gz",
+      "sha256": "25fb1ad49d71a4f36521eb48cf6df4778c3341a6faaecbc1611f9b81fa46814f"
+    },
+    {
+      "name": "left_Healthy_sub-76_hippocampus_lh.nii.gz",
+      "sha256": "b728fd68e16601a67ec06570878f10009c2a02071afce6cc53b7bac44597cbfc"
+    },
+    {
+      "name": "left_Healthy_sub-7_hippocampus_lh.nii.gz",
+      "sha256": "e9d9af248d16bbb50c5a7a62da1b60b3bd1afaa05a6af7ca04f0105abf59c472"
+    },
+    {
+      "name": "left_Healthy_sub-82_hippocampus_lh.nii.gz",
+      "sha256": "71cd22f2a3b1f22055b43dbcb8fd6a4e9c23c6d0c247040a5e8e6d2c49345914"
+    },
+    {
+      "name": "left_Healthy_sub-84_hippocampus_lh.nii.gz",
+      "sha256": "d0b0aa263957b693094e955130a90a65ac734a346099d0d9c9f7a71fde25e607"
+    },
+    {
+      "name": "left_Healthy_sub-94_hippocampus_lh.nii.gz",
+      "sha256": "feec825f3b8a579e5ae2cb3175753eb50b255a089f911fc690dd6959bc7f8fef"
+    },
+    {
+      "name": "left_Healthy_sub-95_hippocampus_lh.nii.gz",
+      "sha256": "66449bf2e79755cfce78eabe8a96787bf8ae041cd5062d213d5fa138636f6239"
+    },
+    {
+      "name": "left_Healthy_sub-97_hippocampus_lh.nii.gz",
+      "sha256": "64026734820916b7a076d90af0820a00b5225cf8dabeb8f05154e141f4e7e4de"
+    },
+    {
+      "name": "left_TLE_sub-106_hippocampus_lh.nii.gz",
+      "sha256": "42233a27edcafd37c9411fe9144bdb6dee17e9f1782ce66bcf480e149039b92b"
+    },
+    {
+      "name": "left_TLE_sub-109_hippocampus_lh.nii.gz",
+      "sha256": "cc7572f4c1f534bc4738634e05fa755ba9775d80bf04498b47f91d6d3b7d6490"
+    },
+    {
+      "name": "left_TLE_sub-118_hippocampus_lh.nii.gz",
+      "sha256": "2a16869748b15eeab0a8515d50cfc62ad99a1da6d3056d38adcbe85b2b97e7da"
+    },
+    {
+      "name": "left_TLE_sub-120_hippocampus_lh.nii.gz",
+      "sha256": "63701bed33f65f58637c8d01e5a3ac7149d807072fa7faec4a07093522840f3a"
+    },
+    {
+      "name": "left_TLE_sub-125_hippocampus_lh.nii.gz",
+      "sha256": "8bf228ca99a55f17aa4bd966993863f95f54fc9030a1398ef87d82e908b04065"
+    },
+    {
+      "name": "left_TLE_sub-127_hippocampus_lh.nii.gz",
+      "sha256": "3b1d06a1ed9b31b27480f64ba56d686dca4805cf512f4226c754bac660b390cd"
+    },
+    {
+      "name": "left_TLE_sub-143_hippocampus_lh.nii.gz",
+      "sha256": "d7e11f48581ef166b870dd3681cf5d010d76ce4f288c3acbbbf135fec8663c63"
+    },
+    {
+      "name": "left_TLE_sub-149_hippocampus_lh.nii.gz",
+      "sha256": "11708426b0d2702265fa5948f9bcc5acda727edf675e689dae746068ac2dca3f"
+    },
+    {
+      "name": "left_TLE_sub-154_hippocampus_lh.nii.gz",
+      "sha256": "f5bc5eaf45d7ac9a23ecb1c41ffd5bda76da29058e40c394571a5c5a36645551"
+    },
+    {
+      "name": "left_TLE_sub-156_hippocampus_lh.nii.gz",
+      "sha256": "1ccd79606f873bb6c2ac6cb8751a9cc5ea208fa0cf2f379de7de05b1e7b379bb"
+    },
+    {
+      "name": "left_TLE_sub-162_hippocampus_lh.nii.gz",
+      "sha256": "f8351219b36020b382048abb064d2c30c6349e9012a54bc948cd3c9282572261"
+    },
+    {
+      "name": "left_TLE_sub-164_hippocampus_lh.nii.gz",
+      "sha256": "9998952516b9750c311e6d34b18c21675d435644af4af7cfdc47c04e14cc5535"
+    },
+    {
+      "name": "left_TLE_sub-165_hippocampus_lh.nii.gz",
+      "sha256": "dc5cd4366357eab78d095ed7677aa0ee2fd672394d86f737aaaa88b8c159f3df"
+    },
+    {
+      "name": "left_TLE_sub-167_hippocampus_lh.nii.gz",
+      "sha256": "f8db54f5714fa11205963874af5b38ebb728b5603cfd42453bc6802614af4f53"
+    },
+    {
+      "name": "left_TLE_sub-168_hippocampus_lh.nii.gz",
+      "sha256": "81ef78516222629ca3067e626718ff7bf7a422beba98145b1a9de144491808d4"
+    },
+    {
+      "name": "left_TLE_sub-174_hippocampus_lh.nii.gz",
+      "sha256": "69ccff22459272939f80bc68e2e86316ecebe87512594975807e1be31f410298"
+    },
+    {
+      "name": "left_TLE_sub-176_hippocampus_lh.nii.gz",
+      "sha256": "1641067398e304f17746ec3ee8ed02f0f84644404fc4cd536625907551a98b93"
+    },
+    {
+      "name": "left_TLE_sub-183_hippocampus_lh.nii.gz",
+      "sha256": "6b3aad1e1e3786c0e94f6cb0e9c12d7e1df60bf8c463870d2e8da28726155989"
+    },
+    {
+      "name": "left_TLE_sub-186_hippocampus_lh.nii.gz",
+      "sha256": "f475b4ba882616f9758c5512013820db42cce2e1dc123efcfb481a51e5e779ae"
+    },
+    {
+      "name": "left_TLE_sub-188_hippocampus_lh.nii.gz",
+      "sha256": "9f9d3a18d8759fc8dd7bb7fe2a1e766720209faf09014440c5c1b90303b0fd18"
+    },
+    {
+      "name": "left_TLE_sub-191_hippocampus_lh.nii.gz",
+      "sha256": "f86662dda248b4941169be823693acd7cb73638fd3a6536106692c0812a37e51"
+    },
+    {
+      "name": "left_TLE_sub-196_hippocampus_lh.nii.gz",
+      "sha256": "e7f08e851547b7879417f8f29465347ac463d0135c7a28c47a7805de936e9e3d"
+    },
+    {
+      "name": "left_TLE_sub-199_hippocampus_lh.nii.gz",
+      "sha256": "02166b0ab77c149ede58a4138b6a621266553fd352ba2f9df1a3e6cda1e0577f"
+    },
+    {
+      "name": "left_TLE_sub-202_hippocampus_lh.nii.gz",
+      "sha256": "2bf8f745466c065009d98b2836e126d752f0a4dea4cdf9fa649afd3b4a85a2ed"
+    },
+    {
+      "name": "left_TLE_sub-205_hippocampus_lh.nii.gz",
+      "sha256": "3606e241d16337a55c0bfab206521963078615ff0757bdbfc9b8cfb00b72f03d"
+    },
+    {
+      "name": "left_TLE_sub-208_hippocampus_lh.nii.gz",
+      "sha256": "a9218dd5b3c696a907c63fdb0e9c63a94b818ffd71fdc1f4d575b7bd272b56d0"
+    },
+    {
+      "name": "left_TLE_sub-215_hippocampus_lh.nii.gz",
+      "sha256": "920b89e73529cf2795028206e9ce6103c8358293460828a4cb009fc048f22b89"
+    },
+    {
+      "name": "left_TLE_sub-217_hippocampus_lh.nii.gz",
+      "sha256": "7a619d3fc587425fad3c8212acbdeea1213c134512db646bc330bb91db15d615"
+    },
+    {
+      "name": "left_TLE_sub-218_hippocampus_lh.nii.gz",
+      "sha256": "5d7edf32a49d8b0164b9b28dc6c1e24f0a3c99d5aeec2bb6b28223ffb67c4553"
+    },
+    {
+      "name": "left_TLE_sub-220_hippocampus_lh.nii.gz",
+      "sha256": "07eefd7c99a1c2109c5e20c3302b347d08e351f4b816858299fa0cc232a93cb4"
+    },
+    {
+      "name": "left_TLE_sub-227_hippocampus_lh.nii.gz",
+      "sha256": "09cc3b0b43d19259d2a663dcd75e93bb914cfd33d58e3b1bffedfd1e40b9e424"
+    },
+    {
+      "name": "left_TLE_sub-229_hippocampus_lh.nii.gz",
+      "sha256": "e18c4c1115f6875eaa2467da9c9039dcfaf76ce9ab8010d98d959103e6ef496c"
+    },
+    {
+      "name": "left_TLE_sub-235_hippocampus_lh.nii.gz",
+      "sha256": "82cf18fe99a04c69e30bb947ec76d9a47c576d3aa038e837e535cbd8d8a8ba1d"
+    },
+    {
+      "name": "left_TLE_sub-236_hippocampus_lh.nii.gz",
+      "sha256": "f7abb7801ab186678073d51cba041b790a6c6e76e9cd6c1e9bb40dbaddda8bd7"
+    },
+    {
+      "name": "left_TLE_sub-23_hippocampus_lh.nii.gz",
+      "sha256": "7f13310caea039afb6360d0bc2d756b502b481138bfb2c205bf57c766c619837"
+    },
+    {
+      "name": "left_TLE_sub-240_hippocampus_lh.nii.gz",
+      "sha256": "a27fd6f9a767a1bbddf36954c90824104f457bbe02f2b77c9ec2361c56a150f6"
+    },
+    {
+      "name": "left_TLE_sub-251_hippocampus_lh.nii.gz",
+      "sha256": "e8ef8aeb366234a01d7413a76db637bae8b4177cab4956f85e1ffaa6e7a6d99a"
+    },
+    {
+      "name": "left_TLE_sub-259_hippocampus_lh.nii.gz",
+      "sha256": "8dd41a55f0a7b2d8bb7bbaef054b495abdc4c20af62f86c1e7e8d2acba7c74e3"
+    },
+    {
+      "name": "left_TLE_sub-25_hippocampus_lh.nii.gz",
+      "sha256": "6b7c77360477ae3e4c22dab6ee88212b1f4e8afa2d63be967c29793f06606278"
+    },
+    {
+      "name": "left_TLE_sub-263_hippocampus_lh.nii.gz",
+      "sha256": "0d15f3f243369c4544aed769c1f5e395899f154601c46d250795b5e0b2708e55"
+    },
+    {
+      "name": "left_TLE_sub-264_hippocampus_lh.nii.gz",
+      "sha256": "a6c1c6d3b3d31bd8e23f4ff8165d5ddc097d67b0f8d14ae42a08cea527ddc827"
+    },
+    {
+      "name": "left_TLE_sub-265_hippocampus_lh.nii.gz",
+      "sha256": "28f61f150de2da2111cfde4d23161dbecf4a33505d4c9931adbe2e4a20011d7b"
+    },
+    {
+      "name": "left_TLE_sub-266_hippocampus_lh.nii.gz",
+      "sha256": "563970cb19798a828fd1c8415a305f71978a43c8409542a21836c0ba3758386d"
+    },
+    {
+      "name": "left_TLE_sub-267_hippocampus_lh.nii.gz",
+      "sha256": "cafcf3073bc635b4d320ffc69d8bb7d890d3006c3a5a160835f2f15a89d4c6f9"
+    },
+    {
+      "name": "left_TLE_sub-26896_hippocampus_lh.nii.gz",
+      "sha256": "f1176a3774249bc3e60756983c801bf1cc75caa3c66528b30f88164c3e5e955d"
+    },
+    {
+      "name": "left_TLE_sub-270_hippocampus_lh.nii.gz",
+      "sha256": "a5bd2eb59181a3edaf1fd2259125ab16d1cdf1b13fe9649ff295551be5b07561"
+    },
+    {
+      "name": "left_TLE_sub-273_hippocampus_lh.nii.gz",
+      "sha256": "c7c613b1c7ec5d319758aefd158e4993598b7d9d23c4f8e49aa9979086ad25ea"
+    },
+    {
+      "name": "left_TLE_sub-275_hippocampus_lh.nii.gz",
+      "sha256": "027687e7c8494e8184c7983b328c56ed85821b7c71ec1a21f278f20b796db89b"
+    },
+    {
+      "name": "left_TLE_sub-27872_hippocampus_lh.nii.gz",
+      "sha256": "3f1c69a193ff3e7745e17cea83e91934d4b8a0314d5d2284e7197446d64cf3a2"
+    },
+    {
+      "name": "left_TLE_sub-27934_hippocampus_lh.nii.gz",
+      "sha256": "0eeaa0f0c1284885d1b6b16319766b61362a7f92ef663121ff79b98f532d451e"
+    },
+    {
+      "name": "left_TLE_sub-27960_hippocampus_lh.nii.gz",
+      "sha256": "c9fcd25dbcb63b343286f792f4b13cad9d1ecc092df28c672f3e6d8593f1ad2d"
+    },
+    {
+      "name": "left_TLE_sub-27974_hippocampus_lh.nii.gz",
+      "sha256": "6aa3d0797515919cee69041aa5b045b2f3b8b8d754a5e4ec1a9d549b36f83fac"
+    },
+    {
+      "name": "left_TLE_sub-279_hippocampus_lh.nii.gz",
+      "sha256": "03dc81b902c44c4190bd876361f2f888701a80ec92987e16947a824823e76bb4"
+    },
+    {
+      "name": "left_TLE_sub-27_hippocampus_lh.nii.gz",
+      "sha256": "628243ccad484aeb4499cd2a526e19d629c14a9f30d88b973cbfca27ce9c986f"
+    },
+    {
+      "name": "left_TLE_sub-282_hippocampus_lh.nii.gz",
+      "sha256": "a79bc04ff6f509f37c81b2080f26ad18b08c760bc1a1f0074d9c9cbd6e83e3be"
+    },
+    {
+      "name": "left_TLE_sub-29073_hippocampus_lh.nii.gz",
+      "sha256": "9fdfa0b413d4a0165afaed24cbca909f458f6c8c829b14051593c2bd4dd9104f"
+    },
+    {
+      "name": "left_TLE_sub-29096_hippocampus_lh.nii.gz",
+      "sha256": "244dde54a58749dbc7ebbaa7d787d8ac5e6cb6ae39ddfa4c1c2dfcd5c346513d"
+    },
+    {
+      "name": "left_TLE_sub-290_hippocampus_lh.nii.gz",
+      "sha256": "8f60a7b976fa09e49d2983d344a9e7fe7558d2081896954204e8e6e0b30164b1"
+    },
+    {
+      "name": "left_TLE_sub-293_hippocampus_lh.nii.gz",
+      "sha256": "30f7b694a452432630bd7865d2356367b6d0ccf1db0b0edbc09a8e6272ba9602"
+    },
+    {
+      "name": "left_TLE_sub-294_hippocampus_lh.nii.gz",
+      "sha256": "bbbcd3467107ccadcf2175fdeb7cb11eb43e78bb6f27e9bc7d1779a3e715d3c2"
+    },
+    {
+      "name": "left_TLE_sub-297_hippocampus_lh.nii.gz",
+      "sha256": "5fae0c37892731c160567c8217a0a71bc5a7ea05c72e513220324b2c3a060911"
+    },
+    {
+      "name": "left_TLE_sub-29_hippocampus_lh.nii.gz",
+      "sha256": "50b5ea40c7d4b4cb252b1eb2f15fe8733c0df60adf0354b3e6015b6f9732d7cc"
+    },
+    {
+      "name": "left_TLE_sub-302_hippocampus_lh.nii.gz",
+      "sha256": "a99a1855084610aec2904c36415688366055f13d3021441f7aad2388a4f67006"
+    },
+    {
+      "name": "left_TLE_sub-310_hippocampus_lh.nii.gz",
+      "sha256": "fed7ad7663c5d4db4ec17ad034d48176571e993748eb2e8c552f381354be0678"
+    },
+    {
+      "name": "left_TLE_sub-314_hippocampus_lh.nii.gz",
+      "sha256": "202b2abb3ccf30f1e456007122b20e71e9d01ab3226b93da96e288e9558c4389"
+    },
+    {
+      "name": "left_TLE_sub-316_hippocampus_lh.nii.gz",
+      "sha256": "34ef9c61668a560de3b32cc78dd2aef31ae5a5c9926b02a2f314c63478662b41"
+    },
+    {
+      "name": "left_TLE_sub-320_hippocampus_lh.nii.gz",
+      "sha256": "43475a22eb5553b8a966327aff928a4c99099abdf91c07e8a08c208a50a0e9fe"
+    },
+    {
+      "name": "left_TLE_sub-32159_hippocampus_lh.nii.gz",
+      "sha256": "2dab5bc44579e74e9fdb3c27e1d365b63cf0631d57e56ef47339d7ede0b0c9b4"
+    },
+    {
+      "name": "left_TLE_sub-32907_hippocampus_lh.nii.gz",
+      "sha256": "9a3dcdc691f5d4a46ed0c988c10cf42315eacb1ba603f1d22ef2f2ee135139b1"
+    },
+    {
+      "name": "left_TLE_sub-329_hippocampus_lh.nii.gz",
+      "sha256": "954ae40f30ee5ff8dfbf4d84e38bf2b0249f1319de19612aa1589244dc51cb3f"
+    },
+    {
+      "name": "left_TLE_sub-336_hippocampus_lh.nii.gz",
+      "sha256": "69a0a6e7dcd8b602420f9110037a797c0b6d5575b68957459867cf265963cc2e"
+    },
+    {
+      "name": "left_TLE_sub-337_hippocampus_lh.nii.gz",
+      "sha256": "055e22d65c258cc57a80d49904d0cf880c6ce353fb3d3f326a4b7675d8f46fde"
+    },
+    {
+      "name": "left_TLE_sub-33_hippocampus_lh.nii.gz",
+      "sha256": "f24d3cbbf79f72616025ffad406e4284c0605ebb6ce564bdb783d44094cd78e0"
+    },
+    {
+      "name": "left_TLE_sub-34273_hippocampus_lh.nii.gz",
+      "sha256": "251d114accd3b99e27313add7244c727cab61e0bad85b9bd44bfcbfc99fc63f2"
+    },
+    {
+      "name": "left_TLE_sub-34359_hippocampus_lh.nii.gz",
+      "sha256": "38e9c307d7b2de4f14aa94dc370588b8a14d39e9d25393ce349a08ee78312f2d"
+    },
+    {
+      "name": "left_TLE_sub-34736_hippocampus_lh.nii.gz",
+      "sha256": "f7d90af8ac4d6960579b1ac0509e762c1f08d1b6de75ef0795e8ca60cd969e3c"
+    },
+    {
+      "name": "left_TLE_sub-347_hippocampus_lh.nii.gz",
+      "sha256": "de8cc1c92388fe999403915519d0b01a96f6f9db79d917076cc554575d40c02f"
+    },
+    {
+      "name": "left_TLE_sub-34826_hippocampus_lh.nii.gz",
+      "sha256": "ad1bb569cec33d0c523693e3ffe656399dd14678ea0fe6872bbc7b6b8447cee4"
+    },
+    {
+      "name": "left_TLE_sub-348_hippocampus_lh.nii.gz",
+      "sha256": "14d0d7975e7a9e746842ffc7bbb7b1362159d69840cb37e4ba61c6865d80cc2d"
+    },
+    {
+      "name": "left_TLE_sub-349_hippocampus_lh.nii.gz",
+      "sha256": "2f6605b3d888abdc1abee3fa877d3a475756325ec129cfc8f1631ec2a28d08c5"
+    },
+    {
+      "name": "left_TLE_sub-351_hippocampus_lh.nii.gz",
+      "sha256": "3801b75ff5501b1e57c412fd93c3468039c664d6bd30050ba200cca43e4d67a9"
+    },
+    {
+      "name": "left_TLE_sub-35272_hippocampus_lh.nii.gz",
+      "sha256": "f21b4c7e7e26ae5acefe8bb00890722bbeba68bb00e0fb91d07145396d65665d"
+    },
+    {
+      "name": "left_TLE_sub-35353_hippocampus_lh.nii.gz",
+      "sha256": "f031ede86cae9363266040e7d5c9f5275b0fe089db080bdd4fb964de8a30df08"
+    },
+    {
+      "name": "left_TLE_sub-353_hippocampus_lh.nii.gz",
+      "sha256": "9ee6507c54b7e072e23752552337af89ad2e6ef08bba6795dac37b17bf0deaae"
+    },
+    {
+      "name": "left_TLE_sub-354_hippocampus_lh.nii.gz",
+      "sha256": "001c83c3d84f18e32bc20d0bc289d3eec8bb9cb94e1a3fadd266cabb64cde465"
+    },
+    {
+      "name": "left_TLE_sub-358_hippocampus_lh.nii.gz",
+      "sha256": "25144054e125e808d5df97735314c0e8c937240724f65499b134c0fd1776e687"
+    },
+    {
+      "name": "left_TLE_sub-361_hippocampus_lh.nii.gz",
+      "sha256": "a9be2aaf06c71375d215c27dea15347a0ea6bb0d4429bd453a466916fdc99060"
+    },
+    {
+      "name": "left_TLE_sub-36487_hippocampus_lh.nii.gz",
+      "sha256": "76eaef7b136ab02234df774c0d5f1969a54e164399b5e37a45c2e125ae0b12aa"
+    },
+    {
+      "name": "left_TLE_sub-364_hippocampus_lh.nii.gz",
+      "sha256": "99a6644a117b73501c7c3e149a07173150086cdee3a1164e91bfd3892d3db2fe"
+    },
+    {
+      "name": "left_TLE_sub-366_hippocampus_lh.nii.gz",
+      "sha256": "0f909ddb34e912291c88efb7b72810c201841d413b49fc256b81c4db30325d38"
+    },
+    {
+      "name": "left_TLE_sub-36737_hippocampus_lh.nii.gz",
+      "sha256": "617211825afe345844171e9f985e2d559049ad4e83a412d8f803e28804d69779"
+    },
+    {
+      "name": "left_TLE_sub-36866_hippocampus_lh.nii.gz",
+      "sha256": "3d5703cb8166e5897d959412d2e11e72bc87f11cb04af1c77a74e64e215472a1"
+    },
+    {
+      "name": "left_TLE_sub-368_hippocampus_lh.nii.gz",
+      "sha256": "efa97ee2b26a0fe9a6e38fcb532ac525e5f327721adb7a1b254b16b6fbb2a089"
+    },
+    {
+      "name": "left_TLE_sub-372_hippocampus_lh.nii.gz",
+      "sha256": "ab8938ab3b6adbb18b4f3146a4f9153810492cf6a6128ab332f89e6cb270ef84"
+    },
+    {
+      "name": "left_TLE_sub-37348_hippocampus_lh.nii.gz",
+      "sha256": "f386049b134c74764a47f049e1e108b3c2f706b31240ed277997cc3f78104377"
+    },
+    {
+      "name": "left_TLE_sub-375_hippocampus_lh.nii.gz",
+      "sha256": "dc5e6ed663f61938fc9c044d1d7272103e1f5b581f6bd3f6da396c48471494b3"
+    },
+    {
+      "name": "left_TLE_sub-379_hippocampus_lh.nii.gz",
+      "sha256": "de2adc629dc8042d33773c3462c131ba17db6bc17d306bdb8161741035a10ca2"
+    },
+    {
+      "name": "left_TLE_sub-37_hippocampus_lh.nii.gz",
+      "sha256": "387242911ef29d497ac75af6d7074c2d9308838e0c806f6d0e2221b066c917d3"
+    },
+    {
+      "name": "left_TLE_sub-387_hippocampus_lh.nii.gz",
+      "sha256": "e9cf347fb17b03635d9b687f6816e016926bf0e240ef6d069145918281d2883a"
+    },
+    {
+      "name": "left_TLE_sub-388_hippocampus_lh.nii.gz",
+      "sha256": "a4893280dc17679ee18db1f213555488e5e3528e7ad7450c11bae6310f21175c"
+    },
+    {
+      "name": "left_TLE_sub-389_hippocampus_lh.nii.gz",
+      "sha256": "f45b4adf34fa2dbde691e85b865b54bc48ddfb60460d8cc4f644dc642c2dd4a9"
+    },
+    {
+      "name": "left_TLE_sub-390_hippocampus_lh.nii.gz",
+      "sha256": "33b59c4b1d932ce4af4923595c2b0ec6086eeabaac2ca2ebeb7fe33af1d5c23b"
+    },
+    {
+      "name": "left_TLE_sub-397_hippocampus_lh.nii.gz",
+      "sha256": "35189646deb724085cfc4d271c353988c5980a1ac1a8ccd092e0a99e17466df3"
+    },
+    {
+      "name": "left_TLE_sub-39_hippocampus_lh.nii.gz",
+      "sha256": "26745439c421f6a548a38718f90e9776e1a6ca7f11d5f1e9f8b05b58f523e9e3"
+    },
+    {
+      "name": "left_TLE_sub-401_hippocampus_lh.nii.gz",
+      "sha256": "8cce32b3d75264bc84fb5ace9c8e38b7cfb94d4c5ee98cec5b642c9df85f0a64"
+    },
+    {
+      "name": "left_TLE_sub-407_hippocampus_lh.nii.gz",
+      "sha256": "98351d1a2a8bae457ff7e03b21852af4edd875b0ef2f88bba9657503fe3c8c89"
+    },
+    {
+      "name": "left_TLE_sub-408_hippocampus_lh.nii.gz",
+      "sha256": "3cea9006d595d76d9ca9899b88426e296063eb70f9ba4b00328386e1c25aede1"
+    },
+    {
+      "name": "left_TLE_sub-416_hippocampus_lh.nii.gz",
+      "sha256": "ed4f028088c0904e4c0904082547358fd43008071291bd908b7c5089a3972b4a"
+    },
+    {
+      "name": "left_TLE_sub-418_hippocampus_lh.nii.gz",
+      "sha256": "1f663d9a568f6f74ae27ce7588260ca0813155631687a587d90ea33817e76d07"
+    },
+    {
+      "name": "left_TLE_sub-420_hippocampus_lh.nii.gz",
+      "sha256": "32539cc551b3c97e3dc00ff4e83b990f17f5c422a4c515aa90fdb79d9d79ffb1"
+    },
+    {
+      "name": "left_TLE_sub-421_hippocampus_lh.nii.gz",
+      "sha256": "83a5c9735ca20954d17536af17d16c7da8606056ee6c16c0fe354a9c7fb55c95"
+    },
+    {
+      "name": "left_TLE_sub-423_hippocampus_lh.nii.gz",
+      "sha256": "d781d60d196da063ee5f773eef163d1a66621ccc07f7a4e102356f69acf4f924"
+    },
+    {
+      "name": "left_TLE_sub-425_hippocampus_lh.nii.gz",
+      "sha256": "ca90f51890c925e49ef3e5450a3225334b515599f87dd48fbd0bde3cd2764dc0"
+    },
+    {
+      "name": "left_TLE_sub-426_hippocampus_lh.nii.gz",
+      "sha256": "1a6ccdb8cce95522fd282eae39ef35bc7d8101afa9cd4f0e7ce4901586c27aab"
+    },
+    {
+      "name": "left_TLE_sub-430_hippocampus_lh.nii.gz",
+      "sha256": "becd3dabc975df2f54663c0883053d33083a79de6b64f17ac6b40087212597bb"
+    },
+    {
+      "name": "left_TLE_sub-433_hippocampus_lh.nii.gz",
+      "sha256": "851edfa3985ecc882f310d47f5d31da8bacfe651a922e13f12f2ff3e20aa47f5"
+    },
+    {
+      "name": "left_TLE_sub-43_hippocampus_lh.nii.gz",
+      "sha256": "a9e7a208861eaf1dcf6cb272f0473e123ac627341f80602d2f18b3c380164496"
+    },
+    {
+      "name": "left_TLE_sub-441_hippocampus_lh.nii.gz",
+      "sha256": "c8a11e16dc54524654bcd263433a3a698510fbe3d7d7397958dcba5af069a992"
+    },
+    {
+      "name": "left_TLE_sub-444_hippocampus_lh.nii.gz",
+      "sha256": "929332ecf9d4479d496326eaddc093cc9d3a504bf91e11830eef889bc314b8d4"
+    },
+    {
+      "name": "left_TLE_sub-445_hippocampus_lh.nii.gz",
+      "sha256": "8ce043c3af67142f1b5ff3a5b89f5c41742badcb751b9d0c85384f77203ae1f7"
+    },
+    {
+      "name": "left_TLE_sub-446_hippocampus_lh.nii.gz",
+      "sha256": "505e6cbc570915e80b04deec2228a18a169130c20927433865446223f4283a1d"
+    },
+    {
+      "name": "left_TLE_sub-450_hippocampus_lh.nii.gz",
+      "sha256": "2a2026434c6925979b776ab14913b0120ecf4297bb62b44ec889cfec82fe8b09"
+    },
+    {
+      "name": "left_TLE_sub-452_hippocampus_lh.nii.gz",
+      "sha256": "bb78c192c5932ba970fae09a32d2aa2e0b560a7b60ea90167ea55247d38726b3"
+    },
+    {
+      "name": "left_TLE_sub-454_hippocampus_lh.nii.gz",
+      "sha256": "a6da73bd5daae062c8efbedcd40c44ea7967271b8b125d564ca60113d5bee47d"
+    },
+    {
+      "name": "left_TLE_sub-460_hippocampus_lh.nii.gz",
+      "sha256": "11eeba1f49f05c5db09184a733ae185098e24f4071edf2dd635ef68703e6414e"
+    },
+    {
+      "name": "left_TLE_sub-461_hippocampus_lh.nii.gz",
+      "sha256": "ecdecabc7fce4131f57931413201923d910902b1dc2999919177a2c94cefbe03"
+    },
+    {
+      "name": "left_TLE_sub-46_hippocampus_lh.nii.gz",
+      "sha256": "06bed3117b29c951acec86163b2d90ca1bf9ada92444f6de6694e26eed9c4da3"
+    },
+    {
+      "name": "left_TLE_sub-55_hippocampus_lh.nii.gz",
+      "sha256": "15545894f2b5c9aea2dd9a4d706cd13b590d8638b65e7fb674e93792e4e66db5"
+    },
+    {
+      "name": "left_TLE_sub-56_hippocampus_lh.nii.gz",
+      "sha256": "6660f0c6cb1f30248f906c87b350b33d9a6f96d95673246fef39d6b5316f1eb5"
+    },
+    {
+      "name": "left_TLE_sub-5_hippocampus_lh.nii.gz",
+      "sha256": "e773aae55e1b29895e507d5ecab9fcf7e63d43511f7d4abdcf3eee2fdca0368d"
+    },
+    {
+      "name": "left_TLE_sub-67_hippocampus_lh.nii.gz",
+      "sha256": "d83484a46259baeb3557e6ceafc79666609aaeb7a4cb4bd9d9fa464f50027bc8"
+    },
+    {
+      "name": "left_TLE_sub-68_hippocampus_lh.nii.gz",
+      "sha256": "1d786e2f0d52becacb727505b468ddd44fda19bab9ad3c292e4df50864597b01"
+    },
+    {
+      "name": "left_TLE_sub-71_hippocampus_lh.nii.gz",
+      "sha256": "c7ed0ec9de63b497e039953c45b7e815956fec6c686bf5cd5127ca02c813278e"
+    },
+    {
+      "name": "left_TLE_sub-74_hippocampus_lh.nii.gz",
+      "sha256": "6de682a2b909138256c9f13fcc1a1a9a483e155a15df5babc16d21574d4747ad"
+    },
+    {
+      "name": "left_TLE_sub-77_hippocampus_lh.nii.gz",
+      "sha256": "24ff8c194fc17abc0f1bb0ff2ad7259ec328a1ffca136ada459c9a3bc050066f"
+    },
+    {
+      "name": "left_TLE_sub-78_hippocampus_lh.nii.gz",
+      "sha256": "c7c055a015cd308b63befe28df8478f7a8e72a3439b0b39038f81dface51344b"
+    },
+    {
+      "name": "left_TLE_sub-85_hippocampus_lh.nii.gz",
+      "sha256": "9e8f2b2a5ec7bc014f03f73253e5421448ba4a56b11ab321914b92148fc6029f"
+    },
+    {
+      "name": "left_TLE_sub-87_hippocampus_lh.nii.gz",
+      "sha256": "56e81ecced0e1039f0378ad2bc54d4f2b550be231e42fa6d6695a562907d5f7f"
+    },
+    {
+      "name": "left_TLE_sub-90_hippocampus_lh.nii.gz",
+      "sha256": "26e045a1b10cc1c84edd2e49a64c1624387873453fc722af7d716faa3f538c84"
+    },
+    {
+      "name": "left_TLE_sub-92_hippocampus_lh.nii.gz",
+      "sha256": "67e53ce5d381dd3369fb4072ce5d91510249863c5eccc74420b6f3168867f3f5"
+    },
+    {
+      "name": "left_TLE_sub-93_hippocampus_lh.nii.gz",
+      "sha256": "38cc53acf92c3e9b2883a7b00117086a0ebdd4cb4c14ca2a52d1584e22e19807"
+    }
+  ]
+}

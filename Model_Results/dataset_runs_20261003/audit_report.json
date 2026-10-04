@@ -1,0 +1,347 @@
+{
+  "verified_jobs": 68,
+  "expected_jobs": 68,
+  "errors": [],
+  "checks": [
+    {
+      "job": "coef_raw/left/SVM",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/left/MLP",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/left/ResNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/left/ResNetAE",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/left/MobileNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/left/SqueezeNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/right/SVM",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/right/MLP",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/right/ResNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/right/ResNetAE",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/right/MobileNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw/right/SqueezeNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/left/SVM",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/left/MLP",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/left/ResNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/left/ResNetAE",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/left/MobileNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/left/SqueezeNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/right/SVM",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/right/MLP",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/right/ResNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/right/ResNetAE",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/right/MobileNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_raw_balanced_jitter/right/SqueezeNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/left/SVM",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/left/MLP",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/left/ResNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/left/ResNetAE",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/left/MobileNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/left/SqueezeNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/right/SVM",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/right/MLP",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/right/ResNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/right/ResNetAE",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/right/MobileNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "coef_plsda/right/SqueezeNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/left/SVM",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/left/MLP",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/left/ResNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/left/ResNetAE",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/left/MobileNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/left/SqueezeNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/right/SVM",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/right/MLP",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/right/ResNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/right/ResNetAE",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/right/MobileNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "augment_plsda_balanced/right/SqueezeNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/left/SVM",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/left/MLP",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/left/ResNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/left/ResNetAE",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/left/MobileNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/left/SqueezeNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/right/SVM",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/right/MLP",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/right/ResNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/right/ResNetAE",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/right/MobileNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_latent_features/right/SqueezeNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "pointnet_raw/left/PointNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "pointnet_raw/right/PointNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "pointnet_raw_balanced_jitter/left/PointNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "pointnet_raw_balanced_jitter/right/PointNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "pointnet_plsda/left/PointNet",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "pointnet_plsda/right/PointNet",
+      "test_rows": 77,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_direct/left/PLSDA",
+      "test_rows": 73,
+      "metrics_verified": true
+    },
+    {
+      "job": "plsda_direct/right/PLSDA",
+      "test_rows": 77,
+      "metrics_verified": true
+    }
+  ]
+}

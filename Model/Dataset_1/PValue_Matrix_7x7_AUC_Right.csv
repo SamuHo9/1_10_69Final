@@ -1,8 +1,0 @@
-,MLP,MobileNet,PointNet,ResNet+AE,ResNet,SqueezeNet,SVM
-MLP,—,ns (p = 0.78),ns (p = 0.06),ns (p = 0.36),ns (p = 0.13),ns (p = 0.53),** (p = 0.002)
-MobileNet,ns (p = 0.78),—,ns (p = 0.06),ns (p = 0.14),* (p = 0.030),ns (p = 0.30),** (p = 0.001)
-PointNet,ns (p = 0.06),ns (p = 0.06),—,ns (p = 0.12),ns (p = 0.17),* (p = 0.030),ns (p = 0.57)
-ResNet+AE,ns (p = 0.36),ns (p = 0.14),ns (p = 0.12),—,ns (p = 0.37),ns (p = 0.93),** (p = 0.004)
-ResNet,ns (p = 0.13),* (p = 0.030),ns (p = 0.17),ns (p = 0.37),—,ns (p = 0.72),* (p = 0.022)
-SqueezeNet,ns (p = 0.53),ns (p = 0.30),* (p = 0.030),ns (p = 0.93),ns (p = 0.72),—,ns (p = 0.20)
-SVM,** (p = 0.002),** (p = 0.001),ns (p = 0.57),** (p = 0.004),* (p = 0.022),ns (p = 0.20),—

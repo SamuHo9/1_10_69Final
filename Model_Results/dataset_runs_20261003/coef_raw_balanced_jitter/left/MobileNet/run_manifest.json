@@ -1,0 +1,31 @@
+{
+  "dataset": "coef_raw_balanced_jitter",
+  "side": "left",
+  "model": "MobileNet",
+  "kind": "coef",
+  "input_train": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_raw_balanced_jitter\\left\\train_prepared.csv",
+  "input_test": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_raw_balanced_jitter\\left\\test_prepared.csv",
+  "input_sha256": {
+    "train": "b0edbcb1daac95e4085d22e1822c0475e97001acb0cab96d25591b01eb065f89",
+    "test": "188a660fcfa321e1c05a3815f8ef18811f7071652ef5ce4e05c904e54bef3ac8"
+  },
+  "seed": 42,
+  "epochs": 80,
+  "batch_size": 32,
+  "pls_components": 8,
+  "preprocessing_fit_scope": "supplied_training_csv_only",
+  "cross_validation_performed": false,
+  "test_used_for_selection": false,
+  "augmentation_during_training": false,
+  "known_input_limitations": "Hemisphere labels; existing ICP reference included test. Prepared augmentation is used as supplied.",
+  "sklearn_version": "1.8.0",
+  "numpy_version": "2.3.5",
+  "runtime": {
+    "device": "cuda",
+    "torch_version": "2.10.0+cu128",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "architecture_source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\All_Augment_tain\\left\\MobileNet\\train_mobilenet_pls.py",
+    "architecture_sha256": "c1d4f1c5f6f98a2c131df5573ad54e4d7feb6ff467fa7a3ac0294dba686544f6"
+  },
+  "test_prediction_rule": "probability >= 0.5"
+}

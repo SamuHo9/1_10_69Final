@@ -1,7 +1,0 @@
-Dataset,Side,Train_N,Train_Healthy,Train_Epilepsy,Test_N,Test_Healthy,Test_Epilepsy,Train_Acc_2D,Test_Acc_2D,Test_Error_Rate,Misclassified_Count,PLS1_Var_Explained,PLS2_Var_Explained
-Ds005602,Left,223,141,82,56,36,20,88.34%,91.07%,8.93%,5,18.94%,7.98%
-Ds005602,Right,228,162,66,57,40,17,91.23%,85.96%,14.04%,8,16.74%,10.73%
-Ds004469,Left,41,29,12,11,8,3,92.68%,72.73%,27.27%,3,5.93%,6.31%
-Ds004469,Right,43,36,7,11,10,1,93.02%,72.73%,27.27%,3,12.33%,6.64%
-All_Augment_tain,Left,264,170,94,67,44,23,86.36%,83.58%,16.42%,11,16.34%,9.46%
-All_Augment_tain,Right,271,198,73,68,50,18,90.41%,91.18%,8.82%,6,15.53%,11.31%

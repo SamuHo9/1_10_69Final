@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "valid_rounds": 1000,
+  "skipped_rounds": 0,
+  "source_unchanged": true,
+  "all_round_counts_recomputed": true,
+  "metric_and_ROC_spot_checks": 5,
+  "all_confidence_intervals_recomputed": true
+}

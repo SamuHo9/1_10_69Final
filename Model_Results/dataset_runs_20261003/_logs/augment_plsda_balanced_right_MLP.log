@@ -1,0 +1,45 @@
+Command: ["C:\\Users\\IHCK\\AppData\\Local\\Programs\\Python\\Python312\\python.exe", "-u", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\train_dataset_model.py", "--dataset", "augment_plsda_balanced", "--side", "right", "--model", "MLP", "--kind", "coef", "--train-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\augment_plsda_balanced\\right\\train_prepared.csv", "--test-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\augment_plsda_balanced\\right\\test_prepared.csv", "--output-dir", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261003\\augment_plsda_balanced\\right\\MLP", "--epochs", "80", "--pls-components", "8", "--seed", "42", "--threads", "2"]
+dataset=augment_plsda_balanced side=right model=MLP; train=2182 test=77 features=507
+Fixed settings. Full training fit; no cross-validation or test-based selection.
+Iteration 1, loss = 0.43001953
+Iteration 2, loss = 0.09649305
+Iteration 3, loss = 0.03189099
+Iteration 4, loss = 0.01624220
+Iteration 5, loss = 0.01165660
+Iteration 6, loss = 0.00932874
+Iteration 7, loss = 0.00793507
+Iteration 8, loss = 0.00688473
+Iteration 9, loss = 0.00618710
+Iteration 10, loss = 0.00549031
+Iteration 11, loss = 0.00503766
+Iteration 12, loss = 0.00468287
+Iteration 13, loss = 0.00437893
+Iteration 14, loss = 0.00402085
+Iteration 15, loss = 0.00369475
+Iteration 16, loss = 0.00340493
+Iteration 17, loss = 0.00323677
+Iteration 18, loss = 0.00307638
+Iteration 19, loss = 0.00298426
+Iteration 20, loss = 0.00267432
+Iteration 21, loss = 0.00252101
+Iteration 22, loss = 0.00237708
+Iteration 23, loss = 0.00223138
+Iteration 24, loss = 0.00219820
+Iteration 25, loss = 0.00206295
+Iteration 26, loss = 0.00192588
+Iteration 27, loss = 0.00179209
+Iteration 28, loss = 0.00177803
+Iteration 29, loss = 0.00166969
+Iteration 30, loss = 0.00159474
+Iteration 31, loss = 0.00153103
+Iteration 32, loss = 0.00145765
+Iteration 33, loss = 0.00140771
+Iteration 34, loss = 0.00133064
+Iteration 35, loss = 0.00128998
+Iteration 36, loss = 0.00126437
+Iteration 37, loss = 0.00121932
+Iteration 38, loss = 0.00114821
+Iteration 39, loss = 0.00116848
+Iteration 40, loss = 0.00107516
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+{"accuracy": 0.8181818181818182, "balanced_accuracy": 0.7410714285714286, "sensitivity": 0.5714285714285714, "specificity": 0.9107142857142857, "f1_macro": 0.7554446460980035, "roc_auc": 0.8052721088435373, "confusion_matrix": [[51, 5], [9, 12]], "classification_report": {"0": {"precision": 0.85, "recall": 0.9107142857142857, "f1-score": 0.8793103448275862, "support": 56.0}, "1": {"precision": 0.7058823529411765, "recall": 0.5714285714285714, "f1-score": 0.631578947368421, "support": 21.0}, "accuracy": 0.8181818181818182, "macro avg": {"precision": 0.7779411764705882, "recall": 0.7410714285714286, "f1-score": 0.7554446460980035, "support": 77.0}, "weighted avg": {"precision": 0.8106951871657754, "recall": 0.8181818181818182, "f1-score": 0.8117472364296321, "support": 77.0}}, "train_rows": 2182, "test_rows": 77, "source_features": 507, "model_input_features": [8], "elapsed_seconds": 0.2809999999590218}

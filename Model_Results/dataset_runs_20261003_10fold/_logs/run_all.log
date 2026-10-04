@@ -1,0 +1,139 @@
+Run invocation: ["Model/run_dataset_models.py", "--scope", "all", "--folds", "10", "--epochs", "80", "--pls-components", "8", "--seed", "42", "--threads", "2"]
+Python: C:\Users\IHCK\AppData\Local\Programs\Python\Python312\python.exe; jobs=68; folds=10; neural_epochs=80
+[1/68] START ('coef_raw', 'left', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_left_SVM.log
+[1/68] completed ('coef_raw', 'left', 'SVM') seconds=2.25 test_accuracy=0.7808219178082192 AUC=0.8412438625204584
+[2/68] START ('coef_raw', 'left', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_left_MLP.log
+[2/68] completed ('coef_raw', 'left', 'MLP') seconds=3.2 test_accuracy=0.7397260273972602 AUC=0.851063829787234
+[3/68] START ('coef_raw', 'left', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_left_ResNet.log
+[3/68] completed ('coef_raw', 'left', 'ResNet') seconds=43.06 test_accuracy=0.7671232876712328 AUC=0.8371522094926351
+[4/68] START ('coef_raw', 'left', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_left_ResNetAE.log
+[4/68] completed ('coef_raw', 'left', 'ResNetAE') seconds=45.17 test_accuracy=0.7397260273972602 AUC=0.837152209492635
+[5/68] START ('coef_raw', 'left', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_left_MobileNet.log
+[5/68] completed ('coef_raw', 'left', 'MobileNet') seconds=62.2 test_accuracy=0.7808219178082192 AUC=0.8469721767594108
+[6/68] START ('coef_raw', 'left', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_left_SqueezeNet.log
+[6/68] completed ('coef_raw', 'left', 'SqueezeNet') seconds=32.73 test_accuracy=0.726027397260274 AUC=0.8535188216039279
+[7/68] START ('coef_raw', 'right', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_right_SVM.log
+[7/68] completed ('coef_raw', 'right', 'SVM') seconds=2.14 test_accuracy=0.8181818181818182 AUC=0.8401360544217688
+[8/68] START ('coef_raw', 'right', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_right_MLP.log
+[8/68] completed ('coef_raw', 'right', 'MLP') seconds=2.98 test_accuracy=0.7922077922077922 AUC=0.8384353741496599
+[9/68] START ('coef_raw', 'right', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_right_ResNet.log
+[9/68] completed ('coef_raw', 'right', 'ResNet') seconds=40.47 test_accuracy=0.8441558441558441 AUC=0.842687074829932
+[10/68] START ('coef_raw', 'right', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_right_ResNetAE.log
+[10/68] completed ('coef_raw', 'right', 'ResNetAE') seconds=48.67 test_accuracy=0.8441558441558441 AUC=0.8588435374149661
+[11/68] START ('coef_raw', 'right', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_right_MobileNet.log
+[11/68] completed ('coef_raw', 'right', 'MobileNet') seconds=54.98 test_accuracy=0.8181818181818182 AUC=0.842687074829932
+[12/68] START ('coef_raw', 'right', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_right_SqueezeNet.log
+[12/68] completed ('coef_raw', 'right', 'SqueezeNet') seconds=35.02 test_accuracy=0.8701298701298701 AUC=0.8575680272108843
+[13/68] START ('coef_raw_balanced_jitter', 'left', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_left_SVM.log
+[13/68] completed ('coef_raw_balanced_jitter', 'left', 'SVM') seconds=2.61 test_accuracy=0.7808219178082192 AUC=0.8477905073649754
+[14/68] START ('coef_raw_balanced_jitter', 'left', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_left_MLP.log
+[14/68] completed ('coef_raw_balanced_jitter', 'left', 'MLP') seconds=3.75 test_accuracy=0.7534246575342466 AUC=0.851063829787234
+[15/68] START ('coef_raw_balanced_jitter', 'left', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_left_ResNet.log
+[15/68] completed ('coef_raw_balanced_jitter', 'left', 'ResNet') seconds=50.42 test_accuracy=0.7808219178082192 AUC=0.8469721767594108
+[16/68] START ('coef_raw_balanced_jitter', 'left', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_left_ResNetAE.log
+[16/68] completed ('coef_raw_balanced_jitter', 'left', 'ResNetAE') seconds=57.78 test_accuracy=0.7671232876712328 AUC=0.8649754500818331
+[17/68] START ('coef_raw_balanced_jitter', 'left', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_left_MobileNet.log
+[17/68] completed ('coef_raw_balanced_jitter', 'left', 'MobileNet') seconds=65.67 test_accuracy=0.7123287671232876 AUC=0.795417348608838
+[18/68] START ('coef_raw_balanced_jitter', 'left', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_left_SqueezeNet.log
+[18/68] completed ('coef_raw_balanced_jitter', 'left', 'SqueezeNet') seconds=38.28 test_accuracy=0.7808219178082192 AUC=0.8355155482815058
+[19/68] START ('coef_raw_balanced_jitter', 'right', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_right_SVM.log
+[19/68] completed ('coef_raw_balanced_jitter', 'right', 'SVM') seconds=2.86 test_accuracy=0.8181818181818182 AUC=0.8375850340136055
+[20/68] START ('coef_raw_balanced_jitter', 'right', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_right_MLP.log
+[20/68] completed ('coef_raw_balanced_jitter', 'right', 'MLP') seconds=3.72 test_accuracy=0.8311688311688312 AUC=0.8384353741496599
+[21/68] START ('coef_raw_balanced_jitter', 'right', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_right_ResNet.log
+[21/68] completed ('coef_raw_balanced_jitter', 'right', 'ResNet') seconds=54.66 test_accuracy=0.8051948051948052 AUC=0.8375850340136055
+[22/68] START ('coef_raw_balanced_jitter', 'right', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_right_ResNetAE.log
+[22/68] completed ('coef_raw_balanced_jitter', 'right', 'ResNetAE') seconds=64.59 test_accuracy=0.7922077922077922 AUC=0.8494897959183674
+[23/68] START ('coef_raw_balanced_jitter', 'right', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_right_MobileNet.log
+[23/68] completed ('coef_raw_balanced_jitter', 'right', 'MobileNet') seconds=79.44 test_accuracy=0.8311688311688312 AUC=0.8333333333333334
+[24/68] START ('coef_raw_balanced_jitter', 'right', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_raw_balanced_jitter_right_SqueezeNet.log
+[24/68] completed ('coef_raw_balanced_jitter', 'right', 'SqueezeNet') seconds=44.72 test_accuracy=0.8311688311688312 AUC=0.8401360544217688
+[25/68] START ('coef_plsda', 'left', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_left_SVM.log
+[25/68] completed ('coef_plsda', 'left', 'SVM') seconds=2.75 test_accuracy=0.7808219178082192 AUC=0.8518821603927987
+[26/68] START ('coef_plsda', 'left', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_left_MLP.log
+[26/68] completed ('coef_plsda', 'left', 'MLP') seconds=3.73 test_accuracy=0.726027397260274 AUC=0.8559738134206218
+[27/68] START ('coef_plsda', 'left', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_left_ResNet.log
+[27/68] completed ('coef_plsda', 'left', 'ResNet') seconds=50.52 test_accuracy=0.7808219178082192 AUC=0.8715220949263502
+[28/68] START ('coef_plsda', 'left', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_left_ResNetAE.log
+[28/68] completed ('coef_plsda', 'left', 'ResNetAE') seconds=56.2 test_accuracy=0.7671232876712328 AUC=0.8543371522094927
+[29/68] START ('coef_plsda', 'left', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_left_MobileNet.log
+[29/68] completed ('coef_plsda', 'left', 'MobileNet') seconds=69.06 test_accuracy=0.7808219178082192 AUC=0.857201309328969
+[30/68] START ('coef_plsda', 'left', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_left_SqueezeNet.log
+[30/68] completed ('coef_plsda', 'left', 'SqueezeNet') seconds=37.83 test_accuracy=0.7671232876712328 AUC=0.8330605564648118
+[31/68] START ('coef_plsda', 'right', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_right_SVM.log
+[31/68] completed ('coef_plsda', 'right', 'SVM') seconds=2.97 test_accuracy=0.8701298701298701 AUC=0.8503401360544217
+[32/68] START ('coef_plsda', 'right', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_right_MLP.log
+[32/68] completed ('coef_plsda', 'right', 'MLP') seconds=3.97 test_accuracy=0.8441558441558441 AUC=0.8333333333333334
+[33/68] START ('coef_plsda', 'right', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_right_ResNet.log
+[33/68] completed ('coef_plsda', 'right', 'ResNet') seconds=59.98 test_accuracy=0.8181818181818182 AUC=0.7971938775510203
+[34/68] START ('coef_plsda', 'right', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_right_ResNetAE.log
+[34/68] completed ('coef_plsda', 'right', 'ResNetAE') seconds=67.22 test_accuracy=0.8051948051948052 AUC=0.8222789115646258
+[35/68] START ('coef_plsda', 'right', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_right_MobileNet.log
+[35/68] completed ('coef_plsda', 'right', 'MobileNet') seconds=81.77 test_accuracy=0.7792207792207793 AUC=0.8333333333333333
+[36/68] START ('coef_plsda', 'right', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\coef_plsda_right_SqueezeNet.log
+[36/68] completed ('coef_plsda', 'right', 'SqueezeNet') seconds=42.2 test_accuracy=0.8311688311688312 AUC=0.8486394557823129
+[37/68] START ('augment_plsda_balanced', 'left', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_left_SVM.log
+[37/68] completed ('augment_plsda_balanced', 'left', 'SVM') seconds=9.47 test_accuracy=0.7534246575342466 AUC=0.837152209492635
+[38/68] START ('augment_plsda_balanced', 'left', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_left_MLP.log
+[38/68] completed ('augment_plsda_balanced', 'left', 'MLP') seconds=12.88 test_accuracy=0.726027397260274 AUC=0.8314238952536825
+[39/68] START ('augment_plsda_balanced', 'left', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_left_ResNet.log
+[39/68] completed ('augment_plsda_balanced', 'left', 'ResNet') seconds=223.58 test_accuracy=0.7397260273972602 AUC=0.8101472995090017
+[40/68] START ('augment_plsda_balanced', 'left', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_left_ResNetAE.log
+[40/68] completed ('augment_plsda_balanced', 'left', 'ResNetAE') seconds=296.06 test_accuracy=0.7671232876712328 AUC=0.8281505728314239
+[41/68] START ('augment_plsda_balanced', 'left', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_left_MobileNet.log
+[41/68] completed ('augment_plsda_balanced', 'left', 'MobileNet') seconds=388.62 test_accuracy=0.7671232876712328 AUC=0.7847790507364976
+[42/68] START ('augment_plsda_balanced', 'left', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_left_SqueezeNet.log
+[42/68] completed ('augment_plsda_balanced', 'left', 'SqueezeNet') seconds=204.14 test_accuracy=0.726027397260274 AUC=0.8113747954173486
+[43/68] START ('augment_plsda_balanced', 'right', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_right_SVM.log
+[43/68] completed ('augment_plsda_balanced', 'right', 'SVM') seconds=12.06 test_accuracy=0.8181818181818182 AUC=0.7933673469387754
+[44/68] START ('augment_plsda_balanced', 'right', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_right_MLP.log
+[44/68] completed ('augment_plsda_balanced', 'right', 'MLP') seconds=15.83 test_accuracy=0.8181818181818182 AUC=0.8052721088435373
+[45/68] START ('augment_plsda_balanced', 'right', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_right_ResNet.log
+[45/68] completed ('augment_plsda_balanced', 'right', 'ResNet') seconds=272.91 test_accuracy=0.8441558441558441 AUC=0.8061224489795917
+[46/68] START ('augment_plsda_balanced', 'right', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_right_ResNetAE.log
+[46/68] completed ('augment_plsda_balanced', 'right', 'ResNetAE') seconds=325.97 test_accuracy=0.8181818181818182 AUC=0.7942176870748299
+[47/68] START ('augment_plsda_balanced', 'right', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_right_MobileNet.log
+[47/68] completed ('augment_plsda_balanced', 'right', 'MobileNet') seconds=443.44 test_accuracy=0.8311688311688312 AUC=0.8103741496598639
+[48/68] START ('augment_plsda_balanced', 'right', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\augment_plsda_balanced_right_SqueezeNet.log
+[48/68] completed ('augment_plsda_balanced', 'right', 'SqueezeNet') seconds=227.59 test_accuracy=0.7922077922077922 AUC=0.7767857142857143
+[49/68] START ('plsda_latent_features', 'left', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_left_SVM.log
+[49/68] completed ('plsda_latent_features', 'left', 'SVM') seconds=2.41 test_accuracy=0.7671232876712328 AUC=0.8420621931260229
+[50/68] START ('plsda_latent_features', 'left', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_left_MLP.log
+[50/68] completed ('plsda_latent_features', 'left', 'MLP') seconds=3.52 test_accuracy=0.7534246575342466 AUC=0.8436988543371522
+[51/68] START ('plsda_latent_features', 'left', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_left_ResNet.log
+[51/68] completed ('plsda_latent_features', 'left', 'ResNet') seconds=43.66 test_accuracy=0.7534246575342466 AUC=0.8322422258592471
+[52/68] START ('plsda_latent_features', 'left', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_left_ResNetAE.log
+[52/68] completed ('plsda_latent_features', 'left', 'ResNetAE') seconds=48.66 test_accuracy=0.7671232876712328 AUC=0.8412438625204582
+[53/68] START ('plsda_latent_features', 'left', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_left_MobileNet.log
+[53/68] completed ('plsda_latent_features', 'left', 'MobileNet') seconds=66.3 test_accuracy=0.7808219178082192 AUC=0.8216039279869067
+[54/68] START ('plsda_latent_features', 'left', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_left_SqueezeNet.log
+[54/68] completed ('plsda_latent_features', 'left', 'SqueezeNet') seconds=37.53 test_accuracy=0.7123287671232876 AUC=0.8424713584288053
+[55/68] START ('plsda_latent_features', 'right', 'SVM') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_right_SVM.log
+[55/68] completed ('plsda_latent_features', 'right', 'SVM') seconds=2.45 test_accuracy=0.8181818181818182 AUC=0.8324829931972789
+[56/68] START ('plsda_latent_features', 'right', 'MLP') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_right_MLP.log
+[56/68] completed ('plsda_latent_features', 'right', 'MLP') seconds=3.59 test_accuracy=0.7792207792207793 AUC=0.8316326530612245
+[57/68] START ('plsda_latent_features', 'right', 'ResNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_right_ResNet.log
+[57/68] completed ('plsda_latent_features', 'right', 'ResNet') seconds=46.28 test_accuracy=0.7792207792207793 AUC=0.8256802721088435
+[58/68] START ('plsda_latent_features', 'right', 'ResNetAE') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_right_ResNetAE.log
+[58/68] completed ('plsda_latent_features', 'right', 'ResNetAE') seconds=50.75 test_accuracy=0.8571428571428571 AUC=0.8469387755102041
+[59/68] START ('plsda_latent_features', 'right', 'MobileNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_right_MobileNet.log
+[59/68] completed ('plsda_latent_features', 'right', 'MobileNet') seconds=66.19 test_accuracy=0.8051948051948052 AUC=0.8358843537414966
+[60/68] START ('plsda_latent_features', 'right', 'SqueezeNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_latent_features_right_SqueezeNet.log
+[60/68] completed ('plsda_latent_features', 'right', 'SqueezeNet') seconds=38.5 test_accuracy=0.8701298701298701 AUC=0.8622448979591837
+[61/68] START ('pointnet_raw', 'left', 'PointNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\pointnet_raw_left_PointNet.log
+[61/68] completed ('pointnet_raw', 'left', 'PointNet') seconds=104.53 test_accuracy=0.684931506849315 AUC=0.7610474631751227
+[62/68] START ('pointnet_raw', 'right', 'PointNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\pointnet_raw_right_PointNet.log
+[62/68] completed ('pointnet_raw', 'right', 'PointNet') seconds=103.11 test_accuracy=0.7012987012987013 AUC=0.7134353741496599
+[63/68] START ('pointnet_raw_balanced_jitter', 'left', 'PointNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\pointnet_raw_balanced_jitter_left_PointNet.log
+[63/68] completed ('pointnet_raw_balanced_jitter', 'left', 'PointNet') seconds=130.39 test_accuracy=0.7397260273972602 AUC=0.7561374795417348
+[64/68] START ('pointnet_raw_balanced_jitter', 'right', 'PointNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\pointnet_raw_balanced_jitter_right_PointNet.log
+[64/68] completed ('pointnet_raw_balanced_jitter', 'right', 'PointNet') seconds=149.5 test_accuracy=0.7402597402597403 AUC=0.7534013605442177
+[65/68] START ('pointnet_plsda', 'left', 'PointNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\pointnet_plsda_left_PointNet.log
+[65/68] completed ('pointnet_plsda', 'left', 'PointNet') seconds=131.33 test_accuracy=0.726027397260274 AUC=0.7618657937806874
+[66/68] START ('pointnet_plsda', 'right', 'PointNet') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\pointnet_plsda_right_PointNet.log
+[66/68] completed ('pointnet_plsda', 'right', 'PointNet') seconds=152.08 test_accuracy=0.6493506493506493 AUC=0.7049319727891156
+[67/68] START ('plsda_direct', 'left', 'PLSDA') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_direct_left_PLSDA.log
+[67/68] completed ('plsda_direct', 'left', 'PLSDA') seconds=2.16 test_accuracy=0.7671232876712328 AUC=0.8428805237315875
+[68/68] START ('plsda_direct', 'right', 'PLSDA') -> C:\Users\IHCK\Desktop\1_10_69Final\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\Model_Results\dataset_runs_20261003_10fold\_logs\plsda_direct_right_PLSDA.log
+[68/68] completed ('plsda_direct', 'right', 'PLSDA') seconds=2.12 test_accuracy=0.8311688311688312 AUC=0.842687074829932
+Completed=68 Failed=0 Reused=0

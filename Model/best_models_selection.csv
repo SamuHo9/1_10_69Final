@@ -1,5 +1,0 @@
-Dataset,Side,Model,Status,CV_Acc,Test_Acc,Sensitivity,Specificity,F1_Macro,ROC_AUC,Time,Test_Acc_Num,AUC_Num,F1_Num
-Dataset_1,Left,SqueezeNet,OK,99.13%,81.08%,76.92%,83.33%,79.59%,0.8526,151.3s,81.08,0.8526,79.59
-Dataset_1,Right,MLP,OK,99.27%,89.33%,85.00%,90.91%,86.77%,0.9173,4.8s,89.33,0.9173,86.77
-Dataset_2,Left,SqueezeNet,OK,95.19%,77.03%,80.77%,75.00%,76.04%,0.8662,173.5s,77.03,0.8662,76.04
-Dataset_2,Right,ResNet (AutoEncoder),OK,99.39%,85.33%,75.00%,89.09%,81.54%,0.8682,83.7s,85.33,0.8682,81.54

@@ -1,0 +1,20 @@
+{
+  "cv_oof": {
+    "accuracy": 0.7066666666666667,
+    "balanced_accuracy": 0.6715856481481481,
+    "sensitivity": 0.5462962962962963,
+    "specificity": 0.796875,
+    "f1_macro": 0.674732640086738,
+    "threshold": 0.5,
+    "roc_auc": 0.7453221450617284
+  },
+  "test": {
+    "accuracy": 0.7671232876712328,
+    "balanced_accuracy": 0.7590016366612111,
+    "sensitivity": 0.7307692307692307,
+    "specificity": 0.7872340425531915,
+    "f1_macro": 0.752047952047952,
+    "threshold": 0.5,
+    "roc_auc": 0.8428805237315875
+  }
+}
