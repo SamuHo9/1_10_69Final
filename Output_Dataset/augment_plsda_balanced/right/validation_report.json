@@ -1,0 +1,23 @@
+{
+  "train_rows": 2182,
+  "synthetic_rows": 1882,
+  "test_rows": 77,
+  "class_counts": {
+    "0": 1091,
+    "1": 1091
+  },
+  "features": 507,
+  "unique_pairs_and_disjoint_parents_verified": true,
+  "same_class_train_only_parents_verified": true,
+  "original_train_and_test_values_verified": true,
+  "finite_features_verified": true,
+  "children_distribution_by_class": {
+    "0": {
+      "8": 109
+    },
+    "1": {
+      "26": 10,
+      "25": 30
+    }
+  }
+}

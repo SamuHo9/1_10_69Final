@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "test_labels_flipped": true,
+  "test_features_perturbed": true,
+  "oof_unchanged": true,
+  "selected_threshold_unchanged": true,
+  "original_test_file_unchanged": true,
+  "threshold": 0.9951350223058605
+}

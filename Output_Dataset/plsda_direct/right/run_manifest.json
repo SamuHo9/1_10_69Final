@@ -1,0 +1,71 @@
+{
+  "schema": "direct_plsda_run_manifest_v1",
+  "protocol": "plsda_direct",
+  "classifier": "PLSRegression(one-hot target)+two-class-softmax",
+  "model_input": "Coef_1..Coef_507",
+  "pls_da_used_for_augmentation": false,
+  "pls_da_applied_to_model_input": true,
+  "synthetic_rows": 0,
+  "input_train": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\SplitData\\train\\SPHARM_RIGHT\\ml_features\\spharm_results_coef_features.csv",
+  "input_test": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\SplitData\\test\\SPHARM_RIGHT\\ml_features\\spharm_results_coef_features.csv",
+  "output_dir": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\plsda_direct\\right",
+  "train_rows": 300,
+  "test_rows": 77,
+  "train_class_counts": {
+    "0": 219,
+    "1": 81
+  },
+  "test_class_counts": {
+    "0": 56,
+    "1": 21
+  },
+  "requested_components": 8,
+  "effective_components": 8,
+  "requested_folds": 5,
+  "actual_folds": 5,
+  "seed": 42,
+  "threshold": 0.5,
+  "test_sha256": "619e3bae5f810194c67349ca2cb750091c686eff51cb44f298f37ae7dbdff7ed",
+  "folds": [
+    {
+      "fold": 1,
+      "train_rows": 240,
+      "validation_rows": 60,
+      "train_patient_groups": 240,
+      "validation_patient_groups": 60,
+      "effective_components": 8
+    },
+    {
+      "fold": 2,
+      "train_rows": 240,
+      "validation_rows": 60,
+      "train_patient_groups": 240,
+      "validation_patient_groups": 60,
+      "effective_components": 8
+    },
+    {
+      "fold": 3,
+      "train_rows": 240,
+      "validation_rows": 60,
+      "train_patient_groups": 240,
+      "validation_patient_groups": 60,
+      "effective_components": 8
+    },
+    {
+      "fold": 4,
+      "train_rows": 240,
+      "validation_rows": 60,
+      "train_patient_groups": 240,
+      "validation_patient_groups": 60,
+      "effective_components": 8
+    },
+    {
+      "fold": 5,
+      "train_rows": 240,
+      "validation_rows": 60,
+      "train_patient_groups": 240,
+      "validation_patient_groups": 60,
+      "effective_components": 8
+    }
+  ]
+}
