@@ -1,0 +1,18 @@
+{
+  "objective": "accuracy",
+  "threshold": 0.9922926425933838,
+  "comparison": "probability >= threshold",
+  "tie_break": [
+    "highest_balanced_accuracy",
+    "closest_to_0.5",
+    "lower_threshold"
+  ],
+  "selection_source": "original_train_10fold_oof",
+  "selection_rows": 300,
+  "test_used_for_selection": false,
+  "candidates": 297,
+  "oof_selection_accuracy": 0.7666666666666667,
+  "oof_selection_balanced_accuracy": 0.7103587962962963,
+  "score_interpretation": "OOF labels selected this threshold; tuned OOF scores are selection scores, not unbiased CV estimates",
+  "oof_predictions_sha256": "b6251f3576e02e7aca0adfeedfee3eeb315e1f433d1ca53fbb6d8ad4d94a0889"
+}

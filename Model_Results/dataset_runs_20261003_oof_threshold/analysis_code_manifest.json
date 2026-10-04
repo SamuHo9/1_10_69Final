@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Source":  "Model\\audit_10fold_run.py",
+        "Snapshot":  "Model_Results\\dataset_runs_20261003_oof_threshold\\_analysis_code\\Model\\audit_10fold_run.py",
+        "SHA256":  "88DE6BAEFF6F78B7CABAE33A4B83B3A1CF8B0FD2182107C654B989B56AA38004"
+    },
+    {
+        "Source":  "Model\\compare_threshold_results.py",
+        "Snapshot":  "Model_Results\\dataset_runs_20261003_oof_threshold\\_analysis_code\\Model\\compare_threshold_results.py",
+        "SHA256":  "D9742ECF642E319824802EE071AD72E065F98C862EDFEFFC07207B270F87822A"
+    },
+    {
+        "Source":  "Model\\test_threshold_selection.py",
+        "Snapshot":  "Model_Results\\dataset_runs_20261003_oof_threshold\\_analysis_code\\Model\\test_threshold_selection.py",
+        "SHA256":  "3328F34AC5760FD77CB8220DF967EE3E27D5342519A1C3E717D07C0178C19142"
+    },
+    {
+        "Source":  "Model\\validate_threshold_invariance.py",
+        "Snapshot":  "Model_Results\\dataset_runs_20261003_oof_threshold\\_analysis_code\\Model\\validate_threshold_invariance.py",
+        "SHA256":  "D1D3A3560C6AEADC1B3E8CEA709D21C7CD6CAD75FC6687588C7E982C72871D6C"
+    }
+]

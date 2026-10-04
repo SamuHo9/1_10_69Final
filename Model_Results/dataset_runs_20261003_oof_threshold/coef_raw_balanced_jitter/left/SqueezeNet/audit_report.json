@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "folds": 10,
+  "oof_rows": 300,
+  "test_rows": 73,
+  "person_disjoint_folds": true,
+  "fold_local_synthetic_parents": true,
+  "metrics_recomputed": true,
+  "threshold_selection_independently_verified": true
+}
