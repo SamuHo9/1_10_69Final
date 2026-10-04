@@ -1,0 +1,58 @@
+Command: ["C:\\Users\\IHCK\\AppData\\Local\\Programs\\Python\\Python312\\python.exe", "-u", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\train_dataset_model.py", "--dataset", "coef_raw_balanced_jitter", "--side", "left", "--model", "SqueezeNet", "--kind", "coef", "--train-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_raw_balanced_jitter\\left\\train_prepared.csv", "--test-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_raw_balanced_jitter\\left\\test_prepared.csv", "--output-dir", "Model_Results\\validation_earlystop_20261004\\coef_raw_balanced_jitter\\left\\SqueezeNet", "--folds", "10", "--epochs", "1", "--threads", "2", "--early-stopping", "--epochs", "5", "--mlp-max-epochs", "5", "--patience", "2", "--min-delta", "100"]
+Inner early stopping: coef_raw_balanced_jitter/left/SqueezeNet; original Train=300 Test=73
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.692570 validation_loss=0.689233 best=True
+epoch=2/5 loss=0.688012 validation_loss=0.682514 best=True
+epoch=3/5 loss=0.671687 validation_loss=0.668136 best=True
+fold=1/10 OOF_accuracy=0.700000 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.693149 validation_loss=0.690813 best=True
+epoch=2/5 loss=0.691753 validation_loss=0.687475 best=True
+epoch=3/5 loss=0.686987 validation_loss=0.681699 best=True
+fold=2/10 OOF_accuracy=0.666667 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.693449 validation_loss=0.692394 best=True
+epoch=2/5 loss=0.693053 validation_loss=0.691560 best=True
+epoch=3/5 loss=0.691634 validation_loss=0.693556 best=False
+fold=3/10 OOF_accuracy=0.633333 best_epoch=2
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.692538 validation_loss=0.688519 best=True
+epoch=2/5 loss=0.688005 validation_loss=0.682089 best=True
+epoch=3/5 loss=0.673956 validation_loss=0.670854 best=True
+fold=4/10 OOF_accuracy=0.833333 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.693107 validation_loss=0.690282 best=True
+epoch=2/5 loss=0.691281 validation_loss=0.685403 best=True
+epoch=3/5 loss=0.685800 validation_loss=0.676286 best=True
+fold=5/10 OOF_accuracy=0.800000 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.692916 validation_loss=0.689786 best=True
+epoch=2/5 loss=0.690186 validation_loss=0.683511 best=True
+epoch=3/5 loss=0.681253 validation_loss=0.671926 best=True
+fold=6/10 OOF_accuracy=0.666667 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.692524 validation_loss=0.688578 best=True
+epoch=2/5 loss=0.687858 validation_loss=0.681888 best=True
+epoch=3/5 loss=0.671261 validation_loss=0.669136 best=True
+fold=7/10 OOF_accuracy=0.833333 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.693266 validation_loss=0.691093 best=True
+epoch=2/5 loss=0.692215 validation_loss=0.687723 best=True
+epoch=3/5 loss=0.688558 validation_loss=0.682345 best=True
+fold=8/10 OOF_accuracy=0.600000 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.693007 validation_loss=0.689951 best=True
+epoch=2/5 loss=0.690768 validation_loss=0.684509 best=True
+epoch=3/5 loss=0.683471 validation_loss=0.676198 best=True
+fold=9/10 OOF_accuracy=0.633333 best_epoch=3
+Device=cuda; inner stopping people=54; max_epochs=5; patience=2
+epoch=1/5 loss=0.693476 validation_loss=0.692461 best=True
+epoch=2/5 loss=0.693206 validation_loss=0.691742 best=True
+epoch=3/5 loss=0.692229 validation_loss=0.693136 best=False
+fold=10/10 OOF_accuracy=0.633333 best_epoch=2
+Frozen OOF threshold=0.50109857320785522; final refit epochs=3
+Device=cuda; epochs=3; batch=32; model=SqueezeNet1D
+epoch=1/3 loss=0.693564 seconds=0.05
+epoch=2/3 loss=0.693938 seconds=0.05
+epoch=3/3 loss=0.691486 seconds=0.05
+{"cv_oof": {"accuracy": 0.7, "balanced_accuracy": 0.6359953703703703, "sensitivity": 0.4074074074074074, "specificity": 0.8645833333333334, "f1_macro": 0.6405559401459077, "roc_auc": 0.7164834104938271, "confusion_matrix": [[166, 26], [64, 44]], "classification_report": {"0": {"precision": 0.7217391304347827, "recall": 0.8645833333333334, "f1-score": 0.7867298578199052, "support": 192.0}, "1": {"precision": 0.6285714285714286, "recall": 0.4074074074074074, "f1-score": 0.4943820224719101, "support": 108.0}, "accuracy": 0.7, "macro avg": {"precision": 0.6751552795031056, "recall": 0.6359953703703703, "f1-score": 0.6405559401459077, "support": 300.0}, "weighted avg": {"precision": 0.6881987577639753, "recall": 0.7, "f1-score": 0.681484637094627, "support": 300.0}}}, "test": {"accuracy": 0.589041095890411, "balanced_accuracy": 0.5519639934533551, "sensitivity": 0.4230769230769231, "specificity": 0.6808510638297872, "f1_macro": 0.5519639934533551, "roc_auc": 0.5351882160392799, "confusion_matrix": [[32, 15], [15, 11]], "classification_report": {"0": {"precision": 0.6808510638297872, "recall": 0.6808510638297872, "f1-score": 0.6808510638297872, "support": 47.0}, "1": {"precision": 0.4230769230769231, "recall": 0.4230769230769231, "f1-score": 0.4230769230769231, "support": 26.0}, "accuracy": 0.589041095890411, "macro avg": {"precision": 0.5519639934533551, "recall": 0.5519639934533551, "f1-score": 0.5519639934533551, "support": 73.0}, "weighted avg": {"precision": 0.589041095890411, "recall": 0.589041095890411, "f1-score": 0.589041095890411, "support": 73.0}}}, "test_default": {"accuracy": 0.4794520547945205, "balanced_accuracy": 0.48404255319148937, "sensitivity": 0.5, "specificity": 0.46808510638297873, "f1_macro": 0.4714176829268293, "roc_auc": 0.5351882160392799, "confusion_matrix": [[22, 25], [13, 13]], "classification_report": {"0": {"precision": 0.6285714285714286, "recall": 0.46808510638297873, "f1-score": 0.5365853658536586, "support": 47.0}, "1": {"precision": 0.34210526315789475, "recall": 0.5, "f1-score": 0.40625, "support": 26.0}, "accuracy": 0.4794520547945205, "macro avg": {"precision": 0.4853383458646616, "recall": 0.48404255319148937, "f1-score": 0.4714176829268293, "support": 73.0}, "weighted avg": {"precision": 0.5265423833556494, "recall": 0.4794520547945205, "f1-score": 0.49016455061810893, "support": 73.0}}}, "oof_threshold_selection": {"accuracy": 0.7166666666666667, "balanced_accuracy": 0.6469907407407407, "sensitivity": 0.39814814814814814, "specificity": 0.8958333333333334, "f1_macro": 0.6523943892364945, "roc_auc": 0.7164834104938271, "confusion_matrix": [[172, 20], [65, 43]], "classification_report": {"0": {"precision": 0.7257383966244726, "recall": 0.8958333333333334, "f1-score": 0.8018648018648019, "support": 192.0}, "1": {"precision": 0.6825396825396826, "recall": 0.39814814814814814, "f1-score": 0.5029239766081871, "support": 108.0}, "accuracy": 0.7166666666666667, "macro avg": {"precision": 0.7041390395820776, "recall": 0.6469907407407407, "f1-score": 0.6523943892364945, "support": 300.0}, "weighted avg": {"precision": 0.7101868595539482, "recall": 0.7166666666666667, "f1-score": 0.6942461047724207, "support": 300.0}}}, "decision_threshold": 0.5010985732078552, "folds": 10, "original_train_rows": 300, "train_rows": 384, "test_rows": 73, "final_epochs": 3, "elapsed_seconds": 10.875, "test_accuracy_change": 0.10958904109589046}

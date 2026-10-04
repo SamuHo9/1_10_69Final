@@ -1,0 +1,35 @@
+Command: ["C:\\Users\\IHCK\\AppData\\Local\\Programs\\Python\\Python312\\python.exe", "-u", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\train_dataset_model.py", "--dataset", "pointnet_raw_balanced_jitter", "--side", "left", "--model", "PointNet", "--kind", "xyz", "--train-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\pointnet_raw_balanced_jitter\\left\\train_prepared.csv", "--test-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\pointnet_raw_balanced_jitter\\left\\test_prepared.csv", "--output-dir", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\validation_10fold_20261003\\pointnet_raw_balanced_jitter\\left\\PointNet", "--folds", "10", "--epochs", "1", "--threads", "2"]
+10-fold CV: dataset=pointnet_raw_balanced_jitter side=left model=PointNet; original_train=300 test=73
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.676558 seconds=0.47
+fold=1/10 OOF_accuracy=0.333333 OOF_AUC=0.440000
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.671082 seconds=0.14
+fold=2/10 OOF_accuracy=0.633333 OOF_AUC=0.675000
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.638543 seconds=0.14
+fold=3/10 OOF_accuracy=0.366667 OOF_AUC=0.650718
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.641339 seconds=0.14
+fold=4/10 OOF_accuracy=0.366667 OOF_AUC=0.444976
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.662448 seconds=0.14
+fold=5/10 OOF_accuracy=0.366667 OOF_AUC=0.564593
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.705270 seconds=0.12
+fold=6/10 OOF_accuracy=0.366667 OOF_AUC=0.435407
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.676095 seconds=0.14
+fold=7/10 OOF_accuracy=0.633333 OOF_AUC=0.492823
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.652727 seconds=0.14
+fold=8/10 OOF_accuracy=0.600000 OOF_AUC=0.708134
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.647924 seconds=0.12
+fold=9/10 OOF_accuracy=0.366667 OOF_AUC=0.698565
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.688482 seconds=0.14
+fold=10/10 OOF_accuracy=0.733333 OOF_AUC=0.679426
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.708411 seconds=0.14
+{"cv_oof": {"accuracy": 0.4766666666666667, "balanced_accuracy": 0.5364583333333334, "sensitivity": 0.75, "specificity": 0.3229166666666667, "f1_macro": 0.47455906469282344, "roc_auc": 0.5366030092592593, "confusion_matrix": [[62, 130], [27, 81]], "classification_report": {"0": {"precision": 0.6966292134831461, "recall": 0.3229166666666667, "f1-score": 0.4412811387900356, "support": 192.0}, "1": {"precision": 0.38388625592417064, "recall": 0.75, "f1-score": 0.5078369905956113, "support": 108.0}, "accuracy": 0.4766666666666667, "macro avg": {"precision": 0.5402577347036583, "recall": 0.5364583333333334, "f1-score": 0.47455906469282344, "support": 300.0}, "weighted avg": {"precision": 0.584041748761915, "recall": 0.4766666666666667, "f1-score": 0.4652412454400429, "support": 300.0}}}, "test": {"accuracy": 0.6027397260273972, "balanced_accuracy": 0.5626022913256956, "sensitivity": 0.4230769230769231, "specificity": 0.7021276595744681, "f1_macro": 0.5630546955624356, "roc_auc": 0.5761047463175123, "confusion_matrix": [[33, 14], [15, 11]], "classification_report": {"0": {"precision": 0.6875, "recall": 0.7021276595744681, "f1-score": 0.6947368421052632, "support": 47.0}, "1": {"precision": 0.44, "recall": 0.4230769230769231, "f1-score": 0.43137254901960786, "support": 26.0}, "accuracy": 0.6027397260273972, "macro avg": {"precision": 0.56375, "recall": 0.5626022913256956, "f1-score": 0.5630546955624356, "support": 73.0}, "weighted avg": {"precision": 0.5993493150684931, "recall": 0.6027397260273972, "f1-score": 0.6009358610062627, "support": 73.0}}}, "folds": 10, "original_train_rows": 300, "train_rows": 384, "test_rows": 73, "elapsed_seconds": 7.125}

@@ -1,0 +1,115 @@
+{
+  "purpose": "integration_validation_not_final_experiment",
+  "neural_epochs": 1,
+  "verified_jobs": 9,
+  "reports": [
+    {
+      "dataset": "augment_plsda_balanced",
+      "side": "left",
+      "model": "SVM",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 73,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "pointnet_plsda",
+      "side": "right",
+      "model": "PointNet",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 77,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "plsda_latent_features",
+      "side": "left",
+      "model": "ResNetAE",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 73,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "coef_raw",
+      "side": "right",
+      "model": "PLSDA",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 77,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "coef_raw_balanced_jitter",
+      "side": "left",
+      "model": "SqueezeNet",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 73,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "coef_plsda",
+      "side": "right",
+      "model": "MobileNet",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 77,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "pointnet_raw_balanced_jitter",
+      "side": "left",
+      "model": "PointNet",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 73,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "coef_raw",
+      "side": "left",
+      "model": "ResNet",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 73,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "plsda_latent_features",
+      "side": "right",
+      "model": "MLP",
+      "verified": true,
+      "folds": 10,
+      "oof_rows": 300,
+      "test_rows": 77,
+      "person_disjoint_folds": true,
+      "fold_local_synthetic_parents": true,
+      "metrics_recomputed": true
+    }
+  ]
+}

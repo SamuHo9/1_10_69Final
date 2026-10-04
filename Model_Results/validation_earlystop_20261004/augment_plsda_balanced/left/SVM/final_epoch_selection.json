@@ -1,0 +1,7 @@
+{
+  "applicable": false,
+  "policy": "not_applicable_solver_convergence",
+  "best_epochs": [],
+  "final_epochs": null,
+  "test_used_for_selection": false
+}

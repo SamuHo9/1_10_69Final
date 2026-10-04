@@ -1,0 +1,3 @@
+﻿side,jobs,test_rows_per_job,improved,decreased,unchanged,mean_default_accuracy,mean_tuned_accuracy,mean_threshold_gain_pp,improved_vs_previous,decreased_vs_previous,unchanged_vs_previous,mean_previous_accuracy,mean_change_from_previous_pp
+left,34,73,16,4,14,0.7449637389202257,0.7659145850120871,2.09508460918614,7,14,13,0.7844480257856568,-1.8533440773569696
+right,34,77,9,12,13,0.8097784568372804,0.8116883116883118,0.19098548510313218,13,10,11,0.8120702826585181,-0.038197097020625494

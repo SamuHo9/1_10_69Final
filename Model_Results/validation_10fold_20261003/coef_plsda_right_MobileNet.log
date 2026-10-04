@@ -1,0 +1,35 @@
+Command: ["C:\\Users\\IHCK\\AppData\\Local\\Programs\\Python\\Python312\\python.exe", "-u", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\train_dataset_model.py", "--dataset", "coef_plsda", "--side", "right", "--model", "MobileNet", "--kind", "coef", "--train-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_plsda\\right\\train_prepared.csv", "--test-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_plsda\\right\\test_prepared.csv", "--output-dir", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\validation_10fold_20261003\\coef_plsda\\right\\MobileNet", "--folds", "10", "--epochs", "1", "--threads", "2"]
+10-fold CV: dataset=coef_plsda side=right model=MobileNet; original_train=300 test=77
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.505793 seconds=0.42
+fold=1/10 OOF_accuracy=0.266667 OOF_AUC=0.806818
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.478177 seconds=0.09
+fold=2/10 OOF_accuracy=0.266667 OOF_AUC=0.727273
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.466286 seconds=0.08
+fold=3/10 OOF_accuracy=0.266667 OOF_AUC=0.630682
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.516800 seconds=0.08
+fold=4/10 OOF_accuracy=0.266667 OOF_AUC=0.653409
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.450820 seconds=0.08
+fold=5/10 OOF_accuracy=0.266667 OOF_AUC=0.454545
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.455183 seconds=0.11
+fold=6/10 OOF_accuracy=0.266667 OOF_AUC=0.903409
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.467398 seconds=0.09
+fold=7/10 OOF_accuracy=0.266667 OOF_AUC=0.880682
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.498292 seconds=0.09
+fold=8/10 OOF_accuracy=0.266667 OOF_AUC=0.392045
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.444913 seconds=0.11
+fold=9/10 OOF_accuracy=0.266667 OOF_AUC=0.772727
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.500213 seconds=0.12
+fold=10/10 OOF_accuracy=0.300000 OOF_AUC=0.502646
+Device=cuda; epochs=1; batch=32; model=MobileNetV2_1D
+epoch=1/1 loss=0.451831 seconds=0.14
+{"cv_oof": {"accuracy": 0.27, "balanced_accuracy": 0.5, "sensitivity": 1.0, "specificity": 0.0, "f1_macro": 0.2125984251968504, "roc_auc": 0.526861717120469, "confusion_matrix": [[0, 219], [0, 81]], "classification_report": {"0": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 219.0}, "1": {"precision": 0.27, "recall": 1.0, "f1-score": 0.4251968503937008, "support": 81.0}, "accuracy": 0.27, "macro avg": {"precision": 0.135, "recall": 0.5, "f1-score": 0.2125984251968504, "support": 300.0}, "weighted avg": {"precision": 0.0729, "recall": 0.27, "f1-score": 0.11480314960629921, "support": 300.0}}}, "test": {"accuracy": 0.2727272727272727, "balanced_accuracy": 0.5, "sensitivity": 1.0, "specificity": 0.0, "f1_macro": 0.21428571428571427, "roc_auc": 0.6700680272108843, "confusion_matrix": [[0, 56], [0, 21]], "classification_report": {"0": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 56.0}, "1": {"precision": 0.2727272727272727, "recall": 1.0, "f1-score": 0.42857142857142855, "support": 21.0}, "accuracy": 0.2727272727272727, "macro avg": {"precision": 0.13636363636363635, "recall": 0.5, "f1-score": 0.21428571428571427, "support": 77.0}, "weighted avg": {"precision": 0.07438016528925619, "recall": 0.2727272727272727, "f1-score": 0.11688311688311688, "support": 77.0}}}, "folds": 10, "original_train_rows": 300, "train_rows": 438, "test_rows": 77, "elapsed_seconds": 5.640999999945052}

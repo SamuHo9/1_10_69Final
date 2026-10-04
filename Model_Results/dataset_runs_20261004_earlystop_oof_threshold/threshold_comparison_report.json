@@ -1,0 +1,74 @@
+{
+  "verified_jobs": 68,
+  "old_result_root": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261003_oof_threshold",
+  "new_result_root": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold",
+  "objective": "Train OOF accuracy",
+  "test_used_for_threshold_selection": false,
+  "comparison": "default and tuned decisions use identical probabilities from the same refitted model",
+  "improved": 25,
+  "decreased": 16,
+  "unchanged": 27,
+  "by_side": [
+    {
+      "side": "left",
+      "jobs": 34,
+      "test_rows_per_job": 73,
+      "improved": 16,
+      "decreased": 4,
+      "unchanged": 14,
+      "mean_default_accuracy": 0.7449637389202257,
+      "mean_tuned_accuracy": 0.7659145850120871,
+      "mean_threshold_gain_pp": 2.09508460918614,
+      "improved_vs_previous": 7,
+      "decreased_vs_previous": 14,
+      "unchanged_vs_previous": 13,
+      "mean_previous_accuracy": 0.7844480257856568,
+      "mean_change_from_previous_pp": -1.8533440773569696
+    },
+    {
+      "side": "right",
+      "jobs": 34,
+      "test_rows_per_job": 77,
+      "improved": 9,
+      "decreased": 12,
+      "unchanged": 13,
+      "mean_default_accuracy": 0.8097784568372804,
+      "mean_tuned_accuracy": 0.8116883116883118,
+      "mean_threshold_gain_pp": 0.19098548510313218,
+      "improved_vs_previous": 13,
+      "decreased_vs_previous": 10,
+      "unchanged_vs_previous": 11,
+      "mean_previous_accuracy": 0.8120702826585181,
+      "mean_change_from_previous_pp": -0.038197097020625494
+    }
+  ],
+  "improved_vs_previous": 20,
+  "decreased_vs_previous": 24,
+  "unchanged_vs_previous": 24,
+  "early_stopping_fold_records": 560,
+  "training_settings_previous": {
+    "epochs": 80,
+    "mlp_max_epochs": null,
+    "early_stopping": null,
+    "patience": null,
+    "min_delta": null,
+    "stop_fraction": null
+  },
+  "training_settings_current": {
+    "epochs": 100,
+    "mlp_max_epochs": 100,
+    "early_stopping": true,
+    "patience": 10,
+    "min_delta": 0.0001,
+    "stop_fraction": 0.2
+  },
+  "gain_ci_method": "paired ordinary Test bootstrap, 1000 resamples, RandomState seed 42, percentile CI95; descriptive per-model intervals without multiplicity correction",
+  "source_files_verified": 21,
+  "previous_predictions_unchanged": true,
+  "source_verification_scope": "immutable training snapshots against captured SHA256; live project code may evolve after training",
+  "live_source_files_changed_since_training": [
+    "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\dataset_cross_validation.py"
+  ],
+  "known_limitations": "Tuned OOF is a selection score. Existing Test has been examined across experiments; this is exploratory, not new external validation. Source ICP reference includes Test and hemisphere class-0 labels include contralateral patient hemispheres.",
+  "errors": []
+}

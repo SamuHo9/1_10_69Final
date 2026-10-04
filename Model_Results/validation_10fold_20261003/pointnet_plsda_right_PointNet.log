@@ -1,0 +1,35 @@
+Command: ["C:\\Users\\IHCK\\AppData\\Local\\Programs\\Python\\Python312\\python.exe", "-u", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\train_dataset_model.py", "--dataset", "pointnet_plsda", "--side", "right", "--model", "PointNet", "--kind", "xyz", "--train-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\pointnet_plsda\\right\\train_prepared.csv", "--test-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\pointnet_plsda\\right\\test_prepared.csv", "--output-dir", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\validation_10fold_20261003\\pointnet_plsda\\right\\PointNet", "--folds", "10", "--epochs", "1", "--threads", "2"]
+10-fold CV: dataset=pointnet_plsda side=right model=PointNet; original_train=300 test=77
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.621645 seconds=0.50
+fold=1/10 OOF_accuracy=0.733333 OOF_AUC=0.619318
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.647557 seconds=0.16
+fold=2/10 OOF_accuracy=0.733333 OOF_AUC=0.681818
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.609311 seconds=0.16
+fold=3/10 OOF_accuracy=0.733333 OOF_AUC=0.619318
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.643590 seconds=0.16
+fold=4/10 OOF_accuracy=0.266667 OOF_AUC=0.437500
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.663221 seconds=0.16
+fold=5/10 OOF_accuracy=0.733333 OOF_AUC=0.613636
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.634962 seconds=0.16
+fold=6/10 OOF_accuracy=0.266667 OOF_AUC=0.625000
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.594084 seconds=0.16
+fold=7/10 OOF_accuracy=0.733333 OOF_AUC=0.755682
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.604522 seconds=0.16
+fold=8/10 OOF_accuracy=0.400000 OOF_AUC=0.676136
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.647693 seconds=0.16
+fold=9/10 OOF_accuracy=0.266667 OOF_AUC=0.346591
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.576998 seconds=0.17
+fold=10/10 OOF_accuracy=0.700000 OOF_AUC=0.634921
+Device=cuda; epochs=1; batch=32; model=PointNetDual
+epoch=1/1 loss=0.622215 seconds=0.17
+{"cv_oof": {"accuracy": 0.5566666666666666, "balanced_accuracy": 0.5018603077963808, "sensitivity": 0.38271604938271603, "specificity": 0.6210045662100456, "f1_macro": 0.49477682811016144, "roc_auc": 0.5132758329105361, "confusion_matrix": [[136, 83], [50, 31]], "classification_report": {"0": {"precision": 0.7311827956989247, "recall": 0.6210045662100456, "f1-score": 0.671604938271605, "support": 219.0}, "1": {"precision": 0.2719298245614035, "recall": 0.38271604938271603, "f1-score": 0.31794871794871793, "support": 81.0}, "accuracy": 0.5566666666666666, "macro avg": {"precision": 0.5015563101301641, "recall": 0.5018603077963808, "f1-score": 0.49477682811016144, "support": 300.0}, "weighted avg": {"precision": 0.607184493491794, "recall": 0.5566666666666666, "f1-score": 0.5761177587844255, "support": 300.0}}}, "test": {"accuracy": 0.2727272727272727, "balanced_accuracy": 0.5, "sensitivity": 1.0, "specificity": 0.0, "f1_macro": 0.21428571428571427, "roc_auc": 0.6130952380952381, "confusion_matrix": [[0, 56], [0, 21]], "classification_report": {"0": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 56.0}, "1": {"precision": 0.2727272727272727, "recall": 1.0, "f1-score": 0.42857142857142855, "support": 21.0}, "accuracy": 0.2727272727272727, "macro avg": {"precision": 0.13636363636363635, "recall": 0.5, "f1-score": 0.21428571428571427, "support": 77.0}, "weighted avg": {"precision": 0.07438016528925619, "recall": 0.2727272727272727, "f1-score": 0.11688311688311688, "support": 77.0}}}, "folds": 10, "original_train_rows": 300, "train_rows": 438, "test_rows": 77, "elapsed_seconds": 10.875}
