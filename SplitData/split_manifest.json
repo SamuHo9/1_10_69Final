@@ -1,0 +1,3812 @@
+[
+  {
+    "subject_id": "00373",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04001",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04004",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04005",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04009",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04013",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04015",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04018",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04027",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04028",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04164",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04165",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04166",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04169",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04170",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04171",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04173",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04178",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04181",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04201",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04202",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04204",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04209",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04210",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04211",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04215",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04216",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04217",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04221",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "04245",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "101",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "105",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "106",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "109",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "11",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "114",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "115",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "118",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "120",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "125",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "126",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "127",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "135",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "143",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "144",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "147",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "149",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "152",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "153",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "154",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "155",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "156",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "16",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "161",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "162",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "164",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "165",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "167",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "168",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "174",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "175",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "176",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "183",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "186",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "188",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "191",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "193",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "196",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "197",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "199",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "2",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "201",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "202",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "203",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": false
+  },
+  {
+    "subject_id": "205",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "207",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "208",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "215",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "217",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "218",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "219",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "220",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "222",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "227",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "229",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "23",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "233",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "235",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "236",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "237",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "238",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "240",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "246",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "247",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "25",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "250",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "251",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "255",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "259",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "263",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "264",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "265",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "266",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "267",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "26896",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "269",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "27",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "270",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "271",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "273",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "275",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "27872",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "279",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "27934",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "27960",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "27974",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "282",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "28620",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "29",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "290",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "29073",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "29096",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "292",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "293",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "29332",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "294",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "296",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "297",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "300",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "301",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "302",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "305",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "31",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "310",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "314",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "316",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "317",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "31730",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "320",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "32159",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "32231",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "32310",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "324",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "32436",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "325",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "327",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "329",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "32907",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "33",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "330",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "332",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "334",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "336",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "337",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "340",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "34273",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "343",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "34359",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "344",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "34437",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "346",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "347",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "34736",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "348",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "34826",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "349",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "351",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "352",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "35232",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "35272",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "353",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "35353",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "354",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "35538",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "35557",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "356",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "358",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "361",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "362",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "36387",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "364",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "36487",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "365",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "366",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "36664",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "36737",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "368",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "36866",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "36966",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "37",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "37117",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "37130",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "37149",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": false
+  },
+  {
+    "subject_id": "372",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "37289",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "37348",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "374",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "375",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "376",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "377",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "379",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "38",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "380",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "382",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "385",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "387",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "388",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "389",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "39",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "390",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "394",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "397",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "399",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "40",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "400",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4001",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4002",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4003",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4004",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4005",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4006",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4007",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4008",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4009",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "401",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4010",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4011",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4012",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4013",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4014",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4015",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4016",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4017",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4018",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4019",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "402",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4020",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4021",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4022",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4023",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4024",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4025",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4026",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4027",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4028",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4029",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4030",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4031",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4032",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4033",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4034",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4035",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4036",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4037",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4038",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4039",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "404",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4040",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4041",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4042",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4043",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4044",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4045",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4046",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4047",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4048",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4049",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "405",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": false
+  },
+  {
+    "subject_id": "4050",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4051",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4052",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4053",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4054",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4055",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4056",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4057",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4058",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4059",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "406",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4060",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4061",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4062",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4063",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4064",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4065",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4066",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4067",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4068",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4069",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "407",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4070",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4071",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4072",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4073",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4074",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4075",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4076",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4077",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4078",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4079",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "408",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4080",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4081",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4082",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4083",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4084",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4085",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4086",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4087",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4088",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4089",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4090",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4091",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4092",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4093",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4094",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4095",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4096",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4097",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4098",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4099",
+    "split": "test",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "41",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "4100",
+    "split": "train",
+    "inferred_cohort": "Control",
+    "inferred_person_group": "Control",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "413",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "416",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "417",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "418",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "419",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": false
+  },
+  {
+    "subject_id": "420",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "421",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "423",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "425",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "426",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "427",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "43",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "430",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "432",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "433",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "437",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "441",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "442",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "444",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "445",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "446",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "447",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "45",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "450",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "451",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "452",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "454",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "455",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "46",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "460",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "461",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "49",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "5",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "55",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "56",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "57",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "61",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "64",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "67",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "68",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "7",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "70",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "71",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "74",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "75",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "76",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "77",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "78",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "82",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "84",
+    "split": "test",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "85",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "87",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "90",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "92",
+    "split": "train",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": false,
+    "right_available": true
+  },
+  {
+    "subject_id": "93",
+    "split": "test",
+    "inferred_cohort": "Left_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "TLE",
+    "right_filename_label": "Healthy",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "94",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "95",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  },
+  {
+    "subject_id": "97",
+    "split": "train",
+    "inferred_cohort": "Right_TLE",
+    "inferred_person_group": "TLE",
+    "left_filename_label": "Healthy",
+    "right_filename_label": "TLE",
+    "left_available": true,
+    "right_available": true
+  }
+]

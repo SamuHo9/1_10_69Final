@@ -1,0 +1,156 @@
+{
+  "seed": 42,
+  "requested_train_fraction": 0.8,
+  "requested_test_fraction": 0.2,
+  "actual_train_fraction": 0.7979002624671916,
+  "actual_test_fraction": 0.2020997375328084,
+  "method": "Subject-level random split, stratified by inferred Control/Left_TLE/Right_TLE cohorts; test size rounded up.",
+  "identity_assumption": "Exact sub-ID matches refer to the same person across sides.",
+  "grouping_assumption": "Control = Healthy on both sides; TLE = TLE on either side; not clinically independently confirmed.",
+  "source": "SPHARM/SPHARM_LEFT and SPHARM/SPHARM_RIGHT",
+  "summary": {
+    "train": {
+      "subjects": 304,
+      "inferred_cohorts": {
+        "Control": 108,
+        "Right_TLE": 84,
+        "Left_TLE": 112
+      },
+      "inferred_person_groups": {
+        "Control": 108,
+        "TLE": 196
+      },
+      "sides": {
+        "left": {
+          "valid_surfaces": 300,
+          "filename_labels": {
+            "Healthy": 192,
+            "TLE": 108
+          },
+          "inferred_person_groups": {
+            "Control": 108,
+            "TLE": 192
+          }
+        },
+        "right": {
+          "valid_surfaces": 300,
+          "filename_labels": {
+            "Healthy": 219,
+            "TLE": 81
+          },
+          "inferred_person_groups": {
+            "Control": 107,
+            "TLE": 193
+          }
+        }
+      }
+    },
+    "test": {
+      "subjects": 77,
+      "inferred_cohorts": {
+        "Control": 27,
+        "Left_TLE": 29,
+        "Right_TLE": 21
+      },
+      "inferred_person_groups": {
+        "Control": 27,
+        "TLE": 50
+      },
+      "sides": {
+        "left": {
+          "valid_surfaces": 73,
+          "filename_labels": {
+            "Healthy": 47,
+            "TLE": 26
+          },
+          "inferred_person_groups": {
+            "Control": 27,
+            "TLE": 46
+          }
+        },
+        "right": {
+          "valid_surfaces": 77,
+          "filename_labels": {
+            "Healthy": 56,
+            "TLE": 21
+          },
+          "inferred_person_groups": {
+            "Control": 27,
+            "TLE": 50
+          }
+        }
+      }
+    }
+  },
+  "copied_file_count": 11250,
+  "copied_bytes": 922468808,
+  "excluded_files": [
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_Healthy_sub-451_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_TLE_sub-109_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_TLE_sub-202_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_TLE_sub-37_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_TLE_sub-388_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_TLE_sub-441_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_TLE_sub-460_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_LEFT\\spharm_results\\left_TLE_sub-92_hippocampus_lh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_RIGHT\\spharm_results\\right_Healthy_sub-37149_hippocampus_rh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_RIGHT\\spharm_results\\right_TLE_sub-203_hippocampus_rh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_RIGHT\\spharm_results\\right_TLE_sub-405_hippocampus_rh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    },
+    {
+      "source": "SPHARM\\SPHARM_RIGHT\\spharm_results\\right_TLE_sub-419_hippocampus_rh_aligned_pp.nrrd",
+      "reason": "Failed SPHARM processing"
+    }
+  ],
+  "verification": {
+    "subject_overlap": 0,
+    "all_copied_files_byte_identical": true,
+    "all_successful_surfaces_included": true,
+    "original_sources_preserved": true
+  },
+  "existing_preprocessing": {
+    "left": {
+      "mode": "fit_reference",
+      "reference_sha256": "e5db3de875fed2b774ef297526ba8f600742695e35415b1ebbca9d8f0063a94d",
+      "reference_input_count": 381
+    },
+    "right": {
+      "mode": "fit_reference",
+      "reference_sha256": "3f8c7896bca197a48955824eb37e90c91a3c48a6fc26b2ba893af7f216deb461",
+      "reference_input_count": 381
+    }
+  },
+  "evaluation_limitation": "This splits existing processed data only. The existing ICP references were fit on all 381 subjects. For fully held-out evaluation, fit data-dependent preprocessing on train only and transform test with the frozen train reference."
+}

@@ -1,0 +1,17 @@
+{
+  "feature_contract": {
+    "version": "spharm-feature-v1",
+    "icp_mode": "unknown",
+    "icp_geometry_version": null,
+    "icp_reference_sha256": null,
+    "spharm_template": null,
+    "spharm_template_sha256": null,
+    "num_iterations": 1000,
+    "subdiv_level": 10,
+    "spharm_degree": 12,
+    "grid_theta": 4.5,
+    "grid_phi": 4.5
+  },
+  "input_name": "left_TLE_sub-27974_hippocampus_lh_aligned.nii.gz",
+  "input_sha256": "9c1e907e2cadf138deda9b7edfefee95e5be747c029e989234c3bb1b6209ee21"
+}

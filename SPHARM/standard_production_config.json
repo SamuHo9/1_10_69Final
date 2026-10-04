@@ -1,0 +1,27 @@
+{
+  "contract": "shared_spharm_v1",
+  "mode": "production",
+  "sides": [
+    "left",
+    "right"
+  ],
+  "parameters": {
+    "num_iterations": 1000,
+    "subdiv_level": 10,
+    "spharm_degree": 12,
+    "grid_theta": 4.5,
+    "grid_phi": 4.5,
+    "num_workers": 5
+  },
+  "required_artifacts": [
+    "_SPHARM.coef",
+    "_SPHARM.vtk",
+    "_SPHARM_grid.vtk",
+    "_SPHARM_ellalign.coef"
+  ],
+  "template_by_side": {
+    "left": "Templates/SPHARM/template_spharm_left.vtk",
+    "right": "Templates/SPHARM/template_spharm_right.vtk"
+  },
+  "reference_policy": "The SPHARM template is fixed per hemisphere. The ICP reference used for a scientific training run must be fitted from training masks only and recorded with its hash."
+}
