@@ -1,0 +1,72 @@
+{
+  "Accuracy": {
+    "original": 0.7534246575342466,
+    "bootstrap_mean": 0.7567945205479452,
+    "bootstrap_std": 0.0485094470412409,
+    "ci95_lower": 0.6575342465753424,
+    "ci95_upper": 0.8493150684931506
+  },
+  "BalancedAccuracy": {
+    "original": 0.7483633387888706,
+    "bootstrap_mean": 0.7511645105671001,
+    "bootstrap_std": 0.05322795763340582,
+    "ci95_lower": 0.6441097492034125,
+    "ci95_upper": 0.8551626501664497
+  },
+  "Sensitivity_Class0": {
+    "original": 0.7659574468085106,
+    "bootstrap_mean": 0.7706369560313201,
+    "bootstrap_std": 0.0588431736341938,
+    "ci95_lower": 0.641,
+    "ci95_upper": 0.875063775510204
+  },
+  "Specificity_Class0": {
+    "original": 0.7307692307692307,
+    "bootstrap_mean": 0.7316920651028801,
+    "bootstrap_std": 0.09060419067052831,
+    "ci95_lower": 0.55,
+    "ci95_upper": 0.9131340579710143
+  },
+  "F1_Class0": {
+    "original": 0.8,
+    "bootstrap_mean": 0.8019115485859001,
+    "bootstrap_std": 0.04539970291250096,
+    "ci95_lower": 0.7088221673355974,
+    "ci95_upper": 0.8837331701346389
+  },
+  "Sensitivity_Class1": {
+    "original": 0.7307692307692307,
+    "bootstrap_mean": 0.7316920651028801,
+    "bootstrap_std": 0.09060419067052831,
+    "ci95_lower": 0.55,
+    "ci95_upper": 0.9131340579710143
+  },
+  "Specificity_Class1": {
+    "original": 0.7659574468085106,
+    "bootstrap_mean": 0.7706369560313201,
+    "bootstrap_std": 0.0588431736341938,
+    "ci95_lower": 0.641,
+    "ci95_upper": 0.875063775510204
+  },
+  "F1_Class1": {
+    "original": 0.6785714285714286,
+    "bootstrap_mean": 0.676116838572459,
+    "bootstrap_std": 0.07087219662889584,
+    "ci95_lower": 0.5245706479313037,
+    "ci95_upper": 0.80556592039801
+  },
+  "F1_macro": {
+    "original": 0.7392857142857143,
+    "bootstrap_mean": 0.7390141935791795,
+    "bootstrap_std": 0.05122999116066859,
+    "ci95_lower": 0.6353555194805195,
+    "ci95_upper": 0.8342766134793999
+  },
+  "AUC": {
+    "original": 0.8436988543371522,
+    "bootstrap_mean": 0.84637738335696,
+    "bootstrap_std": 0.051861498445959095,
+    "ci95_lower": 0.734822695035461,
+    "ci95_upper": 0.9404271026592456
+  }
+}

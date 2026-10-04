@@ -1,0 +1,75 @@
+Dataset=coef_plsda side=right model=ResNet
+Test people=77; sampling=N of N with replacement; seed=42; saved Prediction unchanged
+Attempted=1000; valid=1000; skipped=0
+{
+  "Accuracy": {
+    "original": 0.8181818181818182,
+    "bootstrap_mean": 0.817974025974026,
+    "bootstrap_std": 0.04417362765135784,
+    "ci95_lower": 0.7272727272727273,
+    "ci95_upper": 0.8961038961038961
+  },
+  "BalancedAccuracy": {
+    "original": 0.7113095238095237,
+    "bootstrap_mean": 0.7086581140114886,
+    "bootstrap_std": 0.05872029068298978,
+    "ci95_lower": 0.5908841706539074,
+    "ci95_upper": 0.8272163998101324
+  },
+  "Sensitivity_Class0": {
+    "original": 0.9464285714285714,
+    "bootstrap_mean": 0.9466444820528348,
+    "bootstrap_std": 0.029548231180995477,
+    "ci95_lower": 0.8867537890504176,
+    "ci95_upper": 1.0
+  },
+  "Specificity_Class0": {
+    "original": 0.47619047619047616,
+    "bootstrap_mean": 0.47067174597014233,
+    "bootstrap_std": 0.11423544878340618,
+    "ci95_lower": 0.24975000000000003,
+    "ci95_upper": 0.7
+  },
+  "F1_Class0": {
+    "original": 0.8833333333333333,
+    "bootstrap_mean": 0.882711801639659,
+    "bootstrap_std": 0.03130896788110511,
+    "ci95_lower": 0.8147984267453293,
+    "ci95_upper": 0.9394133644133644
+  },
+  "Sensitivity_Class1": {
+    "original": 0.47619047619047616,
+    "bootstrap_mean": 0.47067174597014233,
+    "bootstrap_std": 0.11423544878340618,
+    "ci95_lower": 0.24975000000000003,
+    "ci95_upper": 0.7
+  },
+  "Specificity_Class1": {
+    "original": 0.9464285714285714,
+    "bootstrap_mean": 0.9466444820528348,
+    "bootstrap_std": 0.029548231180995477,
+    "ci95_lower": 0.8867537890504176,
+    "ci95_upper": 1.0
+  },
+  "F1_Class1": {
+    "original": 0.5882352941176471,
+    "bootstrap_mean": 0.5750491646619273,
+    "bootstrap_std": 0.10602601908812512,
+    "ci95_lower": 0.3477511244377811,
+    "ci95_upper": 0.7692307692307693
+  },
+  "F1_macro": {
+    "original": 0.7357843137254902,
+    "bootstrap_mean": 0.7288804831507932,
+    "bootstrap_std": 0.06279947460875948,
+    "ci95_lower": 0.5963794813337133,
+    "ci95_upper": 0.8490196078431372
+  },
+  "AUC": {
+    "original": 0.7971938775510203,
+    "bootstrap_mean": 0.796828740763234,
+    "bootstrap_std": 0.06448758204932678,
+    "ci95_lower": 0.6669027337728697,
+    "ci95_upper": 0.9162076271186441
+  }
+}

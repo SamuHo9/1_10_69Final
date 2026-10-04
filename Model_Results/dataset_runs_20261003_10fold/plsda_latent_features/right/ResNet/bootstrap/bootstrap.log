@@ -1,0 +1,75 @@
+Dataset=plsda_latent_features side=right model=ResNet
+Test people=77; sampling=N of N with replacement; seed=42; saved Prediction unchanged
+Attempted=1000; valid=1000; skipped=0
+{
+  "Accuracy": {
+    "original": 0.7792207792207793,
+    "bootstrap_mean": 0.7778051948051948,
+    "bootstrap_std": 0.04730266175354596,
+    "ci95_lower": 0.6753246753246753,
+    "ci95_upper": 0.8571428571428571
+  },
+  "BalancedAccuracy": {
+    "original": 0.6845238095238095,
+    "bootstrap_mean": 0.6807142733532471,
+    "bootstrap_std": 0.06104720021665694,
+    "ci95_lower": 0.562565522258481,
+    "ci95_upper": 0.7986925954592363
+  },
+  "Sensitivity_Class0": {
+    "original": 0.8928571428571429,
+    "bootstrap_mean": 0.8916739854856144,
+    "bootstrap_std": 0.041185710215381026,
+    "ci95_lower": 0.8039128151260505,
+    "ci95_upper": 0.9649274047186933
+  },
+  "Specificity_Class0": {
+    "original": 0.47619047619047616,
+    "bootstrap_mean": 0.46975456122088,
+    "bootstrap_std": 0.1153837930998677,
+    "ci95_lower": 0.2380252100840336,
+    "ci95_upper": 0.7
+  },
+  "F1_Class0": {
+    "original": 0.8547008547008547,
+    "bootstrap_mean": 0.8530960890597652,
+    "bootstrap_std": 0.035138210238387195,
+    "ci95_lower": 0.7747747747747747,
+    "ci95_upper": 0.9133858267716536
+  },
+  "Sensitivity_Class1": {
+    "original": 0.47619047619047616,
+    "bootstrap_mean": 0.46975456122088,
+    "bootstrap_std": 0.1153837930998677,
+    "ci95_lower": 0.2380252100840336,
+    "ci95_upper": 0.7
+  },
+  "Specificity_Class1": {
+    "original": 0.8928571428571429,
+    "bootstrap_mean": 0.8916739854856144,
+    "bootstrap_std": 0.041185710215381026,
+    "ci95_lower": 0.8039128151260505,
+    "ci95_upper": 0.9649274047186933
+  },
+  "F1_Class1": {
+    "original": 0.5405405405405406,
+    "bootstrap_mean": 0.5257070395140443,
+    "bootstrap_std": 0.1060775604613562,
+    "ci95_lower": 0.2962962962962963,
+    "ci95_upper": 0.7058823529411765
+  },
+  "F1_macro": {
+    "original": 0.6976206976206976,
+    "bootstrap_mean": 0.6894015642869047,
+    "bootstrap_std": 0.06332110684605595,
+    "ci95_lower": 0.5644015693434298,
+    "ci95_upper": 0.8035907129657129
+  },
+  "AUC": {
+    "original": 0.8256802721088435,
+    "bootstrap_mean": 0.8244719518974071,
+    "bootstrap_std": 0.05976643900186929,
+    "ci95_lower": 0.6955662709729992,
+    "ci95_upper": 0.9303569317465321
+  }
+}

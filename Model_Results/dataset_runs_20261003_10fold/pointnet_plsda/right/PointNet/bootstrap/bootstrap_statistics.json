@@ -1,0 +1,72 @@
+{
+  "Accuracy": {
+    "original": 0.6493506493506493,
+    "bootstrap_mean": 0.6488701298701298,
+    "bootstrap_std": 0.05400618381902082,
+    "ci95_lower": 0.5454545454545454,
+    "ci95_upper": 0.7532467532467533
+  },
+  "BalancedAccuracy": {
+    "original": 0.6398809523809523,
+    "bootstrap_mean": 0.6401383555172727,
+    "bootstrap_std": 0.06426962001612634,
+    "ci95_lower": 0.5104054081716205,
+    "ci95_upper": 0.7587185637108793
+  },
+  "Sensitivity_Class0": {
+    "original": 0.6607142857142857,
+    "bootstrap_mean": 0.6592690041358649,
+    "bootstrap_std": 0.06255295838435124,
+    "ci95_lower": 0.5357142857142857,
+    "ci95_upper": 0.7735849056603774
+  },
+  "Specificity_Class0": {
+    "original": 0.6190476190476191,
+    "bootstrap_mean": 0.6210077068986808,
+    "bootstrap_std": 0.11333282179650186,
+    "ci95_lower": 0.3888888888888889,
+    "ci95_upper": 0.8333333333333334
+  },
+  "F1_Class0": {
+    "original": 0.7326732673267327,
+    "bootstrap_mean": 0.7307273652671556,
+    "bootstrap_std": 0.04921110395742029,
+    "ci95_lower": 0.6264683734939759,
+    "ci95_upper": 0.8148148148148148
+  },
+  "Sensitivity_Class1": {
+    "original": 0.6190476190476191,
+    "bootstrap_mean": 0.6210077068986808,
+    "bootstrap_std": 0.11333282179650186,
+    "ci95_lower": 0.3888888888888889,
+    "ci95_upper": 0.8333333333333334
+  },
+  "Specificity_Class1": {
+    "original": 0.6607142857142857,
+    "bootstrap_mean": 0.6592690041358649,
+    "bootstrap_std": 0.06255295838435124,
+    "ci95_lower": 0.5357142857142857,
+    "ci95_upper": 0.7735849056603774
+  },
+  "F1_Class1": {
+    "original": 0.49056603773584906,
+    "bootstrap_mean": 0.48372363782238437,
+    "bootstrap_std": 0.08755598033654022,
+    "ci95_lower": 0.2857142857142857,
+    "ci95_upper": 0.6428571428571429
+  },
+  "F1_macro": {
+    "original": 0.6116196525312909,
+    "bootstrap_mean": 0.60722550154477,
+    "bootstrap_std": 0.05846673173402617,
+    "ci95_lower": 0.4909090909090909,
+    "ci95_upper": 0.7193877551020409
+  },
+  "AUC": {
+    "original": 0.7049319727891156,
+    "bootstrap_mean": 0.7064342026244423,
+    "bootstrap_std": 0.06903810893706779,
+    "ci95_lower": 0.5553481475234722,
+    "ci95_upper": 0.8278467751600863
+  }
+}

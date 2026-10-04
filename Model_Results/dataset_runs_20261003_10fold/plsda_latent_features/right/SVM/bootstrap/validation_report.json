@@ -1,0 +1,7 @@
+{
+  "input_unchanged": true,
+  "original_metrics_match_training_results": true,
+  "sample_size": 77,
+  "valid_rounds": 1000,
+  "all_confusion_totals_equal_sample_size": true
+}

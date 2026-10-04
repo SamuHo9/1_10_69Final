@@ -1,0 +1,75 @@
+Dataset=coef_raw_balanced_jitter side=right model=ResNetAE
+Test people=77; sampling=N of N with replacement; seed=42; saved Prediction unchanged
+Attempted=1000; valid=1000; skipped=0
+{
+  "Accuracy": {
+    "original": 0.7922077922077922,
+    "bootstrap_mean": 0.7922597402597403,
+    "bootstrap_std": 0.04659942020791412,
+    "ci95_lower": 0.7012987012987013,
+    "ci95_upper": 0.8831168831168831
+  },
+  "BalancedAccuracy": {
+    "original": 0.6785714285714286,
+    "bootstrap_mean": 0.6770138931634117,
+    "bootstrap_std": 0.058667341330994265,
+    "ci95_lower": 0.5621123082155028,
+    "ci95_upper": 0.8005952380952381
+  },
+  "Sensitivity_Class0": {
+    "original": 0.9285714285714286,
+    "bootstrap_mean": 0.9279481234475924,
+    "bootstrap_std": 0.034138612638841354,
+    "ci95_lower": 0.8620172413793104,
+    "ci95_upper": 0.9838773681515617
+  },
+  "Specificity_Class0": {
+    "original": 0.42857142857142855,
+    "bootstrap_mean": 0.42607966287923094,
+    "bootstrap_std": 0.11236689827464601,
+    "ci95_lower": 0.20812500000000003,
+    "ci95_upper": 0.6475490196078427
+  },
+  "F1_Class0": {
+    "original": 0.8666666666666667,
+    "bootstrap_mean": 0.8660116218933511,
+    "bootstrap_std": 0.03356292066278666,
+    "ci95_lower": 0.796606419679016,
+    "ci95_upper": 0.9253731343283582
+  },
+  "Sensitivity_Class1": {
+    "original": 0.42857142857142855,
+    "bootstrap_mean": 0.42607966287923094,
+    "bootstrap_std": 0.11236689827464601,
+    "ci95_lower": 0.20812500000000003,
+    "ci95_upper": 0.6475490196078427
+  },
+  "Specificity_Class1": {
+    "original": 0.9285714285714286,
+    "bootstrap_mean": 0.9279481234475924,
+    "bootstrap_std": 0.034138612638841354,
+    "ci95_lower": 0.8620172413793104,
+    "ci95_upper": 0.9838773681515617
+  },
+  "F1_Class1": {
+    "original": 0.5294117647058824,
+    "bootstrap_mean": 0.5180149310250948,
+    "bootstrap_std": 0.10809787789792197,
+    "ci95_lower": 0.2857142857142857,
+    "ci95_upper": 0.7142857142857143
+  },
+  "F1_macro": {
+    "original": 0.6980392156862745,
+    "bootstrap_mean": 0.6920132764592228,
+    "bootstrap_std": 0.06402390671515729,
+    "ci95_lower": 0.5634920634920635,
+    "ci95_upper": 0.8090996919509198
+  },
+  "AUC": {
+    "original": 0.8494897959183674,
+    "bootstrap_mean": 0.8485413757777801,
+    "bootstrap_std": 0.057019645749593825,
+    "ci95_lower": 0.7222043010752689,
+    "ci95_upper": 0.9519266528925621
+  }
+}
