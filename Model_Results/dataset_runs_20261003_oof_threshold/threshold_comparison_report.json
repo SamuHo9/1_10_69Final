@@ -1,0 +1,40 @@
+{
+  "verified_jobs": 68,
+  "old_result_root": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261003_10fold",
+  "new_result_root": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261003_oof_threshold",
+  "objective": "Train OOF accuracy",
+  "test_used_for_threshold_selection": false,
+  "comparison": "default and tuned decisions use identical probabilities from the same refitted model",
+  "improved": 36,
+  "decreased": 13,
+  "unchanged": 19,
+  "by_side": [
+    {
+      "side": "left",
+      "jobs": 34,
+      "test_rows_per_job": 73,
+      "improved": 25,
+      "decreased": 4,
+      "unchanged": 5,
+      "mean_default_accuracy": 0.7542304593070105,
+      "mean_tuned_accuracy": 0.7844480257856568,
+      "mean_threshold_gain_pp": 3.021756647864625
+    },
+    {
+      "side": "right",
+      "jobs": 34,
+      "test_rows_per_job": 77,
+      "improved": 11,
+      "decreased": 9,
+      "unchanged": 14,
+      "mean_default_accuracy": 0.8116883116883118,
+      "mean_tuned_accuracy": 0.8120702826585181,
+      "mean_threshold_gain_pp": 0.03819709702062646
+    }
+  ],
+  "gain_ci_method": "paired ordinary Test bootstrap, 1000 resamples, RandomState seed 42, percentile CI95; descriptive per-model intervals without multiplicity correction",
+  "source_files_verified": 20,
+  "previous_predictions_unchanged": true,
+  "known_limitations": "Tuned OOF is a selection score. Existing Test has been examined across experiments; this is exploratory, not new external validation. Source ICP reference includes Test and hemisphere class-0 labels include contralateral patient hemispheres.",
+  "errors": []
+}

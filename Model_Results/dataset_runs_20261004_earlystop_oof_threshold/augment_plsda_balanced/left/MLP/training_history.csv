@@ -1,0 +1,2 @@
+epoch,loss,validation_loss,is_best_checkpoint,seconds
+1,0.45031006117365469,,False,0

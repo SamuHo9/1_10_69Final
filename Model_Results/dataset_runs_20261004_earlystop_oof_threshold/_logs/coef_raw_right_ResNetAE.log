@@ -1,0 +1,397 @@
+Command: ["C:\\Users\\IHCK\\AppData\\Local\\Programs\\Python\\Python312\\python.exe", "-u", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\train_dataset_model.py", "--dataset", "coef_raw", "--side", "right", "--model", "ResNetAE", "--kind", "coef", "--train-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_raw\\right\\train_prepared.csv", "--test-csv", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Output_Dataset\\coef_raw\\right\\test_prepared.csv", "--output-dir", "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\coef_raw\\right\\ResNetAE", "--epochs", "100", "--folds", "10", "--pls-components", "8", "--seed", "42", "--threads", "2", "--tune-threshold", "--early-stopping", "--patience", "10", "--min-delta", "0.0001", "--stop-fraction", "0.2", "--mlp-max-epochs", "100"]
+Inner early stopping: coef_raw/right/ResNetAE; original Train=300 Test=77
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.190762 validation_loss=5.757916 best=True
+epoch=2/100 loss=3.771687 validation_loss=4.348307 best=True
+epoch=3/100 loss=2.313161 validation_loss=2.944006 best=True
+epoch=4/100 loss=1.524766 validation_loss=1.865445 best=True
+epoch=5/100 loss=1.248218 validation_loss=1.325214 best=True
+epoch=6/100 loss=0.961557 validation_loss=1.080695 best=True
+epoch=7/100 loss=0.866471 validation_loss=1.041867 best=True
+epoch=8/100 loss=0.779533 validation_loss=0.892693 best=True
+epoch=9/100 loss=0.643285 validation_loss=0.864378 best=True
+epoch=10/100 loss=0.677804 validation_loss=0.794744 best=True
+epoch=11/100 loss=0.576504 validation_loss=0.825937 best=False
+epoch=12/100 loss=0.461091 validation_loss=0.728751 best=True
+epoch=13/100 loss=0.372839 validation_loss=0.765849 best=False
+epoch=14/100 loss=0.392097 validation_loss=0.788590 best=False
+epoch=15/100 loss=0.435721 validation_loss=0.701517 best=True
+epoch=16/100 loss=0.342298 validation_loss=0.690063 best=True
+epoch=17/100 loss=0.338729 validation_loss=0.707225 best=False
+epoch=18/100 loss=0.297903 validation_loss=0.714226 best=False
+epoch=19/100 loss=0.293518 validation_loss=0.670837 best=True
+epoch=20/100 loss=0.315014 validation_loss=0.659765 best=True
+epoch=21/100 loss=0.231222 validation_loss=0.641370 best=True
+epoch=22/100 loss=0.292501 validation_loss=0.647219 best=False
+epoch=23/100 loss=0.275231 validation_loss=0.667544 best=False
+epoch=24/100 loss=0.246240 validation_loss=0.693712 best=False
+epoch=25/100 loss=0.262070 validation_loss=0.686909 best=False
+epoch=26/100 loss=0.287380 validation_loss=0.655209 best=False
+epoch=27/100 loss=0.228419 validation_loss=0.601521 best=True
+epoch=28/100 loss=0.226632 validation_loss=0.644153 best=False
+epoch=29/100 loss=0.194929 validation_loss=0.635961 best=False
+epoch=30/100 loss=0.195215 validation_loss=0.648533 best=False
+epoch=31/100 loss=0.227094 validation_loss=0.627700 best=False
+epoch=32/100 loss=0.198878 validation_loss=0.636433 best=False
+epoch=33/100 loss=0.188017 validation_loss=0.694856 best=False
+epoch=34/100 loss=0.270744 validation_loss=0.670548 best=False
+epoch=35/100 loss=0.189356 validation_loss=0.686710 best=False
+epoch=36/100 loss=0.154914 validation_loss=0.657536 best=False
+epoch=37/100 loss=0.200570 validation_loss=0.651072 best=False
+fold=1/10 OOF_accuracy=0.700000 best_epoch=27
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.454249 validation_loss=6.116462 best=True
+epoch=2/100 loss=4.284213 validation_loss=4.954991 best=True
+epoch=3/100 loss=2.143531 validation_loss=2.761061 best=True
+epoch=4/100 loss=1.545527 validation_loss=2.066284 best=True
+epoch=5/100 loss=1.240547 validation_loss=1.707240 best=True
+epoch=6/100 loss=1.073875 validation_loss=1.526039 best=True
+epoch=7/100 loss=0.733872 validation_loss=1.340852 best=True
+epoch=8/100 loss=0.645370 validation_loss=1.198646 best=True
+epoch=9/100 loss=0.584407 validation_loss=1.264298 best=False
+epoch=10/100 loss=0.531580 validation_loss=1.116301 best=True
+epoch=11/100 loss=0.503179 validation_loss=1.080172 best=True
+epoch=12/100 loss=0.444695 validation_loss=1.110492 best=False
+epoch=13/100 loss=0.446704 validation_loss=1.043641 best=True
+epoch=14/100 loss=0.371566 validation_loss=0.992929 best=True
+epoch=15/100 loss=0.462549 validation_loss=1.024936 best=False
+epoch=16/100 loss=0.346058 validation_loss=0.962319 best=True
+epoch=17/100 loss=0.295819 validation_loss=1.004813 best=False
+epoch=18/100 loss=0.344197 validation_loss=1.017019 best=False
+epoch=19/100 loss=0.276435 validation_loss=0.949197 best=True
+epoch=20/100 loss=0.346081 validation_loss=0.965160 best=False
+epoch=21/100 loss=0.296788 validation_loss=1.001278 best=False
+epoch=22/100 loss=0.230663 validation_loss=0.951557 best=False
+epoch=23/100 loss=0.247449 validation_loss=0.978060 best=False
+epoch=24/100 loss=0.221696 validation_loss=0.944892 best=True
+epoch=25/100 loss=0.235277 validation_loss=0.950190 best=False
+epoch=26/100 loss=0.240473 validation_loss=0.982859 best=False
+epoch=27/100 loss=0.203968 validation_loss=0.966997 best=False
+epoch=28/100 loss=0.221969 validation_loss=0.959235 best=False
+epoch=29/100 loss=0.194652 validation_loss=0.972067 best=False
+epoch=30/100 loss=0.215729 validation_loss=0.997766 best=False
+epoch=31/100 loss=0.252874 validation_loss=1.020843 best=False
+epoch=32/100 loss=0.203980 validation_loss=0.986609 best=False
+epoch=33/100 loss=0.226188 validation_loss=0.987755 best=False
+epoch=34/100 loss=0.246230 validation_loss=1.003172 best=False
+fold=2/10 OOF_accuracy=0.866667 best_epoch=24
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.375280 validation_loss=6.008111 best=True
+epoch=2/100 loss=4.176044 validation_loss=4.915894 best=True
+epoch=3/100 loss=2.250730 validation_loss=3.130270 best=True
+epoch=4/100 loss=1.555050 validation_loss=2.318922 best=True
+epoch=5/100 loss=1.092621 validation_loss=1.572660 best=True
+epoch=6/100 loss=0.944383 validation_loss=1.466581 best=True
+epoch=7/100 loss=0.725220 validation_loss=1.317998 best=True
+epoch=8/100 loss=0.725750 validation_loss=1.186303 best=True
+epoch=9/100 loss=0.500768 validation_loss=1.105941 best=True
+epoch=10/100 loss=0.423826 validation_loss=1.050089 best=True
+epoch=11/100 loss=0.349962 validation_loss=1.002630 best=True
+epoch=12/100 loss=0.312276 validation_loss=1.058654 best=False
+epoch=13/100 loss=0.346540 validation_loss=1.006039 best=False
+epoch=14/100 loss=0.335543 validation_loss=1.020830 best=False
+epoch=15/100 loss=0.309285 validation_loss=0.992541 best=True
+epoch=16/100 loss=0.334327 validation_loss=1.047660 best=False
+epoch=17/100 loss=0.274943 validation_loss=1.051201 best=False
+epoch=18/100 loss=0.349715 validation_loss=1.022488 best=False
+epoch=19/100 loss=0.306732 validation_loss=0.999085 best=False
+epoch=20/100 loss=0.305623 validation_loss=1.032818 best=False
+epoch=21/100 loss=0.331997 validation_loss=0.985655 best=True
+epoch=22/100 loss=0.297983 validation_loss=1.007680 best=False
+epoch=23/100 loss=0.280191 validation_loss=1.029443 best=False
+epoch=24/100 loss=0.257056 validation_loss=1.096592 best=False
+epoch=25/100 loss=0.309345 validation_loss=1.001739 best=False
+epoch=26/100 loss=0.198902 validation_loss=1.014715 best=False
+epoch=27/100 loss=0.237042 validation_loss=1.041416 best=False
+epoch=28/100 loss=0.261428 validation_loss=1.042433 best=False
+epoch=29/100 loss=0.206476 validation_loss=1.078415 best=False
+epoch=30/100 loss=0.275192 validation_loss=1.038801 best=False
+epoch=31/100 loss=0.245664 validation_loss=1.021847 best=False
+fold=3/10 OOF_accuracy=0.800000 best_epoch=21
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=5.896250 validation_loss=5.171960 best=True
+epoch=2/100 loss=3.750036 validation_loss=4.171881 best=True
+epoch=3/100 loss=2.287960 validation_loss=2.701091 best=True
+epoch=4/100 loss=1.527242 validation_loss=1.893592 best=True
+epoch=5/100 loss=1.169351 validation_loss=1.350669 best=True
+epoch=6/100 loss=0.946141 validation_loss=1.089208 best=True
+epoch=7/100 loss=0.753818 validation_loss=0.987838 best=True
+epoch=8/100 loss=0.666837 validation_loss=0.863043 best=True
+epoch=9/100 loss=0.559685 validation_loss=0.792898 best=True
+epoch=10/100 loss=0.459631 validation_loss=0.746602 best=True
+epoch=11/100 loss=0.438842 validation_loss=0.689471 best=True
+epoch=12/100 loss=0.376371 validation_loss=0.731448 best=False
+epoch=13/100 loss=0.424359 validation_loss=0.734065 best=False
+epoch=14/100 loss=0.318132 validation_loss=0.717583 best=False
+epoch=15/100 loss=0.302298 validation_loss=0.725850 best=False
+epoch=16/100 loss=0.327228 validation_loss=0.694741 best=False
+epoch=17/100 loss=0.374231 validation_loss=0.711306 best=False
+epoch=18/100 loss=0.334434 validation_loss=0.722846 best=False
+epoch=19/100 loss=0.300411 validation_loss=0.690962 best=False
+epoch=20/100 loss=0.309836 validation_loss=0.689196 best=True
+epoch=21/100 loss=0.265897 validation_loss=0.662337 best=True
+epoch=22/100 loss=0.284821 validation_loss=0.717799 best=False
+epoch=23/100 loss=0.261211 validation_loss=0.703090 best=False
+epoch=24/100 loss=0.234224 validation_loss=0.707844 best=False
+epoch=25/100 loss=0.263954 validation_loss=0.705772 best=False
+epoch=26/100 loss=0.246643 validation_loss=0.720313 best=False
+epoch=27/100 loss=0.219916 validation_loss=0.680549 best=False
+epoch=28/100 loss=0.275059 validation_loss=0.713230 best=False
+epoch=29/100 loss=0.259024 validation_loss=0.717543 best=False
+epoch=30/100 loss=0.215764 validation_loss=0.716349 best=False
+epoch=31/100 loss=0.223699 validation_loss=0.697464 best=False
+fold=4/10 OOF_accuracy=0.900000 best_epoch=21
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.166263 validation_loss=5.601766 best=True
+epoch=2/100 loss=3.905276 validation_loss=4.387184 best=True
+epoch=3/100 loss=2.225041 validation_loss=3.070673 best=True
+epoch=4/100 loss=1.469896 validation_loss=2.036362 best=True
+epoch=5/100 loss=1.240184 validation_loss=1.477593 best=True
+epoch=6/100 loss=1.059375 validation_loss=1.267127 best=True
+epoch=7/100 loss=0.827040 validation_loss=1.074420 best=True
+epoch=8/100 loss=0.614180 validation_loss=0.976534 best=True
+epoch=9/100 loss=0.517401 validation_loss=0.849440 best=True
+epoch=10/100 loss=0.486330 validation_loss=0.873164 best=False
+epoch=11/100 loss=0.460054 validation_loss=0.878271 best=False
+epoch=12/100 loss=0.403823 validation_loss=0.826419 best=True
+epoch=13/100 loss=0.400458 validation_loss=0.843345 best=False
+epoch=14/100 loss=0.323677 validation_loss=0.840804 best=False
+epoch=15/100 loss=0.439141 validation_loss=0.834275 best=False
+epoch=16/100 loss=0.365167 validation_loss=0.825764 best=True
+epoch=17/100 loss=0.310851 validation_loss=0.831619 best=False
+epoch=18/100 loss=0.402953 validation_loss=0.864795 best=False
+epoch=19/100 loss=0.333132 validation_loss=0.844232 best=False
+epoch=20/100 loss=0.390472 validation_loss=0.832346 best=False
+epoch=21/100 loss=0.307345 validation_loss=0.790541 best=True
+epoch=22/100 loss=0.232709 validation_loss=0.838512 best=False
+epoch=23/100 loss=0.170188 validation_loss=0.803403 best=False
+epoch=24/100 loss=0.233816 validation_loss=0.782339 best=True
+epoch=25/100 loss=0.284741 validation_loss=0.817617 best=False
+epoch=26/100 loss=0.255331 validation_loss=0.859739 best=False
+epoch=27/100 loss=0.310156 validation_loss=0.836077 best=False
+epoch=28/100 loss=0.285926 validation_loss=0.866403 best=False
+epoch=29/100 loss=0.249310 validation_loss=0.835018 best=False
+epoch=30/100 loss=0.248591 validation_loss=0.838751 best=False
+epoch=31/100 loss=0.226878 validation_loss=0.854062 best=False
+epoch=32/100 loss=0.244617 validation_loss=0.841383 best=False
+epoch=33/100 loss=0.224792 validation_loss=0.848163 best=False
+epoch=34/100 loss=0.280466 validation_loss=0.900704 best=False
+fold=5/10 OOF_accuracy=0.933333 best_epoch=24
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.285570 validation_loss=5.666639 best=True
+epoch=2/100 loss=4.043748 validation_loss=4.529419 best=True
+epoch=3/100 loss=2.172258 validation_loss=2.749386 best=True
+epoch=4/100 loss=1.529323 validation_loss=1.964093 best=True
+epoch=5/100 loss=1.299894 validation_loss=1.574494 best=True
+epoch=6/100 loss=1.039826 validation_loss=1.346824 best=True
+epoch=7/100 loss=0.933232 validation_loss=1.078295 best=True
+epoch=8/100 loss=0.666684 validation_loss=1.080483 best=False
+epoch=9/100 loss=0.588167 validation_loss=0.942169 best=True
+epoch=10/100 loss=0.508208 validation_loss=0.922924 best=True
+epoch=11/100 loss=0.495047 validation_loss=0.869481 best=True
+epoch=12/100 loss=0.405632 validation_loss=0.844392 best=True
+epoch=13/100 loss=0.433767 validation_loss=0.942098 best=False
+epoch=14/100 loss=0.322386 validation_loss=0.929052 best=False
+epoch=15/100 loss=0.353441 validation_loss=0.903869 best=False
+epoch=16/100 loss=0.332941 validation_loss=0.854957 best=False
+epoch=17/100 loss=0.328010 validation_loss=0.820849 best=True
+epoch=18/100 loss=0.342697 validation_loss=0.795019 best=True
+epoch=19/100 loss=0.272601 validation_loss=0.806600 best=False
+epoch=20/100 loss=0.365331 validation_loss=0.852052 best=False
+epoch=21/100 loss=0.282773 validation_loss=0.804555 best=False
+epoch=22/100 loss=0.241905 validation_loss=0.851455 best=False
+epoch=23/100 loss=0.293558 validation_loss=0.876131 best=False
+epoch=24/100 loss=0.296366 validation_loss=0.808176 best=False
+epoch=25/100 loss=0.261633 validation_loss=0.824903 best=False
+epoch=26/100 loss=0.227629 validation_loss=0.873822 best=False
+epoch=27/100 loss=0.226429 validation_loss=0.835502 best=False
+epoch=28/100 loss=0.276415 validation_loss=0.875380 best=False
+fold=6/10 OOF_accuracy=0.833333 best_epoch=18
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=5.991366 validation_loss=4.995471 best=True
+epoch=2/100 loss=3.951107 validation_loss=4.078366 best=True
+epoch=3/100 loss=2.192209 validation_loss=2.418011 best=True
+epoch=4/100 loss=1.514340 validation_loss=1.561887 best=True
+epoch=5/100 loss=1.361761 validation_loss=1.286582 best=True
+epoch=6/100 loss=1.108481 validation_loss=1.034858 best=True
+epoch=7/100 loss=0.848697 validation_loss=0.918534 best=True
+epoch=8/100 loss=0.725282 validation_loss=0.768453 best=True
+epoch=9/100 loss=0.644723 validation_loss=0.814065 best=False
+epoch=10/100 loss=0.544080 validation_loss=0.761488 best=True
+epoch=11/100 loss=0.497306 validation_loss=0.783578 best=False
+epoch=12/100 loss=0.435319 validation_loss=0.722181 best=True
+epoch=13/100 loss=0.395808 validation_loss=0.700518 best=True
+epoch=14/100 loss=0.344444 validation_loss=0.653625 best=True
+epoch=15/100 loss=0.344104 validation_loss=0.640944 best=True
+epoch=16/100 loss=0.342759 validation_loss=0.620905 best=True
+epoch=17/100 loss=0.352780 validation_loss=0.650703 best=False
+epoch=18/100 loss=0.339522 validation_loss=0.645824 best=False
+epoch=19/100 loss=0.312671 validation_loss=0.605487 best=True
+epoch=20/100 loss=0.411403 validation_loss=0.630934 best=False
+epoch=21/100 loss=0.282502 validation_loss=0.655856 best=False
+epoch=22/100 loss=0.260813 validation_loss=0.624535 best=False
+epoch=23/100 loss=0.302043 validation_loss=0.592180 best=True
+epoch=24/100 loss=0.229231 validation_loss=0.600139 best=False
+epoch=25/100 loss=0.288912 validation_loss=0.575129 best=True
+epoch=26/100 loss=0.276680 validation_loss=0.595434 best=False
+epoch=27/100 loss=0.249792 validation_loss=0.604124 best=False
+epoch=28/100 loss=0.242067 validation_loss=0.579055 best=False
+epoch=29/100 loss=0.234952 validation_loss=0.598542 best=False
+epoch=30/100 loss=0.236399 validation_loss=0.647418 best=False
+epoch=31/100 loss=0.255487 validation_loss=0.566852 best=True
+epoch=32/100 loss=0.306258 validation_loss=0.643087 best=False
+epoch=33/100 loss=0.260946 validation_loss=0.613216 best=False
+epoch=34/100 loss=0.301284 validation_loss=0.632064 best=False
+epoch=35/100 loss=0.221129 validation_loss=0.656485 best=False
+epoch=36/100 loss=0.234911 validation_loss=0.652793 best=False
+epoch=37/100 loss=0.235267 validation_loss=0.630040 best=False
+epoch=38/100 loss=0.157207 validation_loss=0.593232 best=False
+epoch=39/100 loss=0.184986 validation_loss=0.588517 best=False
+epoch=40/100 loss=0.222678 validation_loss=0.592604 best=False
+epoch=41/100 loss=0.156711 validation_loss=0.580596 best=False
+fold=7/10 OOF_accuracy=0.866667 best_epoch=31
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.141341 validation_loss=5.731665 best=True
+epoch=2/100 loss=4.073117 validation_loss=4.719964 best=True
+epoch=3/100 loss=2.312979 validation_loss=3.103499 best=True
+epoch=4/100 loss=1.631689 validation_loss=2.098830 best=True
+epoch=5/100 loss=1.231380 validation_loss=1.453758 best=True
+epoch=6/100 loss=0.995646 validation_loss=1.325757 best=True
+epoch=7/100 loss=0.695519 validation_loss=1.009806 best=True
+epoch=8/100 loss=0.598948 validation_loss=0.828890 best=True
+epoch=9/100 loss=0.515732 validation_loss=0.835947 best=False
+epoch=10/100 loss=0.437403 validation_loss=0.833449 best=False
+epoch=11/100 loss=0.406057 validation_loss=0.796097 best=True
+epoch=12/100 loss=0.440846 validation_loss=0.766466 best=True
+epoch=13/100 loss=0.389303 validation_loss=0.782738 best=False
+epoch=14/100 loss=0.343605 validation_loss=0.782965 best=False
+epoch=15/100 loss=0.409618 validation_loss=0.769323 best=False
+epoch=16/100 loss=0.322819 validation_loss=0.804021 best=False
+epoch=17/100 loss=0.350220 validation_loss=0.804595 best=False
+epoch=18/100 loss=0.350916 validation_loss=0.841454 best=False
+epoch=19/100 loss=0.302965 validation_loss=0.744230 best=True
+epoch=20/100 loss=0.331522 validation_loss=0.747467 best=False
+epoch=21/100 loss=0.221607 validation_loss=0.715884 best=True
+epoch=22/100 loss=0.297596 validation_loss=0.704134 best=True
+epoch=23/100 loss=0.266237 validation_loss=0.713070 best=False
+epoch=24/100 loss=0.245000 validation_loss=0.708364 best=False
+epoch=25/100 loss=0.217540 validation_loss=0.671680 best=True
+epoch=26/100 loss=0.202767 validation_loss=0.668136 best=True
+epoch=27/100 loss=0.203298 validation_loss=0.665643 best=True
+epoch=28/100 loss=0.232578 validation_loss=0.672960 best=False
+epoch=29/100 loss=0.241204 validation_loss=0.719099 best=False
+epoch=30/100 loss=0.282804 validation_loss=0.749616 best=False
+epoch=31/100 loss=0.286560 validation_loss=0.735460 best=False
+epoch=32/100 loss=0.231344 validation_loss=0.743218 best=False
+epoch=33/100 loss=0.179198 validation_loss=0.687068 best=False
+epoch=34/100 loss=0.225723 validation_loss=0.697866 best=False
+epoch=35/100 loss=0.197310 validation_loss=0.705538 best=False
+epoch=36/100 loss=0.208441 validation_loss=0.684674 best=False
+epoch=37/100 loss=0.239626 validation_loss=0.723526 best=False
+fold=8/10 OOF_accuracy=0.833333 best_epoch=27
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.263881 validation_loss=5.412098 best=True
+epoch=2/100 loss=3.949551 validation_loss=4.262249 best=True
+epoch=3/100 loss=2.085030 validation_loss=2.781996 best=True
+epoch=4/100 loss=1.525061 validation_loss=1.693448 best=True
+epoch=5/100 loss=1.368521 validation_loss=1.325593 best=True
+epoch=6/100 loss=1.230461 validation_loss=1.378263 best=False
+epoch=7/100 loss=0.967564 validation_loss=1.027368 best=True
+epoch=8/100 loss=0.727773 validation_loss=0.978164 best=True
+epoch=9/100 loss=0.657164 validation_loss=0.973628 best=True
+epoch=10/100 loss=0.581523 validation_loss=0.929110 best=True
+epoch=11/100 loss=0.553606 validation_loss=0.899989 best=True
+epoch=12/100 loss=0.476465 validation_loss=0.914402 best=False
+epoch=13/100 loss=0.392865 validation_loss=0.893012 best=True
+epoch=14/100 loss=0.363055 validation_loss=0.853055 best=True
+epoch=15/100 loss=0.349287 validation_loss=0.891161 best=False
+epoch=16/100 loss=0.386759 validation_loss=0.839895 best=True
+epoch=17/100 loss=0.424717 validation_loss=0.833815 best=True
+epoch=18/100 loss=0.405357 validation_loss=0.873422 best=False
+epoch=19/100 loss=0.330381 validation_loss=0.829168 best=True
+epoch=20/100 loss=0.308970 validation_loss=0.838938 best=False
+epoch=21/100 loss=0.290229 validation_loss=0.817923 best=True
+epoch=22/100 loss=0.300713 validation_loss=0.756947 best=True
+epoch=23/100 loss=0.211815 validation_loss=0.790500 best=False
+epoch=24/100 loss=0.254187 validation_loss=0.753923 best=True
+epoch=25/100 loss=0.275437 validation_loss=0.786752 best=False
+epoch=26/100 loss=0.240113 validation_loss=0.772919 best=False
+epoch=27/100 loss=0.283432 validation_loss=0.808621 best=False
+epoch=28/100 loss=0.248105 validation_loss=0.743990 best=True
+epoch=29/100 loss=0.236269 validation_loss=0.788308 best=False
+epoch=30/100 loss=0.202396 validation_loss=0.743144 best=True
+epoch=31/100 loss=0.256213 validation_loss=0.728752 best=True
+epoch=32/100 loss=0.278261 validation_loss=0.772878 best=False
+epoch=33/100 loss=0.230448 validation_loss=0.753617 best=False
+epoch=34/100 loss=0.282921 validation_loss=0.809943 best=False
+epoch=35/100 loss=0.187478 validation_loss=0.776783 best=False
+epoch=36/100 loss=0.201027 validation_loss=0.784846 best=False
+epoch=37/100 loss=0.191974 validation_loss=0.797677 best=False
+epoch=38/100 loss=0.204589 validation_loss=0.793574 best=False
+epoch=39/100 loss=0.156399 validation_loss=0.796773 best=False
+epoch=40/100 loss=0.211277 validation_loss=0.825390 best=False
+epoch=41/100 loss=0.155631 validation_loss=0.804129 best=False
+fold=9/10 OOF_accuracy=0.800000 best_epoch=31
+Device=cuda; inner stopping people=54; max_epochs=100; patience=10
+epoch=1/100 loss=6.542917 validation_loss=5.091976 best=True
+epoch=2/100 loss=4.406611 validation_loss=4.135778 best=True
+epoch=3/100 loss=2.680384 validation_loss=2.565088 best=True
+epoch=4/100 loss=1.761126 validation_loss=1.582932 best=True
+epoch=5/100 loss=1.314039 validation_loss=1.166428 best=True
+epoch=6/100 loss=1.041594 validation_loss=0.880280 best=True
+epoch=7/100 loss=0.952133 validation_loss=0.808884 best=True
+epoch=8/100 loss=0.756050 validation_loss=0.768785 best=True
+epoch=9/100 loss=0.604870 validation_loss=0.765023 best=True
+epoch=10/100 loss=0.630591 validation_loss=0.743316 best=True
+epoch=11/100 loss=0.497242 validation_loss=0.663906 best=True
+epoch=12/100 loss=0.493732 validation_loss=0.670895 best=False
+epoch=13/100 loss=0.423541 validation_loss=0.627288 best=True
+epoch=14/100 loss=0.359320 validation_loss=0.644403 best=False
+epoch=15/100 loss=0.416727 validation_loss=0.639305 best=False
+epoch=16/100 loss=0.327229 validation_loss=0.625552 best=True
+epoch=17/100 loss=0.314205 validation_loss=0.591946 best=True
+epoch=18/100 loss=0.326096 validation_loss=0.635852 best=False
+epoch=19/100 loss=0.314805 validation_loss=0.623249 best=False
+epoch=20/100 loss=0.336914 validation_loss=0.612768 best=False
+epoch=21/100 loss=0.377118 validation_loss=0.673063 best=False
+epoch=22/100 loss=0.258492 validation_loss=0.597819 best=False
+epoch=23/100 loss=0.241680 validation_loss=0.593597 best=False
+epoch=24/100 loss=0.338965 validation_loss=0.574430 best=True
+epoch=25/100 loss=0.286853 validation_loss=0.607878 best=False
+epoch=26/100 loss=0.315120 validation_loss=0.605354 best=False
+epoch=27/100 loss=0.236866 validation_loss=0.608116 best=False
+epoch=28/100 loss=0.250124 validation_loss=0.608256 best=False
+epoch=29/100 loss=0.185305 validation_loss=0.619222 best=False
+epoch=30/100 loss=0.284125 validation_loss=0.635248 best=False
+epoch=31/100 loss=0.206567 validation_loss=0.634254 best=False
+epoch=32/100 loss=0.260348 validation_loss=0.635533 best=False
+epoch=33/100 loss=0.207301 validation_loss=0.604392 best=False
+epoch=34/100 loss=0.271719 validation_loss=0.588951 best=False
+fold=10/10 OOF_accuracy=0.800000 best_epoch=24
+Frozen OOF threshold=0.63886332511901855; final refit epochs=24
+Device=cuda; epochs=24; batch=32; model=ResNetAutoencoder1D
+epoch=1/24 loss=5.730154 seconds=0.08
+epoch=2/24 loss=2.954099 seconds=0.05
+epoch=3/24 loss=1.706151 seconds=0.06
+epoch=4/24 loss=1.280970 seconds=0.06
+epoch=5/24 loss=1.005495 seconds=0.03
+epoch=6/24 loss=0.759582 seconds=0.05
+epoch=7/24 loss=0.794060 seconds=0.05
+epoch=8/24 loss=0.670065 seconds=0.05
+epoch=9/24 loss=0.616032 seconds=0.06
+epoch=10/24 loss=0.601985 seconds=0.05
+epoch=11/24 loss=0.500926 seconds=0.05
+epoch=12/24 loss=0.447315 seconds=0.05
+epoch=13/24 loss=0.436633 seconds=0.05
+epoch=14/24 loss=0.469506 seconds=0.05
+epoch=15/24 loss=0.363563 seconds=0.05
+epoch=16/24 loss=0.299652 seconds=0.05
+epoch=17/24 loss=0.352139 seconds=0.05
+epoch=18/24 loss=0.376895 seconds=0.05
+epoch=19/24 loss=0.369578 seconds=0.05
+epoch=20/24 loss=0.346266 seconds=0.05
+epoch=21/24 loss=0.350135 seconds=0.05
+epoch=22/24 loss=0.307963 seconds=0.05
+epoch=23/24 loss=0.278696 seconds=0.05
+epoch=24/24 loss=0.263346 seconds=0.05
+{"cv_oof": {"accuracy": 0.8333333333333334, "balanced_accuracy": 0.7730424488415355, "sensitivity": 0.6419753086419753, "specificity": 0.9041095890410958, "f1_macro": 0.7816085260031449, "roc_auc": 0.8504425277636846, "confusion_matrix": [[198, 21], [29, 52]], "classification_report": {"0": {"precision": 0.8722466960352423, "recall": 0.9041095890410958, "f1-score": 0.8878923766816144, "support": 219.0}, "1": {"precision": 0.7123287671232876, "recall": 0.6419753086419753, "f1-score": 0.6753246753246753, "support": 81.0}, "accuracy": 0.8333333333333334, "macro avg": {"precision": 0.7922877315792649, "recall": 0.7730424488415355, "f1-score": 0.7816085260031449, "support": 300.0}, "weighted avg": {"precision": 0.8290688552290146, "recall": 0.8333333333333334, "f1-score": 0.8304990973152409, "support": 300.0}}}, "test": {"accuracy": 0.8181818181818182, "balanced_accuracy": 0.7113095238095237, "sensitivity": 0.47619047619047616, "specificity": 0.9464285714285714, "f1_macro": 0.7357843137254902, "roc_auc": 0.8452380952380952, "confusion_matrix": [[53, 3], [11, 10]], "classification_report": {"0": {"precision": 0.828125, "recall": 0.9464285714285714, "f1-score": 0.8833333333333333, "support": 56.0}, "1": {"precision": 0.7692307692307693, "recall": 0.47619047619047616, "f1-score": 0.5882352941176471, "support": 21.0}, "accuracy": 0.8181818181818182, "macro avg": {"precision": 0.7986778846153846, "recall": 0.7113095238095237, "f1-score": 0.7357843137254902, "support": 77.0}, "weighted avg": {"precision": 0.8120629370629371, "recall": 0.8181818181818182, "f1-score": 0.8028520499108734, "support": 77.0}}}, "test_default": {"accuracy": 0.8181818181818182, "balanced_accuracy": 0.7410714285714286, "sensitivity": 0.5714285714285714, "specificity": 0.9107142857142857, "f1_macro": 0.7554446460980035, "roc_auc": 0.8452380952380952, "confusion_matrix": [[51, 5], [9, 12]], "classification_report": {"0": {"precision": 0.85, "recall": 0.9107142857142857, "f1-score": 0.8793103448275862, "support": 56.0}, "1": {"precision": 0.7058823529411765, "recall": 0.5714285714285714, "f1-score": 0.631578947368421, "support": 21.0}, "accuracy": 0.8181818181818182, "macro avg": {"precision": 0.7779411764705882, "recall": 0.7410714285714286, "f1-score": 0.7554446460980035, "support": 77.0}, "weighted avg": {"precision": 0.8106951871657754, "recall": 0.8181818181818182, "f1-score": 0.8117472364296321, "support": 77.0}}}, "oof_threshold_selection": {"accuracy": 0.8433333333333334, "balanced_accuracy": 0.776002029426687, "sensitivity": 0.6296296296296297, "specificity": 0.9223744292237442, "f1_macro": 0.7901754490394202, "roc_auc": 0.8504425277636846, "confusion_matrix": [[202, 17], [30, 51]], "classification_report": {"0": {"precision": 0.8706896551724138, "recall": 0.9223744292237442, "f1-score": 0.8957871396895787, "support": 219.0}, "1": {"precision": 0.75, "recall": 0.6296296296296297, "f1-score": 0.6845637583892618, "support": 81.0}, "accuracy": 0.8433333333333334, "macro avg": {"precision": 0.8103448275862069, "recall": 0.776002029426687, "f1-score": 0.7901754490394202, "support": 300.0}, "weighted avg": {"precision": 0.8381034482758621, "recall": 0.8433333333333334, "f1-score": 0.838756826738493, "support": 300.0}}}, "decision_threshold": 0.6388633251190186, "folds": 10, "original_train_rows": 300, "train_rows": 300, "test_rows": 77, "final_epochs": 24, "elapsed_seconds": 19.95299999997951, "test_accuracy_change": 0.0}

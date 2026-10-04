@@ -1,0 +1,42 @@
+[
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\audit_10fold_run.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\audit_10fold_run.py",
+    "sha256": "4bfdb4c4aba8be2d3cfbc9b17273773c14948a99174427dfe79030de9ed2fb99"
+  },
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\compare_threshold_results.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\compare_threshold_results.py",
+    "sha256": "bfc6e2687c9e6c8a65ded079701c8eb378d59d4cea77dbd45fc931fa81d481dc"
+  },
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\validate_10fold_training.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\validate_10fold_training.py",
+    "sha256": "5beac818909212d95c9f9bd582e3d88bf9427b69cafbaa8e3de1bccec5ddfc6f"
+  },
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\test_early_stopping.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\test_early_stopping.py",
+    "sha256": "872e88b44a7305923f84299da63a7e0668907342af243a542a5866ca9ae7e0fc"
+  },
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\test_dataset_training.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\test_dataset_training.py",
+    "sha256": "68d208f8d441541f7dadaa7fbe1fd8e043da9daa227cee2f1fcadd29a901d31e"
+  },
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\test_10fold_training.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\test_10fold_training.py",
+    "sha256": "e213f66a7d468b8572bd9c99a1fbaf8e48795cc750536e0f06dedc7c4a2ad33d"
+  },
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\test_threshold_selection.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\test_threshold_selection.py",
+    "sha256": "3328f34ac5760fd77cb8220df967ee3e27d5342519a1c3e717d07c0178c19142"
+  },
+  {
+    "source": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model\\summarize_early_stopping_run.py",
+    "snapshot": "C:\\Users\\IHCK\\Desktop\\1_10_69Final\\Hippocampal-Shape-Analysis-for-Epilepsy-Detection\\Model_Results\\dataset_runs_20261004_earlystop_oof_threshold\\_analysis_code\\summarize_early_stopping_run.py",
+    "sha256": "b9f9a5da7ec36f1bf5fafa3505175351a0a68b07b269fb13b61f19d4682a48e5"
+  }
+]

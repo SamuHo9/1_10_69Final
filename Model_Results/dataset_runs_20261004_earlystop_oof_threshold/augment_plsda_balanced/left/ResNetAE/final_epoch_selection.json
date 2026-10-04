@@ -1,0 +1,18 @@
+{
+  "applicable": true,
+  "policy": "ceil_median_inner_best_epochs",
+  "best_epochs": [
+    4,
+    10,
+    8,
+    6,
+    4,
+    3,
+    4,
+    4,
+    6,
+    6
+  ],
+  "final_epochs": 5,
+  "test_used_for_selection": false
+}

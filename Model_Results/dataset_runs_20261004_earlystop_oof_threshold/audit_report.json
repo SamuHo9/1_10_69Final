@@ -1,0 +1,6 @@
+{
+  "verified_jobs": 68,
+  "best_checkpoint_oof_folds_replayed": 560,
+  "same_outer_folds_across_models": true,
+  "errors": []
+}
